@@ -1,1 +1,187 @@
-/* You can add global styles to this file, and also import other style files */
+/* ========== Variables Globales ========== */
+:root {
+  --primary-color: #ff5c83;
+  --secondary-color: #b456f0;
+  --tertiary-color: #ff9100;
+
+  --text-color: white;
+  --text-inverse-color: black;
+
+  --background-color: black;
+  --background-light: white;
+
+  --primary-bg-color: #ff5c83;
+  --secondary-bg-color: #b456f0;
+  --tertiary-bg-color: #ff9100;
+
+  --border-color: white;
+  --hover-color: #e0486f;
+  --border-radius: 10px;
+  --transition-speed: 0.5s;
+}
+
+/* ========== Reset de Base ========== */
+* {
+  font-family: "Inter Tight", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ========== Style Global ========== */
+body {
+  background: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--text-color);
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.4;
+  padding: 10px 0;
+}
+
+.important {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* ========== Header ========== */
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+/* ========== Boutons ========== */
+.container-btn {
+  display: flex;
+}
+
+.call-to-action {
+  background-color: var(--background-color);
+  border: 6px solid var(--primary-color);
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* ========== Burger Menu ========== */
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 2px;
+  background-color: var(--text-color);
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* ========== Hero Section ========== */
+.hero-container h1 {
+  font-size: 45px;
+  line-height: 1;
+}
+
+.title span {
+  color: var(--primary-color);
+}
+
+/* ========== Images ========== */
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+/* ========== Logos Clients ========== */
+.logos-clients-section {
+  padding: 50px 0;
+}
+
+.slider-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  animation: slide 20s linear infinite;
+}
+
+.slider-items:hover {
+  animation-play-state: paused;
+}
+
+.slider-items img {
+  width: 150px;
+}
+
+/* ========== Sections ========== */
+.container-prestations,
+.container-steps {
+  padding: 50px 0;
+}
+
+.projects,
+.steps,
+.faq {
+  margin-top: 100px;
+}
+
+.steps {
+  background-color: var(--background-light);
+  width: 100%;
+}
+
+.steps h2,
+.steps p {
+  color: var(--background-color);
+}
+
+/* ========== Témoignages ========== */
+.commentaires {
+  padding-top: 100px;
+}
+
+.all-questions {
+  margin-top: 50px;
+}
+
+/* ========== Animation ========== */
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.intro {
+  animation: fade-up var(--transition-speed);
+}

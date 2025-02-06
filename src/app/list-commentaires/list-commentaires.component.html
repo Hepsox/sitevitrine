@@ -1,0 +1,27 @@
+<!-- list-commentaires.component.html -->
+<ng-container *ngIf="listeCommentaires$ | async as listeCommentaires">
+  <div class="container-commentaires">
+    <!-- Affichage du commentaire courant -->
+    <div
+      class="commentaire"
+      [ngStyle]="{ border: '10px solid ' + getBorderColor(i) }"
+      *ngFor="let commentaire of listeCommentaires; let i = index"
+    >
+      <img
+        [src]="commentaire.photo"
+        alt="photo de {{ commentaire.name }}"
+        class="img-fluid round-img"
+      />
+      <div class="info-commentaire">
+        <h4>
+          {{ commentaire.name }} -
+          <!-- Appliquer la couleur dynamique au span -->
+          <span [ngStyle]="{ color: getBorderColor(i) }" class="important">
+            {{ commentaire.company }}
+          </span>
+        </h4>
+      </div>
+      <p>{{ commentaire.comment }}</p>
+    </div>
+  </div>
+</ng-container>

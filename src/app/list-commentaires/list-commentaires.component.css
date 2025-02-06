@@ -1,0 +1,21 @@
+/* list-commentaires.component.css */
+.container-commentaires {
+  margin: 0 15px;
+}
+.commentaire {
+  padding: 20px;
+  margin: 40px 0;
+  border-radius: 10px;
+}
+
+.commentaire p {
+  font-size: 16px;
+}
+
+.round-img {
+  width: 70px;
+
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: -180px;
+}

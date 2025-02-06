@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "Quels sont vos délais de livraison ?",
+    "answer": "Nos délais varient en fonction du projet. En général, un site vitrine est livré sous 3 semaines, tandis qu'un site e-commerce peut prendre jusqu'à 6 semaines."
+  },
+  {
+    "id": 2,
+    "question": "Proposez-vous un support après la livraison ?",
+    "answer": "Oui, nous offrons un support technique de 3 mois après la livraison pour corriger d'éventuels bugs et assurer la maintenance."
+  },
+  {
+    "id": 3,
+    "question": "Puis-je modifier mon site moi-même après sa mise en ligne ?",
+    "answer": "Bien sûr ! Nous utilisons des CMS comme WordPress ou des solutions sur mesure avec une interface d'administration simple pour vous permettre de gérer votre contenu."
+  },
+  {
+    "id": 4,
+    "question": "Quels sont vos tarifs ?",
+    "answer": "Nos tarifs dépendent des fonctionnalités et du type de projet. Un site vitrine démarre à 1500€, tandis qu'un e-commerce peut commencer à 3000€. Contactez-nous pour un devis personnalisé."
+  },
+  {
+    "id": 5,
+    "question": "Offrez-vous des formations pour gérer mon site ?",
+    "answer": "Oui, nous proposons des formations personnalisées pour vous apprendre à gérer votre site, ajouter du contenu et optimiser le référencement."
+  }
+]

@@ -1,0 +1,35 @@
+/* list-prestations.component.css */
+.card-container {
+  position: relative; /* Permet à l'arrière-carte d'être positionnée derrière la carte */
+  margin: 0px;
+}
+
+.card {
+  padding: 15px 10px;
+  border: solid 8px white;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  position: relative; /* Nécessaire pour le positionnement */
+  z-index: 2; /* La carte principale est au-dessus de l'arrière-carte */
+  transition: transform 0.3s ease-in-out;
+}
+
+.card h3 {
+  font-size: 28px;
+}
+
+.card p {
+  font-size: 20px;
+}
+
+.arriere-carte {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3b3939;
+  border-radius: 15px; /* Même bord arrondi que la carte principale */
+  z-index: 1; /* La carte arrière doit être derrière la carte principale */
+  transition: transform 0.3s ease-in-out;
+}

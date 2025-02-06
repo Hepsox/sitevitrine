@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Analyse des besoins",
+    "description": "Étude approfondie de votre projet pour identifier vos attentes et définir les fonctionnalités essentielles."
+  },
+  {
+    "id": 2,
+    "title": "Conception UX/UI",
+    "description": "Création de maquettes ergonomiques et intuitives pour garantir une expérience utilisateur optimale."
+  },
+  {
+    "id": 3,
+    "title": "Développement",
+    "description": "Implémentation des fonctionnalités et intégration des technologies adaptées à votre projet."
+  },
+  {
+    "id": 4,
+    "title": "Tests et validation",
+    "description": "Vérification de la qualité et des performances de l'application grâce à des tests rigoureux."
+  },
+  {
+    "id": 5,
+    "title": "Mise en ligne",
+    "description": "Déploiement du site ou de l'application sur un serveur sécurisé et configuration de l'hébergement."
+  },
+  {
+    "id": 6,
+    "title": "Maintenance et évolution",
+    "description": "Suivi régulier, corrections des bugs et ajout de nouvelles fonctionnalités selon vos besoins."
+  }
+]

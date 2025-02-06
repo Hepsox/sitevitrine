@@ -1,0 +1,25 @@
+<ng-container
+  *ngIf="listeQuestions$ | async as listeQuestions"
+  class="all-questions"
+>
+  <div
+    *ngFor="let question of listeQuestions; let i = index"
+    class="container-question"
+  >
+    <!-- Question (cliquable) -->
+    <div class="question" (click)="toggleReponse(i)">
+      <div
+        class="question-more"
+        style="display: flex; justify-content: space-between"
+      >
+        <h4>{{ question.question }}</h4>
+        <p>+</p>
+      </div>
+    </div>
+
+    <!-- Réponse (s'affiche au clic) -->
+    <div class="reponse" [ngClass]="{ open: questionsOuvertes[i] }">
+      <p>{{ question.answer }}</p>
+    </div>
+  </div>
+</ng-container>

@@ -1,0 +1,28 @@
+.card-step {
+  margin-bottom: 10px;
+  border: solid 1px black;
+  padding: 60px 15px 20px;
+  border-radius: 10px;
+}
+
+.card-step h3 {
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.card-step.expanded {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.card-step.expanded p {
+  color: white;
+}
+.card-step.expanded h3 {
+  color: white;
+}
+.image-etape {
+  width: 130px;
+  margin-bottom: 20px;
+}

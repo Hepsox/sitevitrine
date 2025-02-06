@@ -1,0 +1,35 @@
+.container-question {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.question {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 3px solid var(--secondary-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.question:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.reponse {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  padding: 0 10px;
+  transition: height 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.reponse.open {
+  height: auto;
+  opacity: 1;
+  transition: height 0.5s ease-in, opacity 0.5s ease-in;
+}
+
+.reponse p {
+  font-size: 16px;
+  color: var(--text-color);
+}
