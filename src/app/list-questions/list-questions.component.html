@@ -6,20 +6,18 @@
     <div
       *ngFor="let question of listeQuestions; let i = index"
       class="container-question"
+      [ngClass]="questionOuverte === i ? 'ouverte' : ''"
+      (click)="
+        questionOuverte !== i ? (questionOuverte = i) : (questionOuverte = null)
+      "
     >
-      <!-- Question (cliquable) -->
-      <div class="question" (click)="toggleReponse(i)">
-        <div
-          class="question-more"
-          style="display: flex; justify-content: space-between"
-        >
-          <h4>{{ question.question }}</h4>
-          <p>+</p>
-        </div>
+      <div class="question">
+        <span *ngIf="questionOuverte !== i" class="signe-question">+</span>
+        <span *ngIf="questionOuverte === i" class="signe-question">-</span>
+        <h4>{{ question.question }}</h4>
       </div>
 
-      <!-- Réponse (s'affiche au clic) -->
-      <div class="reponse" [ngClass]="{ open: questionsOuvertes[i] }">
+      <div class="reponse">
         <p>{{ question.answer }}</p>
       </div>
     </div>
