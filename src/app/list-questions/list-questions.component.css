@@ -1,23 +1,36 @@
 .container-question {
   border-bottom: 1px solid var(--secondary-color);
+  cursor: pointer;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .question {
   color: white;
   display: flex;
   align-items: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.question h4 {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .signe-question {
   display: inline-block;
   width: 30px;
-  text-align: center;
 }
 
 .container-question .reponse {
   overflow: hidden;
   max-height: 0; /* Initialement caché */
   transition: max-height 0.7s ease-in-out;
+}
+
+.reponse p {
+  font-size: 16px;
 }
 
 .container-question.ouverte .reponse {

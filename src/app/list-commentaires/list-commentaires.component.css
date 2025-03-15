@@ -1,6 +1,6 @@
 /* list-commentaires.component.css */
 .container-commentaires {
-  margin: 0 15px;
+  margin: 50px 15px;
 }
 .commentaire {
   padding: 20px;
@@ -18,4 +18,19 @@
   border-radius: 50%;
   margin-right: 15px;
   margin-top: -180px;
+}
+
+.stars-container {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+}
+
+.info-commentaire h4 {
+  margin-bottom: 8px;
 }

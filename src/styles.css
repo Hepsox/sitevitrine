@@ -331,7 +331,7 @@ p {
 }
 
 .p-carousel-indicator button {
-  background-color: purple;
+  background-color: #d9d9d9;
   border: none;
   margin: 3px;
   height: 20px;
@@ -339,7 +339,15 @@ p {
   border-radius: 10px;
 }
 .p-carousel-indicator.p-highlight button {
-  background-color: red;
+  background-color: var(--secondary-color);
+}
+
+.faq-img {
+  display: none;
+}
+
+.commentaires .commentaires-img {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -350,10 +358,14 @@ p {
 
   .commentaires h2 {
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .commentaire-header {
     text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .header-bar {
     margin-bottom: 30px;
@@ -581,11 +593,6 @@ p {
     display: inline-block;
   }
 
-  .container-commentaires {
-    display: flex;
-    gap: 10px;
-  }
-
   .hide-desktop {
     display: none;
   }
@@ -596,5 +603,34 @@ p {
 
   .call-to-action {
     display: inline;
+  }
+
+  .faq {
+    margin-top: 250px;
+    position: relative;
+  }
+
+  .faq-img {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .commentaires.intro {
+    padding-top: 200px;
+    position: relative;
+  }
+
+  .commentaires .commentaires-img {
+    display: block;
+    display: block;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    width: 50px;
+    height: 50px;
   }
 }
