@@ -321,6 +321,18 @@ p {
   display: none;
 }
 
+.p-carousel-indicator button {
+  background-color: purple;
+  border: none;
+  margin: 3px;
+  height: 20px;
+  width: 40px;
+  border-radius: 10px;
+}
+.p-carousel-indicator.p-highlight button {
+  background-color: red;
+}
+
 @media (min-width: 768px) {
   .commentaires {
     display: flex;
@@ -331,7 +343,7 @@ p {
     text-align: center;
   }
 
-  .info-commentaire {
+  .commentaire-header {
     text-align: center;
   }
   .header-bar {

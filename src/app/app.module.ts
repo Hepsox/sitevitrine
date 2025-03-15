@@ -12,10 +12,18 @@ import { ListEtapesComponent } from './list-etapes/list-etapes.component';
 import { ListCommentairesComponent } from './list-commentaires/list-commentaires.component';
 import { HomeComponent } from './home/home.component';
 import { ListQuestionsComponent } from './list-questions/list-questions.component';
+import { CarouselModule } from 'primeng/carousel';
 
 @NgModule({
-  declarations: [AppComponent, ListPrestationsComponent, ListEtapesComponent, ListCommentairesComponent, HomeComponent, ListQuestionsComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    ListPrestationsComponent,
+    ListEtapesComponent,
+    ListCommentairesComponent,
+    HomeComponent,
+    ListQuestionsComponent,
+  ],
+  imports: [BrowserModule, AppRoutingModule, CarouselModule],
   providers: [provideClientHydration(), provideHttpClient()],
   bootstrap: [AppComponent],
 })

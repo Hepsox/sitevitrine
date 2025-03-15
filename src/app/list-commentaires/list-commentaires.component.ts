@@ -22,4 +22,22 @@ export class ListCommentairesComponent {
     // On utilise le modulo pour faire une rotation des couleurs
     return this.borderColors[index % this.borderColors.length];
   }
+
+  responsiveOptions = [
+    {
+      breakpoint: '1199px',
+      numVisible: 1,
+      numScroll: 1,
+    },
+    {
+      breakpoint: '991px',
+      numVisible: 2,
+      numScroll: 1,
+    },
+    {
+      breakpoint: '767px',
+      numVisible: 1,
+      numScroll: 1,
+    },
+  ];
 }

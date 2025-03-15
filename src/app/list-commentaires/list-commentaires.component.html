@@ -2,26 +2,43 @@
 <ng-container *ngIf="listeCommentaires$ | async as listeCommentaires">
   <div class="container-commentaires">
     <!-- Affichage du commentaire courant -->
-    <div
-      class="commentaire"
-      [ngStyle]="{ border: '10px solid ' + getBorderColor(i) }"
-      *ngFor="let commentaire of listeCommentaires; let i = index"
-    >
-      <img
-        [src]="commentaire.photo"
-        alt="photo de {{ commentaire.name }}"
-        class="img-fluid round-img"
-      />
-      <div class="info-commentaire">
-        <h4>
-          {{ commentaire.name }} -
-          <!-- Appliquer la couleur dynamique au span -->
-          <span [ngStyle]="{ color: getBorderColor(i) }" class="important">
-            {{ commentaire.company }}
-          </span>
-        </h4>
-      </div>
-      <p>{{ commentaire.comment }}</p>
-    </div>
   </div>
+  <p-carousel
+    [value]="listeCommentaires"
+    [numVisible]="3"
+    [responsiveOptions]="responsiveOptions"
+    [circular]="true"
+    [showNavigators]="false"
+  >
+    <ng-template let-commentaire pTemplate="item">
+      <div
+        class="commentaire"
+        [ngStyle]="{
+          border: '10px solid ' + commentaire.borderColor,
+          height: '80%',
+          marginLeft: '10px',
+          marginRight: '10px'
+        }"
+      >
+        <img
+          [src]="commentaire.photo"
+          alt="photo de {{ commentaire.name }}"
+          class="img-fluid round-img"
+        />
+        <div class="info-commentaire">
+          <h4>
+            {{ commentaire.name }} -
+            <!-- Appliquer la couleur dynamique au span -->
+            <span
+              [ngStyle]="{ color: commentaire.borderColor }"
+              class="important"
+            >
+              {{ commentaire.company }}
+            </span>
+          </h4>
+        </div>
+        <p>{{ commentaire.comment }}</p>
+      </div>
+    </ng-template></p-carousel
+  >
 </ng-container>

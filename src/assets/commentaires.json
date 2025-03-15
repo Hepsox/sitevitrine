@@ -4,41 +4,47 @@
     "name": "Delphine Monnier",
     "company": "Co'mint",
     "comment": "Nous avons choisi Marie pour réaliser notre site CO'MINT et nous avons eu raison ! Elle a été de très bon conseil, patiente et réactive. En plus, elle a du goût ! Très professionnelle, elle a su nous guider dans l'optimisation de notre projet. Un grand merci à toi pour cette belle aventure !",
-    "photo": "assets/tete.png"
+    "photo": "assets/tete.png",
+    "borderColor": "#B456F0"
   },
   {
     "id": 2,
     "name": "Eleonor Simiu",
     "company": "Consultante Stratégie",
     "comment": "Réaliser mon site Web avec Marie a été une excellente expérience ! Marie est professionnelle, à l'écoute, et a un vrai sens de l'esthétique.",
-    "photo": "assets/tete.png"
+    "photo": "assets/tete.png",
+    "borderColor": "#ff5c83"
   },
   {
     "id": 3,
     "name": "Luc Pascal",
     "company": "LP Conseils",
     "comment": "Marie est une très bonne professionnelle, elle a accompagné la mise en ligne de notre site avec souplesse et rigueur en s'adaptant à nos besoins. Je recommande vivement ses prestations.",
-    "photo": "assets/tete.png"
+    "photo": "assets/tete.png",
+    "borderColor": "#FF9100"
   },
   {
     "id": 4,
     "name": "Céline Nouaux",
     "company": "Le petit cafetier",
     "comment": "Nous avons contacté Marie pour la refonte de notre site et nous ne l'avons pas regretté. Marie est très réactive, professionnelle, à l'écoute et de très bon conseil. Bien sûr, nous recommandons !!",
-    "photo": "assets/tete.png"
+    "photo": "assets/tete.png",
+    "borderColor": "#B456F0"
   },
   {
     "id": 5,
     "name": "Corinne Mazel",
     "company": "Le Crayon Zen ",
     "comment": "Réceptive à mes demandes et mes besoins spécifiques, Marie a su me  proposer des solutions adaptées avec une formation sur mesure et des horaires flexibles. Je recommande ses services sans hésiter !",
-    "photo": "assets/tete.png"
+    "photo": "assets/tete.png",
+    "borderColor": "#ff5c83"
   },
   {
     "id": 6,
     "name": "Jacques Chartier",
     "company": "Artistic Production",
     "comment": "Marie a été très réactive, efficace et pédagogue pour la création de notre site internet en peu de temps. A recommander sans hésiter.",
-    "photo": "assets/tete.png"
+    "photo": "assets/tete.png",
+    "borderColor": "#FF9100"
   }
 ]
