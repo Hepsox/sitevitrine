@@ -1,0 +1,22 @@
+.container-prestations {
+  position: relative; /* Assurez-vous que le conteneur est en position relative */
+}
+
+.container-prestations img {
+  position: absolute;
+  top: 1px; /* Ajuste la position verticale */
+  right: 10px; /* Ajuste la position horizontale */
+  width: 150px; /* Ajuste la taille selon ton besoin */
+  z-index: -3; /* S'assure que l'image est au-dessus des autres éléments */
+}
+
+@media (min-width: 768px) {
+  .container-prestations {
+    margin-top: 20px;
+    width: 50%;
+  }
+  .container-prestations img {
+    top: -70px;
+    right: -10px;
+  }
+}

@@ -11,6 +11,10 @@
   font-weight: 800;
 }
 
+.card-step p {
+  font-size: 20px;
+}
+
 .card-step.expanded {
   background-color: rgb(0, 0, 0);
   color: white;
@@ -25,4 +29,18 @@
 .image-etape {
   width: 130px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .container-tous-etape {
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 100px 0;
+  }
+
+  .card-step {
+    width: 400px;
+  }
 }

@@ -1,32 +1,22 @@
 [
   {
     "id": 1,
-    "title": "Analyse des besoins",
-    "description": "Étude approfondie de votre projet pour identifier vos attentes et définir les fonctionnalités essentielles."
+    "title": "Définition du projet et réflexion globale",
+    "description": "Après notre premier contact, par e-mail ou téléphone, nous prendrons le temps d’échanger sur votre projet pour mieux comprendre votre entreprise, son histoire, ses valeurs et les objectifs que vous souhaitez atteindre avec votre solution numérique. Suite à cet échange, je vous enverrai une proposition commerciale avec différentes formules, afin que vous puissiez choisir celle qui correspond le mieux à vos besoins. Une fois la proposition validée, nous travaillerons ensemble sur le message et l’image que vous souhaitez véhiculer à travers votre solution. Je m’assurerai d’intégrer votre projet dans votre univers et votre communication de manière stratégique."
   },
   {
     "id": 2,
-    "title": "Conception UX/UI",
-    "description": "Création de maquettes ergonomiques et intuitives pour garantir une expérience utilisateur optimale."
+    "title": "Conception UI/UX et charte graphique",
+    "description": "Une fois la stratégie définie, vous passez à la phase de création ! C’est le moment où le premier prototype de votre solution est développé. Un univers graphique cohérent et impactant vous est proposé, avec une mise en page intuitive et une navigation fluide. Cette maquette vous est présentée afin que vous puissiez valider qu’elle intègre bien tous les éléments essentiels de votre projet."
   },
   {
     "id": 3,
-    "title": "Développement",
-    "description": "Implémentation des fonctionnalités et intégration des technologies adaptées à votre projet."
+    "title": "Développement de l'application",
+    "description": "Une fois la conception validée, nous passons à l’étape du développement. C’est ici que les fonctionnalités de votre solution prennent vie. Nous procédons à l’implémentation des technologies les plus adaptées à votre projet, en veillant à ce que chaque fonctionnalité réponde précisément à vos besoins. Chaque détail est intégré de manière fluide et efficace pour garantir un fonctionnement optimal. Cette étape permet de transformer la maquette en un produit réel, performant et prêt à être utilisé."
   },
   {
     "id": 4,
-    "title": "Tests et validation",
-    "description": "Vérification de la qualité et des performances de l'application grâce à des tests rigoureux."
-  },
-  {
-    "id": 5,
-    "title": "Mise en ligne",
-    "description": "Déploiement du site ou de l'application sur un serveur sécurisé et configuration de l'hébergement."
-  },
-  {
-    "id": 6,
-    "title": "Maintenance et évolution",
-    "description": "Suivi régulier, corrections des bugs et ajout de nouvelles fonctionnalités selon vos besoins."
+    "title": "Tests, mise en ligne et suivi",
+    "description": "Lors de cette étape, des tests rigoureux sont effectués pour vérifier la qualité et les performances de l’application. Une fois ces vérifications réalisées, le site ou l’application est déployé sur un serveur sécurisé et l’hébergement est configuré pour garantir un fonctionnement optimal. Un suivi régulier est ensuite effectué, avec des corrections de bugs et l’ajout de nouvelles fonctionnalités selon vos besoins. En général, un site internet est livré sous 2 à 3 semaines, après validation de votre part. Une fois toutes les vérifications effectuées de mon côté et votre validation obtenue, la mise en ligne de votre projet est prise en charge. Si vous le souhaitez, une formation vous sera proposée pour vous permettre de gérer votre site de manière autonome"
   }
 ]

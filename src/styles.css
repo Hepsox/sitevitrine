@@ -7,7 +7,7 @@
   --text-color: white;
   --text-inverse-color: black;
 
-  --background-color: black;
+  --background-color: #272727;
   --background-light: white;
 
   --primary-bg-color: #ff5c83;
@@ -26,13 +26,13 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 /* ========== Style Global ========== */
 body {
   background: var(--background-color);
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -53,12 +53,130 @@ h2 {
 p {
   font-size: 20px;
   line-height: 1.4;
-  padding: 10px 0;
 }
 
 .important {
   color: var(--primary-color);
   font-weight: bold;
+}
+
+.info-importante {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Styles de base pour les appareils mobiles (Mobile-first) */
+.parent {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 seule colonne pour les petits écrans (Mobile) */
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+.div1 {
+  background-image: url("assets/dsn-conseil-1.jpg");
+  background-size: cover; /* L'image couvre toute la div */
+  background-position: center; /* L'image est centrée dans la div */
+  height: 400px; /* Hauteur fixe pour div1 */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centre le contenu */
+  color: white; /* Texte visible sur l'image */
+  font-weight: bold;
+  font-size: 16px; /* Taille du texte */
+  border-radius: 10px;
+}
+
+.div2 {
+  background-image: url("assets/rasta-1.jpg");
+  background-size: cover; /* L'image couvre toute la div */
+  background-position: center; /* L'image est centrée dans la div */
+  background-repeat: no-repeat; /* L'image ne se répète pas */
+  height: 400px; /* Hauteur adaptée pour div2 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 13px; /* Taille du texte */
+  border-radius: 10px;
+}
+
+.div3 {
+  background-color: #ff9100; /* Couleur de fond pour div3 */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.div4 {
+  background-color: #ff5c83; /* Couleur de fond pour div4 */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.div5 {
+  background-color: #b456f0; /* Couleur de fond pour div5 */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.div6 {
+  background-image: url("assets/proximum-formations.jpg");
+  background-size: cover; /* L'image couvre toute la div */
+  background-position: center; /* L'image est centrée dans la div */
+  height: 400px; /* Hauteur fixe pour div6 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Texte visible sur l'image */
+  font-weight: bold;
+  font-size: 16px; /* Taille du texte */
+  border-radius: 10px;
+}
+
+/* Modifications pour les textes dans div3, div4, div5 */
+.div3 h1,
+.div4 h1,
+.div5 h1 {
+  font-size: 50px;
+  margin-top: -30px;
+}
+
+.div3 h2,
+.div4 h2,
+.div5 h2 {
+  font-size: 25px;
+  font-weight: 400;
+
+  margin-top: -30px;
+}
+
+.number {
+  font-size: 150px;
+  font-weight: 900;
+  margin: 10px;
+}
+
+.div4 .number {
+  color: #b92b4d;
+  text-align: start;
+}
+.div5 .number {
+  color: #690ea4;
+  text-align: start;
+}
+.div3 .number {
+  color: #fcc23f;
+  text-align: start;
 }
 
 /* ========== Header ========== */
@@ -117,6 +235,18 @@ p {
 .img-fluid {
   width: 100%;
   height: auto;
+  object-fit: cover;
+}
+
+.container-img {
+  width: 100%; /* La div prend toute la largeur de son parent */
+  height: 100%; /* Ajuste si besoin */
+  display: flex; /* Permet un meilleur contrôle du positionnement */
+  justify-content: center; /* Centre l'image horizontalement */
+  align-items: center; /* Centre l'image verticalement */
+}
+.container-img img {
+  margin-left: -100px;
 }
 
 /* ========== Logos Clients ========== */
@@ -141,24 +271,25 @@ p {
 
 /* ========== Sections ========== */
 .container-prestations,
-.container-steps {
-  padding: 50px 0;
-}
-
 .projects,
 .steps,
 .faq {
   margin-top: 100px;
 }
 
-.steps {
-  background-color: var(--background-light);
+.container-all-steps {
+  background-color: #ffffff;
   width: 100%;
+  padding: 0 10px;
 }
 
 .steps h2,
 .steps p {
   color: var(--background-color);
+}
+
+.steps .left h2 {
+  padding-top: 100px;
 }
 
 /* ========== Témoignages ========== */
@@ -184,4 +315,258 @@ p {
 
 .intro {
   animation: fade-up var(--transition-speed);
+}
+
+.hide-mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .commentaires {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .commentaires h2 {
+    text-align: center;
+  }
+
+  .info-commentaire {
+    text-align: center;
+  }
+  .header-bar {
+    margin-bottom: 30px;
+  }
+  .container-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -50px;
+  }
+  .container-img img {
+    margin-top: -50px;
+  }
+
+  .container-all-steps {
+    display: flex;
+  }
+  .container-all-steps .left {
+    width: 50%;
+  }
+
+  .container-steps {
+    display: flex;
+  }
+  h2 {
+    font-size: 60px;
+    line-height: 1.1;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .desktop-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+
+  .square {
+    aspect-ratio: 1/1;
+  }
+
+  .div1 {
+    background-image: url("assets/dsn-conseil-1.jpg");
+    background-size: cover; /* L'image couvre toute la div */
+    background-position: center; /* L'image est centrée dans la div */
+    height: 500px; /* Hauteur fixe de 800px pour div1 et div6 */
+    display: flex;
+    justify-content: center;
+    color: white; /* Texte visible sur l'image */
+    font-weight: bold;
+    font-size: 16px; /* Taille du texte */
+    border-radius: 10px;
+  }
+
+  .div6 {
+    background-image: url("assets/proximum-formations.jpg");
+    background-size: cover; /* L'image couvre toute la div */
+    background-position: center; /* L'image est centrée dans la div */
+    height: 500px; /* Hauteur fixe de 800px pour div1 et div6 */
+    display: flex;
+    justify-content: center;
+    color: white; /* Texte visible sur l'image */
+    font-weight: bold;
+    font-size: 16px; /* Taille du texte */
+    border-radius: 10px;
+  }
+
+  .div2 {
+    background-image: url("assets/rasta-1.jpg");
+    background-size: cover; /* L'image couvre toute la div */
+    background-position: center; /* L'image est centrée dans la div */
+    background-repeat: no-repeat; /* L'image ne se répète pas */
+    display: flex;
+    height: 323px;
+
+    font-weight: bold;
+    font-size: 13px; /* Taille du texte */
+    border-radius: 10px;
+  }
+
+  .div3 {
+    background-color: #ff9100; /* Couleur de fond pour div3 */
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .div4 {
+    background-color: #ff5c83; /* Couleur de fond pour div4 */
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .div5 {
+    background-color: #b456f0; /* Couleur de fond pour div5 */
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .div3 h1,
+  .div4 h1,
+  .div5 h1 {
+    font-size: 35px;
+    margin-top: -30px;
+  }
+
+  .div3 h2,
+  .div4 h2,
+  .div5 h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+  }
+
+  .number {
+    font-size: 150px;
+    font-weight: 900;
+    margin-top: -40px;
+  }
+
+  .div1 {
+    grid-area: 1 / 3 / 4 / 5;
+  }
+
+  .div2 {
+    grid-area: 4 / 3 / 5 / 4;
+  }
+
+  .div3 {
+    grid-area: 4 / 4 / 5 / 5;
+  }
+
+  .div4 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .div5 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .div6 {
+    grid-area: 2 / 1 / 5 / 3;
+  }
+
+  .services {
+    max-width: 1400px;
+    display: flex;
+    margin: 200px auto;
+  }
+
+  .services .left {
+    width: 50%;
+    padding-right: 100px;
+  }
+
+  .services .left p {
+    font-size: 25px;
+    line-height: 1.8;
+  }
+
+  .full-width-white {
+    background-color: white;
+  }
+
+  .steps {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .hero-container {
+    display: flex;
+
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .title-container p,
+  a {
+    display: block;
+  }
+
+  .title-container h1 {
+    font-size: 70px;
+  }
+  .title-container p {
+    font-size: 30px;
+  }
+
+  .title-container a {
+    margin-top: 50px;
+  }
+
+  .title-container {
+    padding-right: 50px;
+  }
+
+  .all-number {
+    padding: 150px 0;
+  }
+
+  .container-btn {
+    display: inline-block;
+  }
+
+  .container-commentaires {
+    display: flex;
+    gap: 10px;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  .hide-mobile {
+    display: block;
+  }
+
+  .call-to-action {
+    display: inline;
+  }
 }

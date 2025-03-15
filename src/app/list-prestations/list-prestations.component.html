@@ -1,7 +1,10 @@
-<!-- list-prestations.component.html -->
 <ng-container *ngIf="listePrestations$ | async as listePrestations">
   <div *ngFor="let prestation of listePrestations; let i = index">
-    <div class="card-container">
+    <div
+      class="card-container"
+      [attr.data-aos]="i % 2 === 0 ? 'fade-up' : 'fade-in'"
+      [attr.data-aos-duration]="'3000'"
+    >
       <div
         class="arriere-carte"
         [ngStyle]="{

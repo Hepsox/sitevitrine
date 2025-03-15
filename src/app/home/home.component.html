@@ -1,23 +1,36 @@
-<header class="header-bar">
-  <div class="container-logo">
-    <h3>Rozardi</h3>
-  </div>
-  <div class="burger">
-    <div class="bar"></div>
-    <div class="bar"></div>
-  </div>
-</header>
-<div class="hero-container">
-  <div class="title-container intro">
-    <h1 class="title">
-      Propulsons votre <span>entreprise </span> sur le devant de la scène !
-    </h1>
-  </div>
-  <div class="container-img">
-    <img src="assets/home-img.png" alt="" class="img-fluid" />
+<div class="desktop-container">
+  <header class="header-bar">
+    <div class="container-logo">
+      <h3>Rozardi</h3>
+    </div>
+    <div class="burger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </header>
+</div>
+
+<div class="desktop-container">
+  <div class="hero-container">
+    <div class="title-container intro">
+      <h1 class="title">
+        Propulsons votre <span>entreprise </span> sur le devant de la scène !
+      </h1>
+      <p class="hide-mobile">
+        Nous conçevons des applications web sur mesure pour révéler le potentiel
+        de votre entreprise.
+      </p>
+      <div class="container-btn hide-mobile">
+        <a class="call-to-action">Réservez un Appel</a>
+      </div>
+    </div>
+    <div class="container-img">
+      <img src="assets/home-img.png" alt="" class="img-fluid" />
+    </div>
   </div>
 </div>
-<section class="logos-clients-section">
+
+<!-- <section class="logos-clients-section">
   <div class="slider-items">
     <img src="assets/logo-proximum.png" alt="" />
     <img src="assets/logo-proximum.png" alt="" />
@@ -30,60 +43,114 @@
     <img src="assets/logo-proximum.png" alt="" />
     <img src="assets/logo-proximum.png" alt="" />
   </div>
-</section>
+</section> -->
 
-<section class="services">
-  <h2>Les services</h2>
-  <p>
-    Je m’appelle Marie et ma mission est d’accompagner les entreprises dans la
-    création de leur site internet. Efficace et impactant sont les maîtres mots
-    ! Je suis là pour te créer un site internet performant, à ton image et
-    évolutif pour atteindre tes objectifs.
-  </p>
-  <p class="info-importante">
-    J’ai créé Rozardi afin d’être l’oreille créative et technique de tes projets
-    !
-  </p>
-  <div class="container-prestations">
-    <app-list-prestations></app-list-prestations>
+<div class="desktop-container">
+  <section class="services">
+    <div class="left">
+      <h2>Les services</h2>
+      <p>
+        Je m’appelle Marie et ma mission est d’accompagner les entreprises dans
+        la création de leur site internet. Efficace et impactant sont les
+        maîtres mots ! Je suis là pour te créer un site internet performant, à
+        ton image et évolutif pour atteindre tes objectifs.
+      </p>
+      <p class="info-importante">
+        J’ai créé Rozardi afin d’être l’oreille créative et technique de tes
+        projets !
+      </p>
+      <p class="hide-mobile">
+        <a class="call-to-action">Réservez un Appel</a>
+      </p>
+    </div>
+
+    <div class="container-prestations">
+      <div>
+        <img src="assets/etoile.png" alt="" />
+      </div>
+      <app-list-prestations></app-list-prestations>
+    </div>
+  </section>
+  <section class="hide-desktop">
+    <div class="container-btn">
+      <a class="call-to-action">Réservez un Appel</a>
+    </div>
+  </section>
+</div>
+
+<div class="desktop-container">
+  <section class="all-number">
+    <div class="parent">
+      <div class="div1"></div>
+      <div class="div2 square"></div>
+      <div class="div3 square">
+        <p class="number">12</p>
+        <h1>Clients</h1>
+        <h2>
+          Lorem ipsum dolor sit amet, consectetu adipiscing elit. Nam arcu
+          metus.
+        </h2>
+      </div>
+      <div class="div4 square">
+        <p class="number">20</p>
+        <h1>Projets</h1>
+        <h2>
+          Lorem ipsum dolor sit amet, consectetu adipiscing elit. Nam arcu
+          metus.
+        </h2>
+      </div>
+      <div class="div5 square">
+        <p class="number">6</p>
+        <h1>Années</h1>
+        <h2>
+          Lorem ipsum dolor sit amet, consectetu adipiscing elit. Nam arcu
+          metus.
+        </h2>
+      </div>
+      <div class="div6"></div>
+    </div>
+  </section>
+</div>
+
+<div class="full-width-white">
+  <div class="desktop-container" style="background-color: white">
+    <section class="steps">
+      <section class="container-all-steps">
+        <div class="left">
+          <h2>Les <span class="important"> étapes </span></h2>
+          <p>
+            Créer un site internet professionnel ne s’improvise pas !
+            Spécialisée dans la création de site internet à Bordeaux, je vais
+            t’accompagner dans toutes les étapes du développement de ton site
+            web. De tes premières idées à la mise en ligne, tu seras accompagné
+            tout au long du projet.
+          </p>
+        </div>
+        <div class="container-steps">
+          <app-list-etapes></app-list-etapes>
+        </div>
+      </section>
+    </section>
   </div>
+</div>
 
-  <div class="container-btn">
-    <a class="call-to-action">Réservez un Appel</a>
-  </div>
-</section>
+<div class="desktop-container">
+  <section class="commentaires intro">
+    <h2>Les témoignages</h2>
+    <p class="info-commentaire">
+      La relation avec mes clients est un de mes moteurs principal dans mon
+      travail. Je mets un point d’honneur à ce que l’ensemble de mes projets
+      soit une réussite autant sur le plan technique avec des sites internets de
+      qualités, que sur le point relationnel ! Tous présents sur mon site sont
+      issus de ma fiche Google. Tu peux les consulter ici.
+    </p>
 
-<section class="projects">
-  <h2>Quelques <span class="important"> projets </span> en image</h2>
-</section>
-
-<section class="steps">
-  <h2>Les <span class="important"> étapes </span></h2>
-  <p>
-    Créer un site internet professionnel ne s’improvise pas ! Spécialisée dans
-    la création de site internet à Bordeaux, je vais t’accompagner dans toutes
-    les étapes du développement de ton site web. De tes premières idées à la
-    mise en ligne, tu seras accompagné tout au long du projet.
-  </p>
-  <div class="container-steps">
-    <app-list-etapes></app-list-etapes>
-  </div>
-</section>
-<section class="commentaires intro">
-  <h2>Les témoignages</h2>
-  <p>
-    La relation avec mes clients est un de mes moteurs principal dans mon
-    travail. Je mets un point d’honneur à ce que l’ensemble de mes projets soit
-    une réussite autant sur le plan technique avec des sites internets de
-    qualités, que sur le point relationnel ! Tous présents sur mon site sont
-    issus de ma fiche Google. Tu peux les consulter ici.
-  </p>
-
-  <div class="container-commentaires">
-    <app-list-commentaires></app-list-commentaires>
-  </div>
+    <div class="container-commentaires">
+      <app-list-commentaires></app-list-commentaires>
+    </div>
+  </section>
   <section class="faq">
     <h2>Vos questions</h2>
     <div class="all-questions"><app-list-questions></app-list-questions></div>
   </section>
-</section>
+</div>

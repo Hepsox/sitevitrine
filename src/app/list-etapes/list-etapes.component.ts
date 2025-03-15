@@ -10,11 +10,22 @@ import { EtapesService } from '../etapes.service';
 })
 export class ListEtapesComponent {
   listeEtapes$: Observable<Etape[]> = this.service.getAllEtapes();
-  expandedCards: boolean[] = []; // Tableau pour suivre l'état des cartes
+  expandedCards: boolean[] = [];
 
   constructor(private service: EtapesService) {}
+
+  ngOnInit(): void {
+    // Initialiser l'état des cartes lorsque la liste des étapes est chargée
+    this.listeEtapes$.subscribe((listeEtapes) => {
+      // Initialiser un tableau 'expandedCards' avec 'false' pour chaque étape
+      this.expandedCards = new Array(listeEtapes.length).fill(false);
+    });
+  }
+
   toggleCard(index: number): void {
-    // Basculer l'état de la carte
-    this.expandedCards[index] = !this.expandedCards[index];
+    // Fermer toutes les cartes sauf celle sur laquelle l'utilisateur a cliqué
+    this.expandedCards = this.expandedCards.map((expanded, i) =>
+      i === index ? !expanded : false
+    );
   }
 }

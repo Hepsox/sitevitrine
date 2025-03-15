@@ -1,26 +1,28 @@
 <ng-container *ngIf="listeEtapes$ | async as listeEtapes">
-  <div *ngFor="let etape of listeEtapes; let i = index">
-    <div
-      class="card-step"
-      [ngClass]="{ expanded: expandedCards[i] }"
-      (click)="toggleCard(i)"
-    >
-      <img
-        *ngIf="expandedCards[i]"
-        src="assets/illu.png"
-        alt="Illustration"
-        class="img-fluid image-etape"
-      />
-      <h3>{{ etape.title }}</h3>
-      <p>
-        {{
-          expandedCards[i]
-            ? etape.description
-            : (etape.description | slice : 0 : 60) + "..."
-        }}
-      </p>
+  <div class="container-tous-etape">
+    <div *ngFor="let etape of listeEtapes; let i = index">
+      <div
+        class="card-step"
+        [ngClass]="{ expanded: expandedCards[i] }"
+        (click)="toggleCard(i)"
+      >
+        <img
+          *ngIf="expandedCards[i]"
+          src="assets/illu.png"
+          alt="Illustration"
+          class="img-fluid image-etape"
+        />
+        <h3>{{ etape.title }}</h3>
+        <p>
+          {{
+            expandedCards[i]
+              ? etape.description
+              : (etape.description | slice : 0 : 180) + "..."
+          }}
+        </p>
 
-      <a *ngIf="!expandedCards[i]">En voir +</a>
+        <a *ngIf="!expandedCards[i]">En voir +</a>
+      </div>
     </div>
   </div>
 </ng-container>
