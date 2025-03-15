@@ -1,28 +1,46 @@
 <ng-container *ngIf="listeEtapes$ | async as listeEtapes">
   <div class="container-tous-etape">
-    <div *ngFor="let etape of listeEtapes; let i = index">
-      <div
-        class="card-step"
-        [ngClass]="{ expanded: expandedCards[i] }"
-        (click)="toggleCard(i)"
-      >
-        <img
-          *ngIf="expandedCards[i]"
-          src="assets/illu.png"
-          alt="Illustration"
-          class="img-fluid image-etape"
-        />
-        <h3>{{ etape.title }}</h3>
-        <p>
-          {{
-            expandedCards[i]
-              ? etape.description
-              : (etape.description | slice : 0 : 180) + "..."
-          }}
-        </p>
-
-        <a *ngIf="!expandedCards[i]">En voir +</a>
-      </div>
+    <div class="side-container">
+      <ng-container *ngFor="let etape of listeEtapes; let i = index">
+        <div
+          *ngIf="i % 2 == 0"
+          class="etape"
+          (click)="
+            etapeOuverte !== i ? (etapeOuverte = i) : (etapeOuverte = null)
+          "
+          [ngClass]="{ ouverte: etapeOuverte === i }"
+        >
+          <span class="title">{{ etape.title }}</span>
+          <p class="subtitle">{{ etape.subTitle }}</p>
+          <p class="description">
+            {{ etape.description }}
+          </p>
+          <span class="see-more">{{
+            etapeOuverte !== i ? "Voir +" : "Voir -"
+          }}</span>
+        </div>
+      </ng-container>
+    </div>
+    <div class="side-container">
+      <ng-container *ngFor="let etape of listeEtapes; let i = index">
+        <div
+          *ngIf="i % 2 != 0"
+          class="etape"
+          (click)="
+            etapeOuverte !== i ? (etapeOuverte = i) : (etapeOuverte = null)
+          "
+          [ngClass]="{ ouverte: etapeOuverte === i }"
+        >
+          <span class="title">{{ etape.title }}</span>
+          <p class="subtitle">{{ etape.subTitle }}</p>
+          <p class="description">
+            {{ etape.description }}
+          </p>
+          <span class="see-more">{{
+            etapeOuverte !== i ? "Voir +" : "Voir -"
+          }}</span>
+        </div>
+      </ng-container>
     </div>
   </div>
 </ng-container>

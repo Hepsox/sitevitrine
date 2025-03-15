@@ -204,6 +204,11 @@ p {
   font-size: 20px;
 }
 
+.call-to-action.light {
+  background-color: initial;
+  color: var(--primary-color);
+}
+
 /* ========== Burger Menu ========== */
 .burger {
   display: flex;
@@ -288,6 +293,10 @@ p {
   color: var(--background-color);
 }
 
+.steps .left p {
+  margin-bottom: 50px;
+}
+
 .steps .left h2 {
   padding-top: 100px;
 }
@@ -362,11 +371,18 @@ p {
     display: flex;
   }
   .container-all-steps .left {
-    width: 50%;
+    width: 30%;
+    margin-right: 100px;
   }
 
   .container-steps {
+    width: 70%;
     display: flex;
+  }
+
+  .steps .left h2 {
+    padding-top: 110px;
+    margin-bottom: 0;
   }
   h2 {
     font-size: 60px;
