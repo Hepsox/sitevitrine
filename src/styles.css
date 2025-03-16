@@ -452,6 +452,7 @@ p {
   }
 
   .square {
+    width: 301px;
     aspect-ratio: 1/1;
   }
 
