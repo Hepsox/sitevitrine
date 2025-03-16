@@ -255,23 +255,50 @@ p {
 }
 
 /* ========== Logos Clients ========== */
-.logos-clients-section {
-  padding: 50px 0;
-}
-
-.slider-items {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  animation: slide 20s linear infinite;
-}
 
 .slider-items:hover {
   animation-play-state: paused;
 }
 
-.slider-items img {
-  width: 150px;
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  margin-top: 50px;
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+/* .logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+} */
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 3s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
 }
 
 /* ========== Sections ========== */
@@ -575,6 +602,8 @@ p {
   }
   .title-container p {
     font-size: 30px;
+    margin-bottom: 60px;
+    margin-top: -15px;
   }
 
   .title-container a {
