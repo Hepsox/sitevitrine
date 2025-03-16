@@ -250,9 +250,6 @@ p {
   justify-content: center; /* Centre l'image horizontalement */
   align-items: center; /* Centre l'image verticalement */
 }
-.container-img img {
-  margin-left: -100px;
-}
 
 /* ========== Logos Clients ========== */
 
@@ -412,12 +409,7 @@ p {
     margin-top: 30px;
   }
   .container-img {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: -50px;
-  }
-  .container-img img {
-    margin-top: -50px;
+    width: 90%;
   }
 
   .container-all-steps {
@@ -601,9 +593,9 @@ p {
 
   .hero-container {
     display: flex;
-
-    margin: 0 auto;
+    margin-top: 70px;
     align-items: center;
+    justify-content: space-between;
   }
 
   .title-container p,
@@ -634,6 +626,10 @@ p {
 
   .container-btn {
     display: inline-block;
+  }
+
+  .hero-container .container-btn {
+    margin-top: 100px;
   }
 
   .hide-desktop {

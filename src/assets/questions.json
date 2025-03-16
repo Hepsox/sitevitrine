@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "question": "Quels sont vos délais de livraison ?",
-    "answer": "Nos délais varient en fonction du projet. En général, un site vitrine est livré sous 3 semaines, tandis qu'un site e-commerce peut prendre jusqu'à 6 semaines."
+    "question": "Quel est le prix d'un site web ou d'une application ?",
+    "answer": "Tous les projets sont différents et nécessitent une étude précise pour fixer un tarif précis.Cependant, de manière générale, la création d’un site vitrine se situe entre 1500 € et 2500 € en fonction du nombre de pages.Le prix d’un site e-commerce se situe entre 3000 € pour les sites avec une vingtaine de références produits et 5000 € pour les sites avec plus de 80 références. "
   },
   {
     "id": 2,
-    "question": "Proposez-vous un support après la livraison ?",
-    "answer": "Oui, nous offrons un support technique de 3 mois après la livraison pour corriger d'éventuels bugs et assurer la maintenance."
+    "question": "Pourrais-je moi-même modifier le contenu de mon site ?",
+    "answer": "Oui, il suffit d’en faire la demande au début du projet. Je mettrai tout en place pour que vous puissiez modifier aisément le contenu (textes et photos) de votre site. Développant votre site internet avec le CMS WordPress, vous pourrez être 100% autonome dès la mise en ligne de votre site web. Je prends également le temps de vous former pendant une heure et je fournis tous les supports vidéo nécessaires pour que vous puissiez modifier votre contenu. "
   },
   {
     "id": 3,
-    "question": "Puis-je modifier mon site moi-même après sa mise en ligne ?",
-    "answer": "Bien sûr ! Nous utilisons des CMS comme WordPress ou des solutions sur mesure avec une interface d'administration simple pour vous permettre de gérer votre contenu."
+    "question": "Est-ce qu'il y a un abonnement à payer après la livraison de mon site ?",
+    "answer": "Non, une fois la mise en ligne de votre site, vous n’aurez plus rien à me payer. Vous êtes propriétaire de votre site et vous n’avez pas d’abonnement à payer. Vous devrez simplement payer l’hébergement de votre site internet et le nom de domaine chaque année. "
   },
   {
     "id": 4,
-    "question": "Quels sont vos tarifs ?",
-    "answer": "Nos tarifs dépendent des fonctionnalités et du type de projet. Un site vitrine démarre à 1500€, tandis qu'un e-commerce peut commencer à 3000€. Contactez-nous pour un devis personnalisé."
+    "question": "Proposez-vous du référencement naturel (SEO) ?",
+    "answer": "Oui je me charge de l’optimisation SEO de votre site internet. L’objectif est que votre site internet se fasse une place sur les moteurs de recherches en utilisant les bonnes pratiques SEO. "
   },
   {
     "id": 5,
     "question": "Offrez-vous des formations pour gérer mon site ?",
-    "answer": "Oui, nous proposons des formations personnalisées pour vous apprendre à gérer votre site, ajouter du contenu et optimiser le référencement."
+    "answer": "Oui, je peux vous proposer une formation personnalisée pour vous apprendre à gérer votre site, ajouter du contenu et optimiser le référencement."
   }
 ]

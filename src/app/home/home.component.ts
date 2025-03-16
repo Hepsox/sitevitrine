@@ -24,8 +24,8 @@ export class HomeComponent implements AfterViewInit {
   }
 
   cloneLogosSlide() {
-    const copy = this.logosSlide.nativeElement.cloneNode(true);
-    const logosContainer = document.querySelector('.logos');
-    logosContainer?.appendChild(copy);
+    // const copy = this.logosSlide.nativeElement.cloneNode(true);
+    // const logosContainer = document.querySelector('.logos');
+    // logosContainer?.appendChild(copy);
   }
 }
