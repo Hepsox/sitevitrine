@@ -3,7 +3,7 @@
     <div class="container-logo">
       <h3>Rozardi</h3>
     </div>
-    <div class="burger hide-desktop">
+    <div class="burger hide-desktop" (click)="menuVisible = !menuVisible">
       <div class="bar"></div>
       <div class="bar"></div>
     </div>
@@ -18,7 +18,15 @@
     </div>
   </header>
 </div>
-
+<p-sidebar [(visible)]="menuVisible" position="right">
+  <h3>Sidebar</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.
+  </p>
+</p-sidebar>
 <div class="desktop-container">
   <div class="hero-container">
     <div class="title-container intro">

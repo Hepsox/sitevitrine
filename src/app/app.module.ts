@@ -13,6 +13,8 @@ import { ListCommentairesComponent } from './list-commentaires/list-commentaires
 import { HomeComponent } from './home/home.component';
 import { ListQuestionsComponent } from './list-questions/list-questions.component';
 import { CarouselModule } from 'primeng/carousel';
+import { SidebarModule } from 'primeng/sidebar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,13 @@ import { CarouselModule } from 'primeng/carousel';
     HomeComponent,
     ListQuestionsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, CarouselModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    CarouselModule,
+    SidebarModule,
+  ],
   providers: [provideClientHydration(), provideHttpClient()],
   bootstrap: [AppComponent],
 })

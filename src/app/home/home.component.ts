@@ -16,6 +16,8 @@ export class HomeComponent implements AfterViewInit {
   @ViewChild('logosSlide', { static: false }) logosSlide!: ElementRef;
   @ViewChild('logos', { static: false }) logos!: ElementRef;
 
+  menuVisible: boolean = false;
+
   ngAfterViewInit() {
     if (this.logosSlide) {
       this.cloneLogosSlide();
@@ -28,5 +30,10 @@ export class HomeComponent implements AfterViewInit {
     const copy = this.logosSlide.nativeElement.cloneNode(true);
     const logosContainer = this.logos.nativeElement;
     logosContainer?.appendChild(copy);
+  }
+
+  showMenu() {
+    console.log('hello');
+    this.menuVisible = true;
   }
 }
