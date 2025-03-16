@@ -293,7 +293,7 @@ p {
 
 .logos-slide {
   display: inline-block;
-  animation: 3s slide infinite linear;
+  animation: 35s slide infinite linear;
 }
 
 .logos-slide img {
@@ -378,6 +378,19 @@ p {
 }
 
 @media (min-width: 768px) {
+  .menu-desktop nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .menu-desktop nav a {
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+    white-space: nowrap;
+  }
+
   .commentaires {
     display: flex;
     flex-direction: column;
@@ -396,6 +409,7 @@ p {
   }
   .header-bar {
     margin-bottom: 30px;
+    margin-top: 30px;
   }
   .container-img {
     display: flex;
