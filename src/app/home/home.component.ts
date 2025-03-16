@@ -14,6 +14,7 @@ import { After } from 'v8';
 })
 export class HomeComponent implements AfterViewInit {
   @ViewChild('logosSlide', { static: false }) logosSlide!: ElementRef;
+  @ViewChild('logos', { static: false }) logos!: ElementRef;
 
   ngAfterViewInit() {
     if (this.logosSlide) {
@@ -24,8 +25,8 @@ export class HomeComponent implements AfterViewInit {
   }
 
   cloneLogosSlide() {
-    // const copy = this.logosSlide.nativeElement.cloneNode(true);
-    // const logosContainer = document.querySelector('.logos');
-    // logosContainer?.appendChild(copy);
+    const copy = this.logosSlide.nativeElement.cloneNode(true);
+    const logosContainer = this.logos.nativeElement;
+    logosContainer?.appendChild(copy);
   }
 }
