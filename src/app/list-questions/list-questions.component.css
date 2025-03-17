@@ -16,11 +16,26 @@
 .question h4 {
   margin-bottom: 0;
   margin-top: 0;
+  font-size: 22px;
+  line-height: 1.4;
+  margin-left: 10px;
 }
 
 .signe-question {
   display: inline-block;
-  width: 30px;
+  width: 40px;
+  height: 40px; /* Dimension carrée */
+  font-size: 40px;
+  color: var(--primary-bg-color);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center; /* Rotation autour du centre */
+  position: relative;
+  line-height: 40px; /* Centrage vertical du texte */
+  text-align: center; /* Centrage horizontal */
+}
+
+.rotate {
+  transform: rotate(45deg) translateY(-5px); /* Rotation de 45° avec légère compensation verticale */
 }
 
 .container-question .reponse {
@@ -30,7 +45,8 @@
 }
 
 .reponse p {
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 1.8;
 }
 
 .container-question.ouverte .reponse {

@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 export class ListPrestationsComponent {
   listePrestations$: Observable<Prestation[]> =
     this.service.getAllPrestations();
-  colors: string[] = ['#FF5C83', '#B456F0', '#FF9100'];
+  colors: string[] = ['#07103f', '#B456F0', '#FF9100'];
 
   constructor(private service: PrestationsService) {}
   getArriereCarteTransform(i: number): string {

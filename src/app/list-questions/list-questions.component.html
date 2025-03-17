@@ -10,10 +10,18 @@
       (click)="
         questionOuverte !== i ? (questionOuverte = i) : (questionOuverte = null)
       "
+      [attr.data-aos]="'fade-up'"
+      [attr.data-aos-duration]="'500'"
+      [attr.data-aos-once]="'true'"
+      [attr.data-aos-delay]="i === listeQuestions.length - 1 ? '1000' : i * 200"
+      [attr.data-aos-offset]="i === listeQuestions.length - 1 ? '100' : '0'"
     >
       <div class="question">
-        <span *ngIf="questionOuverte !== i" class="signe-question">+</span>
-        <span *ngIf="questionOuverte === i" class="signe-question">-</span>
+        <span
+          [ngClass]="{ rotate: questionOuverte === i }"
+          class="signe-question"
+          >+</span
+        >
         <h4>{{ question.question }}</h4>
       </div>
 
