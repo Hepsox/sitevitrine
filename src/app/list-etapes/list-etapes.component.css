@@ -1,6 +1,3 @@
-.container-tous-etape {
-}
-
 .side-container {
   display: flex;
   flex-direction: column;
@@ -12,6 +9,8 @@
 .etape.ouverte p {
   background-color: black;
   color: white;
+  font-size: 20px;
+  line-height: 1.8;
 }
 
 .etape {
@@ -22,13 +21,14 @@
 }
 
 .title {
-  font-size: 25px;
+  font-size: 32px;
   font-weight: 800;
 }
 
 .subtitle,
 .description {
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 1.4;
 }
 
 .etape .description {
@@ -38,12 +38,16 @@
 }
 
 .etape.ouverte .description {
+  font-size: 20px;
+
   max-height: 500px; /* Ajustez cette valeur selon le contenu */
 }
 
 .see-more {
   display: block;
   text-align: end;
+  font-size: 15px;
+  font-weight: 600;
 }
 @media (min-width: 768px) {
   .container-tous-etape {
@@ -52,6 +56,37 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+  }
+  .etape.ouverte .description {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .etape.ouverte .title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .etape.etape.ouverte .subtitle {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .etape.etape.ouverte .description {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .subtitle,
+  .description {
+    font-size: 16px;
+    line-height: 1.4;
   }
 
   .etape:hover,

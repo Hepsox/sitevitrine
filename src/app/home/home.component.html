@@ -13,34 +13,45 @@
         <a href="">Réalisations</a>
         <a href="">A propos</a>
         <a href="">Contact</a>
-        <a class="call-to-action">Réservez un Appel</a>
+        <a class="call-to-action">Réservez un appel</a>
       </nav>
     </div>
   </header>
 </div>
-<p-sidebar [(visible)]="menuVisible" position="right">
-  <h3>Sidebar</h3>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
-  </p>
+<p-sidebar [(visible)]="menuVisible" [fullScreen]="true">
+  <div class="menu-mobile">
+    <nav>
+      <a href="">Services</a>
+      <a href="">Réalisations</a>
+      <a href="">A propos</a>
+      <a href="">Contact</a>
+      <a class="call-to-action">Réservez un appel</a>
+    </nav>
+  </div>
 </p-sidebar>
 <div class="desktop-container">
   <div class="hero-container">
     <div class="title-container intro">
-      <h1 class="title">
-        Propulsons votre <span>entreprise </span> sur le devant de la scène !
+      <h1 data-aos="fade-up" data-aos-duration="500" class="title">
+        Je développe des
+        <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <span class="info-importante">solutions web </span> qui allient design
+        </span>
+        <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+          et efficacité
+        </span>
       </h1>
-      <!-- <p class="hide-mobile">
-        Nous conçevons des applications web sur mesure pour révéler le potentiel
-        de votre entreprise.
-      </p> -->
-      <div class="container-btn hide-mobile">
-        <a class="call-to-action">Réservez un Appel</a>
+
+      <div
+        class="container-btn"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="800"
+      >
+        <a class="call-to-action">Réservez un appel</a>
       </div>
     </div>
+
     <div class="container-img">
       <img
         src="https://cdn.prod.website-files.com/6672ab24c3487ec077010551/677fa037b3da216cf772423e_hero_image-p-500.avif"
@@ -54,47 +65,66 @@
 <section class="logos" #logos>
   <div class="logos-slide" #logosSlide>
     <img src="assets/logo-proximum.png" alt="" />
-    <img src="assets/logo-proximum.png" alt="" />
-    <img src="assets/logo-proximum.png" alt="" />
-    <img src="assets/logo-proximum.png" alt="" />
-    <img src="assets/logo-proximum.png" alt="" />
-    <img src="assets/logo-proximum.png" alt="" />
-    <img src="assets/logo-proximum.png" alt="" />
-    <img src="assets/logo-proximum.png" alt="" />
-    <img src="assets/logo-proximum.png" alt="" />
-    <img src="assets/logo-proximum.png" alt="" />
+    <img src="assets/logo-comint.png" alt="" />
+    <img src="assets/novitoit.png" alt="" />
+    <img src="assets/formaxis-logo-couleur.png" alt="" />
+    <img src="assets/synapse-logo.webp" alt="" />
+    <img src="assets/ap.png" alt="" />
+    <img src="assets/lp.png" alt="" />
+    <img src="assets/groupe-vb.png" alt="" />
   </div>
 </section>
 
 <div class="desktop-container">
   <section class="services">
     <div class="left">
-      <h2>Les services</h2>
+      <!-- Titre avec une animation fade-up ou autre -->
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="500"
+        [attr.data-aos-once]="'true'"
+      >
+        Des
+        <span
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          [attr.data-aos-once]="'true'"
+        >
+          <span class="info-importante">solutions</span>
+        </span>
+        adaptés à vos
+        <span
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="800"
+          [attr.data-aos-once]="'true'"
+        >
+          besoins
+        </span>
+      </h2>
+
+      <!-- Le reste des éléments sans animation -->
       <p>
         Je m’appelle Marie et ma mission est d’accompagner les entreprises dans
-        la création de leur site internet. Efficace et impactant sont les
-        maîtres mots ! Je suis là pour te créer un site internet performant, à
-        ton image et évolutif pour atteindre tes objectifs.
+        la création de solutions digitales sur mesure. Mon objectif est de
+        concevoir des projets efficaces, impactants et évolutifs, parfaitement
+        adaptés à vos besoins. Avec Rozardi, je vous offre une expertise
+        technique et créative pour réaliser vos projets digitaux.
       </p>
-      <p class="info-importante">
-        J’ai créé Rozardi afin d’être l’oreille créative et technique de tes
-        projets !
-      </p>
-      <p class="hide-mobile">
-        <a class="call-to-action">Réservez un Appel</a>
-      </p>
+
+      <div class="container-btn">
+        <a class="call-to-action">Réservez un appel</a>
+      </div>
     </div>
 
     <div class="container-prestations">
-      <div>
-        <img src="assets/etoile.png" alt="" />
-      </div>
       <app-list-prestations></app-list-prestations>
     </div>
   </section>
+
   <section class="hide-desktop">
     <div class="container-btn">
-      <a class="call-to-action">Réservez un Appel</a>
+      <a class="call-to-action service-call-to-action">Réservez un appel</a>
     </div>
   </section>
 </div>
@@ -102,30 +132,70 @@
 <div class="desktop-container">
   <section class="all-number">
     <div class="parent">
-      <div class="div1"></div>
-      <div class="div2 square"></div>
-      <div class="div3 square">
+      <!-- Première brique avec un fade-in pour démarrer en douceur -->
+      <div class="div1" data-aos="fade-in" data-aos-duration="600"></div>
+
+      <!-- Deuxième brique avec un slide-up, mais plus lente et avec un léger délai -->
+      <div
+        class="div2 square"
+        data-aos="slide-up"
+        data-aos-duration="800"
+        data-aos-delay="200"
+        [attr.data-aos-once]="'true'"
+      ></div>
+
+      <!-- Troisième brique, elle slide-up avec un délai plus long -->
+      <div
+        class="div3 square"
+        data-aos="slide-up"
+        data-aos-duration="800"
+        data-aos-delay="400"
+        [attr.data-aos-once]="'true'"
+      >
         <p class="number">12</p>
         <h5>Clients</h5>
-        <h2>
-          De nombreux sites web sur mesure, adaptés à divers secteurs et besoins
-        </h2>
+        <h6>
+          Des projets réussis grâce à des solutions adaptées à leurs besoins
+        </h6>
       </div>
-      <div class="div4 square">
+
+      <!-- Quatrième brique avec effet zoom-in pour apporter du dynamisme -->
+      <div
+        class="div4 square"
+        data-aos="zoom-in"
+        data-aos-duration="600"
+        data-aos-delay="600"
+        [attr.data-aos-once]="'true'"
+      >
         <p class="number">20</p>
         <h5>Projets</h5>
-        <h2>
-          De nombreux sites web sur mesure, adaptés à divers secteurs et besoins
-        </h2>
+        <h6>
+          Sites web et des applications métier sur mesure pour des besoins
+          variés
+        </h6>
       </div>
-      <div class="div5 square">
+
+      <!-- Cinquième brique avec un slide-up, et encore un délai pour continuer l'effet -->
+      <div
+        class="div5 square"
+        data-aos="slide-up"
+        data-aos-duration="800"
+        data-aos-delay="800"
+        [attr.data-aos-once]="'true'"
+      >
         <p class="number">6</p>
-        <h5>Années</h5>
-        <h2>
-          De nombreux sites web sur mesure, adaptés à divers secteurs et besoins
-        </h2>
+        <h5>Ans</h5>
+        <h6>Une expérience solide dans la création de solutions digitales</h6>
       </div>
-      <div class="div6"></div>
+
+      <!-- Dernière brique avec fade-in pour finir en douceur -->
+      <div
+        class="div6"
+        data-aos="fade-in"
+        data-aos-duration="600"
+        data-aos-delay="1000"
+        [attr.data-aos-once]="'true'"
+      ></div>
     </div>
   </section>
 </div>
@@ -135,16 +205,46 @@
     <section class="steps">
       <section class="container-all-steps">
         <div class="left">
-          <h2>Les <span class="important">étapes</span></h2>
+          <h2
+            data-aos="fade-up"
+            data-aos-duration="500"
+            [attr.data-aos-once]="'true'"
+          >
+            Un processus
+            <span
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              [attr.data-aos-once]="'true'"
+            >
+              <span class="info-importante">clair et fluide</span>
+            </span>
+            <span
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+              [attr.data-aos-once]="'true'"
+            >
+              pour donner vie
+            </span>
+            <span
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="800"
+              [attr.data-aos-once]="'true'"
+            >
+              <span>à vos idées</span>
+            </span>
+          </h2>
+
           <p>
-            Créer un site internet professionnel ne s’improvise pas !
-            Spécialisée dans la création de site internet à Bordeaux, je vais
-            t’accompagner dans toutes les étapes du développement de ton site
-            web. De tes premières idées à la mise en ligne, tu seras accompagné
-            tout au long du projet.
+            La création de solutions digitales professionnelles nécessite une
+            expertise à chaque étape. Je vous accompagne de la conception à la
+            mise en ligne, en assurant que chaque phase du projet soit
+            parfaitement adaptée à vos besoins.
           </p>
           <div class="hide-mobile">
-            <a class="call-to-action light">Réservez un Appel</a>
+            <a class="call-to-action light">Réservez un appel</a>
           </div>
         </div>
         <div class="container-steps">
@@ -157,14 +257,27 @@
 
 <div class="desktop-container">
   <section class="commentaires intro">
-    <h2>Les témoignages</h2>
-    <p class="commentaire-header">
-      La relation avec mes clients est un de mes moteurs principal dans mon
-      travail. Je mets un point d’honneur à ce que l’ensemble de mes projets
-      soit une réussite autant sur le plan technique avec des sites internets de
-      qualités, que sur le point relationnel ! Tous présents sur mon site sont
-      issus de ma fiche Google. Tu peux les consulter ici.
-    </p>
+    <h2>
+      <span
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        [attr.data-aos-once]="'true'"
+      >
+        Ce sont <span class="info-importante">eux</span> qui
+      </span>
+      <br />
+      <span
+        data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-delay="200"
+        data-aos-easing="ease-in-out"
+        [attr.data-aos-once]="'true'"
+      >
+        en parlent le mieux
+      </span>
+    </h2>
+
     <div class="commentaires-img">
       <img src="assets/icon-arc.png" class="img-fluid" alt="" />
     </div>
@@ -174,15 +287,45 @@
     </div>
   </section>
   <section class="faq">
-    <h2>Vos questions</h2>
+    <h2>
+      <span
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+        [attr.data-aos-once]="'true'"
+      >
+        Je réponds à
+      </span>
+      <span
+        class="info-importante"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="300"
+        data-aos-easing="ease-in-out"
+        [attr.data-aos-once]="'true'"
+      >
+        <span>questions</span>
+      </span>
+      <br />
+      <span
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="500"
+        data-aos-easing="ease-in-out"
+        [attr.data-aos-once]="'true'"
+      >
+        les plus fréquentes
+      </span>
+    </h2>
+
     <div class="all-questions"><app-list-questions></app-list-questions></div>
     <div class="faq-img">
       <img src="assets/icon-2.png" class="img-fluid" alt="" />
     </div>
   </section>
 </div>
-<!-- <footer>
+<footer>
   <div class="footer-logo">
-    <span> Rozardi</span>
+    <h6>Rozardi</h6>
   </div>
-</footer> -->
+</footer>

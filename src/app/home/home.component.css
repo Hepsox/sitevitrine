@@ -10,6 +10,16 @@
   z-index: -3; /* S'assure que l'image est au-dessus des autres éléments */
 }
 
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.footer-logo h6 {
+  font-size: 20px;
+}
+
 @media (min-width: 768px) {
   .container-prestations {
     margin-top: 20px;
