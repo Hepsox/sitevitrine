@@ -2,16 +2,16 @@
   {
     "id": 1,
     "title": "Site vitrine",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu metus. Donec at eros facilisis, pulvinar arcu vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu metus. Donec at eros facilisis, pulvinar arcu vitae ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     "id": 2,
     "title": "E-commerce",
-    "description": "Développement de boutiques en ligne performantes et sécurisées pour vendre vos produits facilement.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "description": "Développement de boutiques en ligne performantes et sécurisées pour vendre vos produits facilement.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     "id": 3,
     "title": "Application sur mesure",
-    "description": "Création d'applications web interactives et responsives adaptées à vos besoins spécifiques.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "description": "Création d'applications web interactives et responsives adaptées à vos besoins spécifiques.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum."
   }
 ]

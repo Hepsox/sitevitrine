@@ -9,10 +9,11 @@
     </div>
     <div class="hide-mobile menu-desktop">
       <nav>
-        <a href="">Services</a>
-        <a href="">Réalisations</a>
-        <a href="">A propos</a>
-        <a href="">Contact</a>
+        <a href="#services">Services</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#deroule-projet">Déroulé d'un projet</a>
+        <a href="#avis">Avis clients</a>
+        <a href="#faq">FAQ</a>
         <a class="call-to-action">Réservez un appel</a>
       </nav>
     </div>
@@ -33,7 +34,8 @@
   <div class="hero-container">
     <div class="title-container intro">
       <h1 data-aos="fade-up" data-aos-duration="500" class="title">
-        Je développe des
+        <span> Je développe des </span>
+
         <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           <span class="info-importante">solutions web </span> qui allient design
         </span>
@@ -84,22 +86,29 @@
         data-aos-duration="500"
         [attr.data-aos-once]="'true'"
       >
-        Des
         <span
           data-aos="fade-up"
-          data-aos-duration="1000"
+          data-aos-duration="800"
           [attr.data-aos-once]="'true'"
         >
-          <span class="info-importante">solutions</span>
+          Des <span class="info-importante">solutions</span>
         </span>
-        adaptés à vos
+        <br />
         <span
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-delay="800"
+          data-aos-delay="500"
           [attr.data-aos-once]="'true'"
         >
-          besoins
+          sur mesure adaptées à
+        </span>
+        <span
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          [attr.data-aos-once]="'true'"
+        >
+          vos besoins
         </span>
       </h2>
 
@@ -112,7 +121,7 @@
         technique et créative pour réaliser vos projets digitaux.
       </p>
 
-      <div class="container-btn">
+      <div class="container-btn" id="services">
         <a class="call-to-action">Réservez un appel</a>
       </div>
     </div>
@@ -130,10 +139,15 @@
 </div>
 
 <div class="desktop-container">
-  <section class="all-number">
+  <section class="all-number" id="realisations">
     <div class="parent">
       <!-- Première brique avec un fade-in pour démarrer en douceur -->
-      <div class="div1" data-aos="fade-in" data-aos-duration="600"></div>
+      <div
+        class="div1"
+        data-aos="fade-in"
+        data-aos-duration="600"
+        [attr.data-aos-once]="'true'"
+      ></div>
 
       <!-- Deuxième brique avec un slide-up, mais plus lente et avec un léger délai -->
       <div
@@ -200,7 +214,7 @@
   </section>
 </div>
 
-<div class="full-width-white">
+<div class="full-width-white" id="deroule-projet">
   <div class="desktop-container" style="background-color: white">
     <section class="steps">
       <section class="container-all-steps">
@@ -256,7 +270,7 @@
 </div>
 
 <div class="desktop-container">
-  <section class="commentaires intro">
+  <section class="commentaires intro" id="avis">
     <h2>
       <span
         data-aos="fade-up"
@@ -286,7 +300,7 @@
       <app-list-commentaires style="max-width: 100%"></app-list-commentaires>
     </div>
   </section>
-  <section class="faq">
+  <section class="faq" id="faq">
     <h2>
       <span
         data-aos="fade-up"

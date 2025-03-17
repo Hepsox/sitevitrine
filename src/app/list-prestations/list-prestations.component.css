@@ -6,7 +6,7 @@
 
 .card {
   padding: 15px 10px;
-  border: solid 8px white;
+  border: solid 8px rgba(232, 228, 251, 0.852);
   border-radius: 15px;
   margin-bottom: 10px;
   position: relative; /* Nécessaire pour le positionnement */
@@ -18,11 +18,14 @@
   font-size: 32px;
   margin-top: 10px;
   margin-bottom: -10px;
+  font-weight: 700;
 }
 
 .card p {
   font-size: 16px;
   line-height: 1.6;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
 }
 
 .arriere-carte {
@@ -31,7 +34,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #3b3939;
+  background-color: #675e8782;
   border-radius: 15px; /* Même bord arrondi que la carte principale */
   z-index: 1; /* La carte arrière doit être derrière la carte principale */
   transition: transform 0.3s ease-in-out;

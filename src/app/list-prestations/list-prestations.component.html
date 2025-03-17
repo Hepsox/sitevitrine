@@ -12,11 +12,12 @@
         class="card"
         [ngStyle]="{
           'background-color': colors[i],
+
           transform:
             'rotate(' + (i === 0 ? '5deg' : i === 1 ? '-5deg' : '3deg') + ')'
         }"
       >
-        <h3>{{ prestation.title }}</h3>
+        <h3 [ngStyle]="{ color: colorTitles[i] }">{{ prestation.title }}</h3>
 
         <p>{{ prestation.description }}</p>
       </div>

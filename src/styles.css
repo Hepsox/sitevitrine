@@ -265,7 +265,7 @@ p {
 .div4 h6,
 .div5 h6 {
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
 
   margin-top: -30px;
 }
@@ -653,7 +653,7 @@ p {
   .services {
     max-width: 1400px;
     display: flex;
-    margin: 100px auto;
+    margin: 150px auto 30px;
   }
 
   .services .left {
@@ -668,6 +668,10 @@ p {
 
   .services .left .container-btn {
     margin-top: 30px;
+  }
+
+  .services h2 {
+    font-size: 45px;
   }
 
   .services .call-to-action {
@@ -695,9 +699,10 @@ p {
     display: block;
   }
 
-  .title-container h1 {
-    font-size: 70px;
+  .title-container span {
+    font-size: 60px;
   }
+
   .title-container p {
     font-size: 30px;
     margin-bottom: 60px;
@@ -713,7 +718,7 @@ p {
   }
 
   .all-number {
-    padding: 150px 0;
+    padding: 70px 0 200px 0;
   }
 
   .all-number h5 {
@@ -782,5 +787,9 @@ p {
     top: 70px;
     width: 250px;
     height: 50px;
+  }
+
+  .view {
+    height: 100vh;
   }
 }
