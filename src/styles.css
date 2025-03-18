@@ -63,6 +63,10 @@ p {
   font-weight: bold;
 }
 
+.hero-img {
+  border-radius: 20px;
+}
+
 .desktop-container {
   padding: 0 15px;
 }
