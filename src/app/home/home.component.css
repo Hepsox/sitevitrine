@@ -13,7 +13,7 @@
 .footer-logo {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  margin: 50px 0 0px 0;
 }
 
 .footer-logo h6 {
@@ -28,5 +28,9 @@
   .container-prestations img {
     top: -70px;
     right: -10px;
+  }
+
+  .container-logo h3 {
+    font-size: 30px;
   }
 }

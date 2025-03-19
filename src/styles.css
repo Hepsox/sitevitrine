@@ -9,7 +9,7 @@
 
   --background-color: radial-gradient(
     circle,
-    rgb(30, 16, 54) 0%,
+    rgb(58, 32, 103) 0%,
     rgba(15, 2, 33, 1) 74%
   );
   --background-light: white;
@@ -75,16 +75,31 @@ p {
 
 .title-container {
   margin-top: 70px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .hero-container .title-container h1 {
   font-size: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   line-height: 1.1;
 }
 
 .hero-container .title-container .container-btn {
   display: inline;
+}
+
+.etape {
+  background-color: white; /* Couleur par défaut */
+  transition: background-color 0.3s ease;
+}
+
+.first-etape {
+  background-color: #a255f9;
+  border-color: #a255f9 !important;
+  color: white;
+}
+
+.etape-ouverte {
+  background-color: #f0f0f0; /* Couleur lorsque l'étape est ouverte */
 }
 
 /* SLIDER LOGO */
@@ -98,7 +113,7 @@ p {
 
 .logos-slide {
   display: inline-block;
-  animation: 19s slide infinite linear;
+  animation: 10s slide infinite linear;
 }
 
 .logos-slide img {
@@ -306,22 +321,129 @@ p {
   display: flex;
 }
 
+@keyframes glitchEffect {
+  0% {
+    transform: translate(0);
+    text-shadow: 0 0 0 transparent;
+  }
+  15% {
+    transform: translate(-2px, 2px) skewX(-10deg);
+    text-shadow: -2px 2px 0 rgba(255, 0, 0, 0.8),
+      2px -2px 0 rgba(255, 251, 0, 0.8);
+  }
+  30% {
+    transform: translate(2px, -2px) skewX(10deg);
+    text-shadow: 2px -2px 0 rgba(255, 0, 0, 0.8),
+      -2px 2px 0 rgba(255, 251, 0, 0.8);
+  }
+  45% {
+    transform: translate(-2px, 2px) skewX(-5deg);
+    text-shadow: -2px 2px 0 rgba(255, 0, 0, 0.5),
+      2px -2px 0 rgba(255, 251, 0, 0.8);
+  }
+  60% {
+    transform: translate(2px, -2px) skewX(5deg);
+    text-shadow: 2px -2px 0 rgba(255, 0, 0, 0.5),
+      -2px 2px 0 rgba(255, 251, 0, 0.8);
+  }
+  75% {
+    transform: translate(0);
+    text-shadow: 0 0 0 transparent;
+  }
+  100% {
+    transform: translate(0);
+    text-shadow: 0 0 0 transparent;
+  }
+}
+
+.effect {
+  display: inline-block;
+  animation: glitchEffect 2s infinite ease-in-out;
+}
+
+@keyframes glitchButton {
+  0% {
+    transform: translate(0);
+    box-shadow: 0 0 0 transparent;
+  }
+  20% {
+    transform: translate(-2px, 1px) skewX(-5deg);
+    box-shadow: -2px 1px 0 rgba(255, 0, 0, 0.6),
+      2px -1px 0 rgba(255, 251, 0, 0.6);
+  }
+  40% {
+    transform: translate(2px, -1px) skewX(5deg);
+    box-shadow: 2px -1px 0 rgba(255, 0, 0, 0.6),
+      -2px 1px 0 rgba(255, 251, 0, 0.6);
+  }
+  60% {
+    transform: translate(-1px, 1px) skewX(-3deg);
+    box-shadow: -1px 1px 0 rgba(255, 0, 0, 0.4),
+      1px -1px 0 rgba(255, 251, 0, 0.4);
+  }
+  80% {
+    transform: translate(1px, -1px) skewX(3deg);
+    box-shadow: 1px -1px 0 rgba(255, 0, 0, 0.4),
+      -1px 1px 0 rgba(255, 251, 0, 0.4);
+  }
+  100% {
+    transform: translate(0);
+    box-shadow: 0 0 0 transparent;
+  }
+}
+
+@keyframes borderDistortion {
+  0% {
+    border-width: 4px;
+    border-color: #b456f0; /* Violet */
+    color: #b456f0; /* Texte violet */
+    transform: scale(1);
+  }
+  25% {
+    border-width: 6px;
+    border-color: #fe5b83; /* Rose */
+    color: #fe5b83; /* Texte rose */
+    transform: scale(1.05) skewX(10deg);
+  }
+  50% {
+    border-width: 4px;
+    border-color: #b456f0; /* Violet */
+    color: #b456f0; /* Texte violet */
+    transform: scale(1) skewX(-10deg);
+  }
+  75% {
+    border-width: 8px;
+    border-color: #ff9002; /* Orange */
+    color: #ff9002; /* Texte orange */
+    transform: scale(1.1) skewX(5deg);
+  }
+  100% {
+    border-width: 4px;
+    border-color: #b456f0; /* Violet */
+    color: #b456f0; /* Texte violet */
+    transform: scale(1);
+  }
+}
+
 .call-to-action {
-  background-color: var(--background-color);
-  border: 6px solid var(--primary-color);
-  color: var(--text-color);
+  background-color: transparent;
+  border: 4px solid #b456f0; /* Bordure violette initiale */
+  color: #b456f0; /* Texte violet */
   border-radius: var(--border-radius);
-  padding: 15px;
-  width: 100%;
+  padding: 15px 25px;
   text-align: center;
   font-weight: 600;
   font-size: 20px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
 }
 
-.call-to-action.light {
-  background-color: initial;
-  color: var(--primary-color);
+/* Application de l'effet sur la bordure */
+.call-to-action:hover {
+  animation: borderDistortion 1.2s ease-in-out infinite;
 }
 
 /* ========== Burger Menu ========== */
@@ -339,10 +461,6 @@ p {
   background-color: var(--text-color);
   width: 100%;
   border-radius: 5px;
-}
-
-.info-importante {
-  color: var(--primary-color);
 }
 
 /* ========== Images ========== */
@@ -461,16 +579,23 @@ p {
 }
 
 @media (min-width: 768px) {
+  .hero-container .title-container h1 {
+    margin-bottom: 70px;
+  }
   .menu-desktop nav {
     display: flex;
     gap: 30px;
     align-items: center;
   }
 
+  .menu-desktop .call-to-action {
+    font-weight: 500;
+  }
+
   .menu-desktop nav a {
     font-size: 16px;
     color: white;
-    font-weight: 200;
+    font-weight: 300;
     white-space: nowrap;
   }
 
@@ -492,8 +617,8 @@ p {
     margin-right: auto;
   }
   .header-bar {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
   .container-img {
     width: 85%;
@@ -718,7 +843,7 @@ p {
   }
 
   .title-container {
-    padding-right: 50px;
+    margin-bottom: 80px;
   }
 
   .all-number {

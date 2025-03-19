@@ -7,6 +7,7 @@ import { CommentairesService } from '../commentaires.service';
   selector: 'app-list-commentaires',
   templateUrl: './list-commentaires.component.html',
   styleUrls: ['./list-commentaires.component.css'],
+  host: { ngSkipHydration: 'true' },
 })
 export class ListCommentairesComponent {
   listeCommentaires$: Observable<Commentaire[]> =

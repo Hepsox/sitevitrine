@@ -1,20 +1,27 @@
 <ng-container *ngIf="listeEtapes$ | async as listeEtapes">
-  <div class="container-tous-etape">
+  <div class="container-tous-etape" (mouseleave)="onContainerLeave()">
     <div class="side-container">
       <ng-container *ngFor="let etape of listeEtapes; let i = index">
         <div
           *ngIf="i % 2 == 0"
           class="etape"
-          (click)="
-            etapeOuverte !== i ? (etapeOuverte = i) : (etapeOuverte = null)
-          "
-          [ngClass]="{ ouverte: etapeOuverte === i }"
+          [ngClass]="{
+            ouverte: etapeOuverte === i,
+            'first-etape':
+              i === 0 &&
+              !hasExitedOnce &&
+              !otherEtapeHovered &&
+              !anyEtapeClicked
+          }"
+          (click)="onEtapeClick(i)"
+          (mouseenter)="onEtapeHover()"
+          (mouseleave)="onEtapeLeave()"
+          data-aos="fade-up"
+          [attr.data-aos-delay]="i * 100"
         >
           <span class="title">{{ etape.title }}</span>
           <p class="subtitle">{{ etape.subTitle }}</p>
-          <p class="description">
-            {{ etape.description }}
-          </p>
+          <p class="description">{{ etape.description }}</p>
           <span class="see-more">{{
             etapeOuverte !== i ? "En savoir +" : "Fermer"
           }}</span>
@@ -26,16 +33,16 @@
         <div
           *ngIf="i % 2 != 0"
           class="etape"
-          (click)="
-            etapeOuverte !== i ? (etapeOuverte = i) : (etapeOuverte = null)
-          "
           [ngClass]="{ ouverte: etapeOuverte === i }"
+          (click)="onEtapeClick(i)"
+          (mouseenter)="onEtapeHover()"
+          (mouseleave)="onEtapeLeave()"
+          data-aos="fade-up"
+          [attr.data-aos-delay]="(i + 1) * 100"
         >
           <span class="title">{{ etape.title }}</span>
           <p class="subtitle">{{ etape.subTitle }}</p>
-          <p class="description">
-            {{ etape.description }}
-          </p>
+          <p class="description">{{ etape.description }}</p>
           <span class="see-more">{{
             etapeOuverte !== i ? "En savoir +" : "Fermer"
           }}</span>

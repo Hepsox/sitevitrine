@@ -1,41 +1,33 @@
 /* list-prestations.component.css */
 .card-container {
-  position: relative; /* Permet à l'arrière-carte d'être positionnée derrière la carte */
+  position: relative;
   margin: 0px;
 }
 
 .card {
-  padding: 15px 10px;
-  border: solid 8px rgba(232, 228, 251, 0.852);
+  padding: 25px;
   border-radius: 15px;
   margin-bottom: 10px;
-  position: relative; /* Nécessaire pour le positionnement */
-  z-index: 2; /* La carte principale est au-dessus de l'arrière-carte */
-  transition: transform 0.3s ease-in-out;
+  position: relative;
+  z-index: 2;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition pour l'ombre */
+  background-color: #322947; /* Couleur de fond */
+  box-shadow: 10px 10px 0px #322947; /* Ombre simple et nette */
 }
 
 .card h3 {
-  font-size: 32px;
+  font-size: 25px;
   margin-top: 10px;
   margin-bottom: -10px;
   font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff; /* Couleur du texte */
 }
 
 .card p {
   font-size: 16px;
-  line-height: 1.6;
-  font-weight: 500;
+  line-height: 1.4;
+  font-weight: 400;
   color: rgb(255, 255, 255);
-}
-
-.arriere-carte {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #675e8782;
-  border-radius: 15px; /* Même bord arrondi que la carte principale */
-  z-index: 1; /* La carte arrière doit être derrière la carte principale */
-  transition: transform 0.3s ease-in-out;
+  letter-spacing: 0.4px;
 }

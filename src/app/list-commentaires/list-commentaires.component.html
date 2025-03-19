@@ -6,9 +6,11 @@
   <p-carousel
     [value]="listeCommentaires"
     [numVisible]="3"
+    [numScroll]="3"
     [responsiveOptions]="responsiveOptions"
     [circular]="true"
     [showNavigators]="false"
+    [autoplayInterval]="2500"
   >
     <ng-template let-commentaire pTemplate="item">
       <div

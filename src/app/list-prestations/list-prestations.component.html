@@ -1,24 +1,14 @@
 <ng-container *ngIf="listePrestations$ | async as listePrestations">
   <div *ngFor="let prestation of listePrestations; let i = index">
-    <div class="card-container">
-      <div
-        class="arriere-carte"
-        [ngStyle]="{
-          transform: getArriereCarteTransform(i)
-        }"
-      ></div>
-
-      <div
-        class="card"
-        [ngStyle]="{
-          'background-color': colors[i],
-
-          transform:
-            'rotate(' + (i === 0 ? '5deg' : i === 1 ? '-5deg' : '3deg') + ')'
-        }"
-      >
+    <div
+      class="card-container"
+      data-aos="fade-up"
+      data-aos-duration="800"
+      [attr.data-aos-delay]="300 + i * 100"
+      [attr.data-aos-once]="'true'"
+    >
+      <div class="card" [ngStyle]="getCardStyle(i)">
         <h3 [ngStyle]="{ color: colorTitles[i] }">{{ prestation.title }}</h3>
-
         <p>{{ prestation.description }}</p>
       </div>
     </div>
