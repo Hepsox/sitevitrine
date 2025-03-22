@@ -7,7 +7,6 @@ import {
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideHttpClient } from '@angular/common/http';
-import { ListEtapesComponent } from './list-etapes/list-etapes.component';
 import { ListTestimonialsComponent } from './list-commentaires/list-commentaires.component';
 import { HomeComponent } from './home/home.component';
 import { QuestionsListComponent } from './list-questions/list-questions.component';
@@ -16,11 +15,13 @@ import { SidebarModule } from 'primeng/sidebar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestimonialsService } from './services/testimonials.service';
 import { ListServicesComponent } from './list-prestations/list-prestations.component';
+import { ListStepsComponent } from './list-etapes/list-etapes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListServicesComponent,
+    ListStepsComponent,
     ListTestimonialsComponent,
     HomeComponent,
     QuestionsListComponent,

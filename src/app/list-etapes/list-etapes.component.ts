@@ -8,41 +8,40 @@ import { Step } from '../models/step.types';
   templateUrl: './list-etapes.component.html',
   styleUrls: ['./list-etapes.component.css'],
 })
-export class ListEtapesComponent {
-  listeEtapes$: Observable<Step[]> = this.service.getAllEtapes();
-  etapeOuverte: number | null = null;
-  otherEtapeHovered: boolean = false;
-  anyEtapeClicked: boolean = false;
-  hasExitedOnce: boolean = false; // Ajout d'une variable pour s'assurer que la classe disparaît après sortie
-
+export class ListStepsComponent {
+  stepsList$: Observable<Step[]> = this.service.getAllSteps();
+  openStepId: number | null = null;
+  otherStepHovered: boolean = false;
+  anyStepClicked: boolean = false;
+  hasExitedOnce: boolean = false;
   constructor(private service: StepsService) {}
 
   ngOnInit(): void {
-    this.listeEtapes$.subscribe(() => {});
+    this.stepsList$.subscribe(() => {});
   }
 
-  onEtapeClick(i: number): void {
-    if (this.etapeOuverte === i) {
-      this.etapeOuverte = null;
-      this.anyEtapeClicked = false;
+  onStepClick(i: number): void {
+    if (this.openStepId === i) {
+      this.openStepId = null;
+      this.anyStepClicked = false;
     } else {
-      this.etapeOuverte = i;
-      this.anyEtapeClicked = true;
+      this.openStepId = i;
+      this.anyStepClicked = true;
     }
-    this.hasExitedOnce = true; // Indique qu'une action a été faite
+    this.hasExitedOnce = true;
   }
 
-  onEtapeHover(): void {
-    this.otherEtapeHovered = true;
+  onStepHover(): void {
+    this.otherStepHovered = true;
   }
 
-  onEtapeLeave(): void {
-    this.otherEtapeHovered = false;
+  onStepLeave(): void {
+    this.otherStepHovered = false;
   }
 
   onContainerLeave(): void {
-    this.otherEtapeHovered = false;
-    this.etapeOuverte = null;
-    this.hasExitedOnce = true; // Marque que l'utilisateur a quitté la zone au moins une fois
+    this.otherStepHovered = false;
+    this.openStepId = null;
+    this.hasExitedOnce = true;
   }
 }

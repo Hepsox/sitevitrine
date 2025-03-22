@@ -11,7 +11,7 @@ export class StepsService {
   constructor(private http: HttpClient) {}
   private _BASE_URL = 'assets/etapes.json';
 
-  getAllEtapes(): Observable<Step[]> {
+  getAllSteps(): Observable<Step[]> {
     return this.http.get<Step[]>(this._BASE_URL);
   }
 }

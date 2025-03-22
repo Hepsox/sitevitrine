@@ -1,50 +1,47 @@
-<ng-container *ngIf="listeEtapes$ | async as listeEtapes">
-  <div class="container-tous-etape" (mouseleave)="onContainerLeave()">
+<ng-container *ngIf="stepsList$ | async as stepsList">
+  <div class="container-all-steps" (mouseleave)="onContainerLeave()">
     <div class="side-container">
-      <ng-container *ngFor="let etape of listeEtapes; let i = index">
+      <ng-container *ngFor="let step of stepsList; let i = index">
         <div
           *ngIf="i % 2 == 0"
-          class="etape"
+          class="step"
           [ngClass]="{
-            ouverte: etapeOuverte === i,
-            'first-etape':
-              i === 0 &&
-              !hasExitedOnce &&
-              !otherEtapeHovered &&
-              !anyEtapeClicked
+            open: openStepId === i,
+            'first-step':
+              i === 0 && !hasExitedOnce && !otherStepHovered && !anyStepClicked
           }"
-          (click)="onEtapeClick(i)"
-          (mouseenter)="onEtapeHover()"
-          (mouseleave)="onEtapeLeave()"
+          (click)="onStepClick(i)"
+          (mouseenter)="onStepHover()"
+          (mouseleave)="onStepLeave()"
           data-aos="fade-up"
           [attr.data-aos-delay]="i * 100"
         >
-          <span class="title">{{ etape.title }}</span>
-          <p class="subtitle">{{ etape.subTitle }}</p>
-          <p class="description">{{ etape.description }}</p>
+          <span class="title">{{ step.title }}</span>
+          <p class="subtitle">{{ step.subTitle }}</p>
+          <p class="description">{{ step.description }}</p>
           <span class="see-more">{{
-            etapeOuverte !== i ? "En savoir +" : "Fermer"
+            openStepId !== i ? "Learn more" : "Close"
           }}</span>
         </div>
       </ng-container>
     </div>
     <div class="side-container">
-      <ng-container *ngFor="let etape of listeEtapes; let i = index">
+      <ng-container *ngFor="let step of stepsList; let i = index">
         <div
           *ngIf="i % 2 != 0"
-          class="etape"
-          [ngClass]="{ ouverte: etapeOuverte === i }"
-          (click)="onEtapeClick(i)"
-          (mouseenter)="onEtapeHover()"
-          (mouseleave)="onEtapeLeave()"
+          class="step"
+          [ngClass]="{ open: openStepId === i }"
+          (click)="onStepClick(i)"
+          (mouseenter)="onStepHover()"
+          (mouseleave)="onStepLeave()"
           data-aos="fade-up"
           [attr.data-aos-delay]="(i + 1) * 100"
         >
-          <span class="title">{{ etape.title }}</span>
-          <p class="subtitle">{{ etape.subTitle }}</p>
-          <p class="description">{{ etape.description }}</p>
+          <span class="title">{{ step.title }}</span>
+          <p class="subtitle">{{ step.subTitle }}</p>
+          <p class="description">{{ step.description }}</p>
           <span class="see-more">{{
-            etapeOuverte !== i ? "En savoir +" : "Fermer"
+            openStepId !== i ? "Learn more" : "Close"
           }}</span>
         </div>
       </ng-container>
