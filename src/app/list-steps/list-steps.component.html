@@ -1,5 +1,5 @@
 <ng-container *ngIf="stepsList$ | async as stepsList">
-  <div class="container-tous-etape" (mouseleave)="onContainerLeave()">
+  <div class="all-steps-container" (mouseleave)="onContainerLeave()">
     <div class="side-container">
       <ng-container *ngFor="let step of stepsList; let i = index">
         <div

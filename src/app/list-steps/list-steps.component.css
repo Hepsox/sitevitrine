@@ -8,7 +8,7 @@
 .etape.ouverte,
 .etape.ouverte p {
   background-color: black;
-  color: white;
+  color: var(--text-color);
   font-size: 20px;
   line-height: 1.8;
 }
@@ -33,14 +33,13 @@
 
 .etape .description {
   overflow: hidden;
-  max-height: 0; /* Initialement caché */
+  max-height: 0;
   transition: max-height 0.7s ease-in-out;
 }
 
 .etape.ouverte .description {
   font-size: 20px;
-
-  max-height: 500px; /* Ajustez cette valeur selon le contenu */
+  max-height: 500px;
 }
 
 .see-more {
@@ -50,7 +49,7 @@
   font-weight: 600;
 }
 @media (min-width: 768px) {
-  .container-tous-etape {
+  .all-steps-container {
     margin-top: 150px;
     margin-bottom: 150px;
     display: grid;
@@ -92,7 +91,7 @@
   .etape:hover,
   .etape:hover p {
     background-color: black;
-    color: white;
+    color: var(--text-color);
   }
 
   @keyframes oscillation {
