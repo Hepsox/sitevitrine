@@ -4,9 +4,9 @@ import { StepsService } from '../services/steps.service';
 import { Step } from '../models/step.types';
 
 @Component({
-  selector: 'app-list-etapes',
-  templateUrl: './list-etapes.component.html',
-  styleUrls: ['./list-etapes.component.css'],
+  selector: 'app-list-steps',
+  templateUrl: './list-steps.component.html',
+  styleUrls: ['./list-steps.component.css'],
 })
 export class ListStepsComponent {
   stepsList$: Observable<Step[]> = this.service.getAllSteps();

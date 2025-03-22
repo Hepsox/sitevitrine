@@ -14,7 +14,7 @@ import { SidebarModule } from 'primeng/sidebar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestimonialsService } from './services/testimonials.service';
 import { ListServicesComponent } from './list-services/list-prestations.component';
-import { ListStepsComponent } from './list-etapes/list-etapes.component';
+import { ListStepsComponent } from './list-steps/list-steps.component';
 import { ListQuestionsComponent } from './list-questions/list-questions.component';
 
 @NgModule({
