@@ -6,7 +6,7 @@
 }
 
 .question {
-  color: white;
+  color: var(--text-color);
   display: flex;
   align-items: center;
   font-size: 20px;
@@ -24,23 +24,23 @@
 .signe-question {
   display: inline-block;
   width: 40px;
-  height: 40px; /* Dimension carrée */
+  height: 40px;
   font-size: 40px;
   color: var(--primary-bg-color);
   transition: transform 0.3s ease-in-out;
-  transform-origin: center; /* Rotation autour du centre */
+  transform-origin: center;
   position: relative;
-  line-height: 40px; /* Centrage vertical du texte */
-  text-align: center; /* Centrage horizontal */
+  line-height: 40px;
+  text-align: center;
 }
 
 .rotate {
-  transform: rotate(45deg) translateY(-5px); /* Rotation de 45° avec légère compensation verticale */
+  transform: rotate(45deg) translateY(-5px);
 }
 
 .container-question .reponse {
   overflow: hidden;
-  max-height: 0; /* Initialement caché */
+  max-height: 0;
   transition: max-height 0.7s ease-in-out;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .container-question.ouverte .reponse {
-  max-height: 500px; /* Ajustez cette valeur selon le contenu */
+  max-height: 500px;
 }
 
 @media (min-width: 768px) {
