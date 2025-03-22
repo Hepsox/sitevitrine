@@ -2,31 +2,29 @@
   {
     "id": 1,
     "question": "Combien de temps faut-il pour développer une application ou un site ?",
-    "answer": "Le délai de développement dépend de la complexité du projet. Un site simple peut être livré en quelques semaines, tandis qu'un projet plus complexe, comme une application métier, peut nécessiter entre 2 à 4 mois. Un calendrier précis vous sera fourni après discussion."
+    "answer": "Le délai de développement dépend de la complexité du projet. Un site simple peut être livré en deux semaines, tandis qu'un projet plus complexe, comme une application métier, peut nécessiter entre 2 à 4 mois. Un calendrier précis vous sera fourni après discussion."
   },
   {
     "id": 2,
-    "question": "Quels sont les tarifs de vos services ?",
-    "answer": "Les tarifs varient en fonction du type de projet. Pour un site simple, les prix commencent à partir de 1000 €. Les applications métier sur mesure sont tarifées en fonction de la complexité et des fonctionnalités demandées. Un devis personnalisé sera proposé après une première consultation."
+    "question": "Proposez-vous des solutions personnalisées ou utilisez-vous des CMS comme WordPress ?",
+    "answer": "Je propose deux types de solutions en fonction des besoins et des objectifs de votre projet. Si vous avez des exigences très spécifiques ou souhaitez une solution entièrement personnalisée, je développe des sites et applications sur mesure en codant directement. En revanche, si vous préférez une solution plus rapide et facile à gérer, je peux utiliser un CMS comme WordPress, qui permet de créer des sites professionnels avec des fonctionnalités flexibles tout en offrant une gestion simplifiée."
   },
+
   {
     "id": 3,
-    "question": "Quels types de projets réalisez-vous et seront-ils adaptés à mes besoins, y compris aux appareils mobiles ?",
-    "answer": "Je développe des applications métiers sur mesure, des sites internet, et des solutions adaptées aux besoins spécifiques de votre entreprise. Tous les projets sont conçus pour répondre précisément aux exigences de votre activité, avec une interface intuitive et des fonctionnalités sur mesure. Ils sont également optimisés pour être accessibles sur tous les appareils, y compris les smartphones et tablettes."
+    "question": "Quels sont les tarifs de vos services ?",
+    "answer": "Les tarifs varient en fonction du type et de la complexité du projet. Pour un site vitrine simple réalisé avec WordPress, les prix commencent à partir de 1600€. Cette solution rapide et flexible permet de créer des sites professionnels avec des fonctionnalités préconfigurées. En revanche, pour des applications métier sur mesure ou des sites vitrine entièrement personnalisés développés en codage, le tarif est ajusté en fonction de la complexité des fonctionnalités demandées et des spécifications spécifiques à chaque entreprise. Un devis personnalisé vous sera proposé après une première consultation pour mieux cerner vos besoins.\n\nConcernant les modalités de paiement, un acompte de 30% du montant total est demandé à la signature du devis afin de démarrer le projet. Le solde restant sera dû à la livraison du projet, une fois que vous aurez validé la solution livrée. Cela permet de garantir une transparence et une confiance tout au long du processus de développement."
   },
+
   {
     "id": 4,
-    "question": "Proposez-vous des services de maintenance et de référencement ?",
-    "answer": "Oui, je propose des services de maintenance pour assurer la sécurité et les mises à jour régulières de votre site ou application. De plus, je vous accompagne pour améliorer la visibilité de votre site sur les moteurs de recherche grâce à des optimisations SEO."
+    "question": "Proposez-vous des services de maintenance  ?",
+    "answer": "Oui, je propose des services de maintenance pour assurer la sécurité, la mise à jour régulière et le bon fonctionnement de votre site ou application. Une fois le projet terminé, vous n'êtes pas laissés à l'abandon : je continue à vous accompagner pour résoudre d'éventuels problèmes, effectuer des mises à jour et garantir la performance optimale de votre solution au fil du temps."
   },
+
   {
     "id": 5,
     "question": "Puis-je ajouter des fonctionnalités à mon application après sa mise en ligne ?",
     "answer": "Oui, il est tout à fait possible d’ajouter des fonctionnalités après la mise en ligne de votre application ou site. La structure de votre projet est conçue de manière flexible pour intégrer de futures évolutions et répondre à l’évolution de vos besoins."
-  },
-  {
-    "id": 6,
-    "question": "Combien de temps faut-il pour ajouter des fonctionnalités ou modifier un site/application ?",
-    "answer": "Le temps nécessaire dépend de la complexité des modifications. Les ajouts de fonctionnalités simples peuvent être réalisés en quelques jours, tandis que les modifications plus complexes peuvent nécessiter quelques semaines. Un planning détaillé vous sera fourni avant de commencer."
   }
 ]

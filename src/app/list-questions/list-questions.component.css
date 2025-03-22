@@ -1,5 +1,5 @@
 .container-question {
-  border-bottom: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--primary-color);
   cursor: pointer;
   padding-bottom: 10px;
   margin-bottom: 40px;

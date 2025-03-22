@@ -1,13 +1,13 @@
 .container-prestations {
-  position: relative; /* Assurez-vous que le conteneur est en position relative */
+  position: relative;
 }
 
 .container-prestations img {
   position: absolute;
-  top: 1px; /* Ajuste la position verticale */
-  right: 10px; /* Ajuste la position horizontale */
-  width: 150px; /* Ajuste la taille selon ton besoin */
-  z-index: -3; /* S'assure que l'image est au-dessus des autres éléments */
+  top: 1px;
+  right: 10px;
+  width: 150px;
+  z-index: -3;
 }
 
 .footer-logo {
