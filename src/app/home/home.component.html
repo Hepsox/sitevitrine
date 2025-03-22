@@ -7,12 +7,14 @@
       class="burger hide-desktop"
       (click)="menuVisible = !menuVisible"
       aria-label="Ouvrir le menu de navigation"
+      [attr.aria-expanded]="menuVisible ? 'true' : 'false'"
+      aria-controls="menu-mobile"
     >
       <div class="bar"></div>
       <div class="bar"></div>
     </div>
     <div class="hide-mobile menu-desktop">
-      <nav>
+      <nav aria-label="Navigation principale">
         <a href="#services">Services</a>
         <a href="#realisations">Réalisations</a>
         <a href="#deroule-projet">Déroulé d'un projet</a>
@@ -54,15 +56,14 @@
         [attr.data-aos-once]="'true'"
         class="title"
       >
-        <span> Je développe des </span>
-
+        Je développe des
         <span
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="500"
           [attr.data-aos-once]="'true'"
         >
-          <span class="info-importante effect">solutions web </span> qui allient
+          <span class="info-importante effect">solutions web</span> qui allient
           design
         </span>
         <span
@@ -105,28 +106,31 @@
 <section class="logos" #logos aria-label="Logos des entreprises partenaires">
   <div class="logos-slide" #logosSlide role="list">
     <figure role="listitem">
-      <img src="assets/logo-proximum.png" alt="Proximum" />
+      <img src="assets/logo-proximum.png" alt="Logo de l'entreprise Proximum" />
     </figure>
     <figure role="listitem">
-      <img src="assets/logo-comint.png" alt="Co'mint" />
+      <img src="assets/logo-comint.png" alt="Logo de l'entreprise Co'mint" />
     </figure>
     <figure role="listitem">
-      <img src="assets/novitoit.png" alt="Novitoit" />
+      <img src="assets/novitoit.png" alt="Logo de l'entreprise Novitoit" />
     </figure>
     <figure role="listitem">
-      <img src="assets/formaxis-logo-couleur.png" alt="Formaxis" />
+      <img
+        src="assets/formaxis-logo-couleur.png"
+        alt="Logo de l'entreprise Formaxis"
+      />
     </figure>
     <figure role="listitem">
-      <img src="assets/synapse-logo.webp" alt="Synapse" />
+      <img src="assets/synapse-logo.webp" alt="Logo de l'entreprise Synapse" />
     </figure>
     <figure role="listitem">
-      <img src="assets/ap.png" alt="Artistic Production" />
+      <img src="assets/ap.png" alt="Logo de l'entreprise Artistic Production" />
     </figure>
     <figure role="listitem">
-      <img src="assets/lp.png" alt="LP Conseil" />
+      <img src="assets/lp.png" alt="Logo de l'entreprise LP Conseil" />
     </figure>
     <figure role="listitem">
-      <img src="assets/groupe-vb.png" alt="Groupe VB" />
+      <img src="assets/groupe-vb.png" alt="Logo de l'entreprise Groupe VB" />
     </figure>
   </div>
 </section>

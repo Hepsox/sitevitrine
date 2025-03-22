@@ -631,6 +631,7 @@ p {
 
   .hero-container .title-container h1 {
     margin-bottom: 70px;
+    font-size: 60px;
   }
   .menu-desktop nav {
     display: flex;
