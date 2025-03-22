@@ -78,7 +78,7 @@ p {
   margin-bottom: 40px;
 }
 .hero-container .title-container h1 {
-  font-size: 40px;
+  font-size: 48px;
   margin-bottom: 30px;
   line-height: 1.1;
 }
@@ -286,7 +286,7 @@ p {
   font-size: 25px;
   font-weight: 500;
 
-  margin-top: -30px;
+  margin: 0;
 }
 
 .number {
@@ -394,34 +394,34 @@ p {
 
 @keyframes borderDistortion {
   0% {
-    border-width: 4px;
+    /* border-width: 4px; */
     border-color: #b456f0; /* Violet */
     color: #b456f0; /* Texte violet */
-    transform: scale(1);
+    /* transform: scale(1); */
   }
   25% {
-    border-width: 6px;
+    /* border-width: 6px; */
     border-color: #fe5b83; /* Rose */
     color: #fe5b83; /* Texte rose */
-    transform: scale(1.05) skewX(10deg);
+    /* transform: scale(1.05) skewX(10deg); */
   }
   50% {
-    border-width: 4px;
+    /* border-width: 4px; */
     border-color: #b456f0; /* Violet */
     color: #b456f0; /* Texte violet */
-    transform: scale(1) skewX(-10deg);
+    /* transform: scale(1) skewX(-10deg); */
   }
   75% {
-    border-width: 8px;
+    /* border-width: 8px; */
     border-color: #ff9002; /* Orange */
     color: #ff9002; /* Texte orange */
-    transform: scale(1.1) skewX(5deg);
+    /* transform: scale(1.1) skewX(5deg); */
   }
   100% {
-    border-width: 4px;
+    /* border-width: 4px; */
     border-color: #b456f0; /* Violet */
     color: #b456f0; /* Texte violet */
-    transform: scale(1);
+    /* transform: scale(1); */
   }
 }
 
@@ -435,7 +435,6 @@ p {
   font-weight: 600;
   font-size: 20px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
   position: relative;
   overflow: hidden;
   display: inline-block;
@@ -529,12 +528,13 @@ p {
 }
 
 .p-sidebar-icon {
-  background-color: var(--background-color);
+  background-color: #0f0220;
   padding: 30px;
   margin-top: -18px;
   margin-right: -20px;
   border-radius: 0;
   color: white;
+  z-index: 5;
 }
 
 .menu-mobile {
@@ -552,7 +552,7 @@ p {
   align-items: center;
   width: 100%;
   border-radius: 15px;
-  height: 70%;
+  height: 85%;
   padding-top: 50px;
 }
 
@@ -570,15 +570,61 @@ p {
 
 .menu-mobile .call-to-action {
   margin-top: 30px;
-  background-color: var(--primary-color);
-  border-color: white;
 }
 
 .menu-mobile nav a:visited {
   color: white;
 }
+.star1 {
+  width: 50px;
+  top: 20%;
+  right: -4%;
+  transform: rotate(15deg);
+}
+.star2 {
+  width: 50px;
 
+  top: 30%;
+  right: 46%;
+  transform: rotate(-10deg);
+}
+.star3 {
+  width: 50px;
+
+  bottom: 36%;
+  right: 3%;
+  transform: rotate(25deg);
+}
 @media (min-width: 768px) {
+  .services {
+    position: relative; /* Permet de positionner les étoiles en absolu */
+  }
+
+  .decor-star {
+    position: absolute;
+    width: 40px; /* Ajuste la taille des étoiles */
+    height: auto;
+    opacity: 0.7;
+    z-index: 10;
+  }
+
+  /* Positionnement aléatoire des étoiles */
+  .star1 {
+    top: 20%;
+    right: -5%;
+    transform: rotate(15deg);
+  }
+  .star2 {
+    top: 30%;
+    right: 46%;
+    transform: rotate(-10deg);
+  }
+  .star3 {
+    bottom: 36%;
+    right: 0%;
+    transform: rotate(25deg);
+  }
+
   .hero-container .title-container h1 {
     margin-bottom: 70px;
   }
@@ -597,6 +643,39 @@ p {
     color: white;
     font-weight: 300;
     white-space: nowrap;
+    position: relative; /* Nécessaire pour positionner la barre sous le texte */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    transition: color 0.3s ease; /* Animation de la couleur du texte */
+  }
+
+  .menu-desktop nav a:not(.call-to-action) {
+    padding-bottom: 5px; /* Espace sous le texte pour le soulignement */
+  }
+
+  /* Appliquer uniquement aux autres liens (pas .call-to-action) */
+  .menu-desktop nav a:not(.call-to-action)::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px; /* Hauteur de la barre sous le texte */
+    border-radius: 2px;
+    background-color: #ff9002; /* Couleur initiale de la barre (orange) */
+    transition: width 0.5s ease, background-color 1s ease; /* Transition pour la largeur et la couleur */
+  }
+
+  /* Effet au survol : étend la barre sous le texte et change la couleur progressivement */
+  .menu-desktop nav a:not(.call-to-action):hover::after {
+    width: 100%; /* La barre s'étend sur toute la largeur du texte */
+    background-color: var(--primary-bg-color); /* Change d'abord à rose */
+    transition: width 1s ease, background-color 0.5s ease; /* Transition de couleur et de largeur */
+  }
+
+  /* Une fois l'extension terminée, la couleur change pour violet */
+  .menu-desktop nav a:not(.call-to-action):hover::after {
+    background-color: #b456f0; /* Finalement, la barre devient violette */
+    transition: width 1s ease, background-color 0.5s ease; /* Transition continue après que la barre soit étendue */
   }
 
   .commentaires {

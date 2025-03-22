@@ -16,7 +16,7 @@
 .question h4 {
   margin-bottom: 0;
   margin-top: 0;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.4;
   margin-left: 10px;
 }
@@ -56,5 +56,9 @@
 @media (min-width: 768px) {
   .container-all-question {
     max-width: 70%;
+  }
+
+  .question h4 {
+    font-size: 22px;
   }
 }

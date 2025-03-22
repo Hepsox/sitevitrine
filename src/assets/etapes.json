@@ -2,25 +2,25 @@
   {
     "id": 1,
     "title": "Définition du projet et réflexion globale",
-    "subTitle": "Nous définissons ensemble votre projet afin de mieux comprendre vos besoins et vos objectifs.",
-    "description": "Après notre premier contact, par e-mail ou téléphone, nous prendrons le temps d’échanger sur votre projet pour mieux comprendre votre entreprise, son histoire, ses valeurs et les objectifs que vous souhaitez atteindre avec votre solution numérique. Suite à cet échange, je vous enverrai une proposition commerciale avec différentes formules, afin que vous puissiez choisir celle qui correspond le mieux à vos besoins. Une fois la proposition validée, nous travaillerons ensemble sur le message et l’image que vous souhaitez véhiculer à travers votre solution. Je m’assurerai d’intégrer votre projet dans votre univers et votre communication de manière stratégique."
+    "subTitle": "Analyse approfondie de vos besoins et objectifs métier.",
+    "description": "Après notre premier échange, je m'assure de bien comprendre les spécificités de votre entreprise, vos processus métiers et vos objectifs. Je vous enverrai une proposition commerciale avec des options adaptées à vos besoins, afin que vous puissiez choisir celle qui vous correspond. Ensuite, nous travaillerons ensemble sur l’image et les fonctionnalités essentielles de votre solution numérique, qu’il s’agisse d’un site web, d’une application métier ou d’un logiciel personnalisé."
   },
   {
     "id": 2,
     "title": "Conception UI/UX et charte graphique",
-    "subTitle": "Nous créons le prototype avec un design cohérent et une navigation fluide, selon vos besoins.",
-    "description": "Une fois la stratégie définie, vous passez à la phase de création ! C’est le moment où le premier prototype de votre solution est développé. Un univers graphique cohérent et impactant vous est proposé, avec une mise en page intuitive et une navigation fluide. Cette maquette vous est présentée afin que vous puissiez valider qu’elle intègre bien tous les éléments essentiels de votre projet."
+    "subTitle": "Création du prototype et design sur mesure adapté à vos utilisateurs.",
+    "description": "Une fois la stratégie définie, je commence la création du prototype de votre solution. Que ce soit une application métier, un site web ou un logiciel spécifique à votre activité, je conçois une interface intuitive et un design cohérent, en prenant en compte vos besoins spécifiques et l’expérience utilisateur. Ce prototype est ensuite validé pour assurer qu’il répond à vos attentes."
   },
   {
     "id": 3,
     "title": "Développement de votre application",
-    "subTitle": "Développement des fonctionnalités avec les technologies adaptées pour votre projet.",
-    "description": "Une fois la conception validée, nous passons à l’étape du développement. C’est ici que les fonctionnalités de votre solution prennent vie. Nous procédons à l’implémentation des technologies les plus adaptées à votre projet, en veillant à ce que chaque fonctionnalité réponde précisément à vos besoins. Chaque détail est intégré de manière fluide et efficace pour garantir un fonctionnement optimal. Cette étape permet de transformer la maquette en un produit réel, performant et prêt à être utilisé."
+    "subTitle": "Création de fonctionnalités adaptées à votre métier et à vos processus.",
+    "description": "Une fois le prototype validé, je passe au développement de votre solution sur mesure. Que ce soit pour un site web, une application métier ou un logiciel, chaque fonctionnalité est intégrée selon vos besoins spécifiques. Je m’assure que chaque détail est optimisé pour améliorer les processus internes de votre entreprise et garantir une solution performante et adaptée."
   },
   {
     "id": 4,
     "title": "Tests, mise en ligne et suivi du projet",
-    "subTitle": "Déploiement et suivi régulier pour assurer la qualité, la performance et l’évolution continue du projet.",
-    "description": "Lors de cette étape, des tests rigoureux sont effectués pour vérifier la qualité et les performances de l’application. Une fois ces vérifications réalisées, le site ou l’application est déployé sur un serveur sécurisé et l’hébergement est configuré pour garantir un fonctionnement optimal. Un suivi régulier est ensuite effectué, avec des corrections de bugs et l’ajout de nouvelles fonctionnalités selon vos besoins. En général, un site internet est livré sous 2 à 3 semaines, après validation de votre part. Une fois toutes les vérifications effectuées de mon côté et votre validation obtenue, la mise en ligne de votre projet est prise en charge. Si vous le souhaitez, une formation vous sera proposée pour vous permettre de gérer votre site de manière autonome"
+    "subTitle": "Déploiement sécurisé et suivi continu pour garantir la performance et l’évolution de votre solution.",
+    "description": "Après des tests rigoureux pour garantir la qualité de la solution, je déploie votre site, application ou logiciel sur un serveur sécurisé. Un suivi régulier est effectué pour corriger d’éventuels bugs, optimiser les performances et ajouter de nouvelles fonctionnalités selon l’évolution de vos besoins métier. Je propose également une formation pour vous permettre de gérer votre solution de manière autonome."
   }
 ]

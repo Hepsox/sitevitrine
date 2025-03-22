@@ -20,7 +20,7 @@
   margin-top: 10px;
   margin-bottom: -10px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #ffffff; /* Couleur du texte */
 }
 
@@ -30,4 +30,10 @@
   font-weight: 400;
   color: rgb(255, 255, 255);
   letter-spacing: 0.4px;
+}
+
+@media (min-width: 768px) {
+  .card h3 {
+    font-size: 25px;
+  }
 }

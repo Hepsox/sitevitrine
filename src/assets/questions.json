@@ -1,27 +1,32 @@
 [
   {
     "id": 1,
-    "question": "Quel est le prix d'un site web ou d'une application ?",
-    "answer": "Tous les projets sont différents et nécessitent une étude précise pour fixer un tarif précis.Cependant, de manière générale, la création d’un site vitrine se situe entre 1500 € et 2500 € en fonction du nombre de pages.Le prix d’un site e-commerce se situe entre 3000 € pour les sites avec une vingtaine de références produits et 5000 € pour les sites avec plus de 80 références. "
+    "question": "Combien de temps faut-il pour développer une application ou un site ?",
+    "answer": "Le délai de développement dépend de la complexité du projet. Un site simple peut être livré en quelques semaines, tandis qu'un projet plus complexe, comme une application métier, peut nécessiter entre 2 à 4 mois. Un calendrier précis vous sera fourni après discussion."
   },
   {
     "id": 2,
-    "question": "Pourrais-je moi-même modifier le contenu de mon site ?",
-    "answer": "Oui, il suffit d’en faire la demande au début du projet. Je mettrai tout en place pour que vous puissiez modifier aisément le contenu (textes et photos) de votre site. Développant votre site internet avec le CMS WordPress, vous pourrez être 100% autonome dès la mise en ligne de votre site web. Je prends également le temps de vous former pendant une heure et je fournis tous les supports vidéo nécessaires pour que vous puissiez modifier votre contenu. "
+    "question": "Quels sont les tarifs de vos services ?",
+    "answer": "Les tarifs varient en fonction du type de projet. Pour un site simple, les prix commencent à partir de 1000 €. Les applications métier sur mesure sont tarifées en fonction de la complexité et des fonctionnalités demandées. Un devis personnalisé sera proposé après une première consultation."
   },
   {
     "id": 3,
-    "question": "Est-ce qu'il y a un abonnement à payer après la livraison de mon site ?",
-    "answer": "Non, une fois la mise en ligne de votre site, vous n’aurez plus rien à me payer. Vous êtes propriétaire de votre site et vous n’avez pas d’abonnement à payer. Vous devrez simplement payer l’hébergement de votre site internet et le nom de domaine chaque année. "
+    "question": "Quels types de projets réalisez-vous et seront-ils adaptés à mes besoins, y compris aux appareils mobiles ?",
+    "answer": "Je développe des applications métiers sur mesure, des sites internet, et des solutions adaptées aux besoins spécifiques de votre entreprise. Tous les projets sont conçus pour répondre précisément aux exigences de votre activité, avec une interface intuitive et des fonctionnalités sur mesure. Ils sont également optimisés pour être accessibles sur tous les appareils, y compris les smartphones et tablettes."
   },
   {
     "id": 4,
-    "question": "Proposez-vous du référencement naturel (SEO) ?",
-    "answer": "Oui je me charge de l’optimisation SEO de votre site internet. L’objectif est que votre site internet se fasse une place sur les moteurs de recherches en utilisant les bonnes pratiques SEO. "
+    "question": "Proposez-vous des services de maintenance et de référencement ?",
+    "answer": "Oui, je propose des services de maintenance pour assurer la sécurité et les mises à jour régulières de votre site ou application. De plus, je vous accompagne pour améliorer la visibilité de votre site sur les moteurs de recherche grâce à des optimisations SEO."
   },
   {
     "id": 5,
-    "question": "Offrez-vous des formations pour gérer mon site ?",
-    "answer": "Oui, je peux vous proposer une formation personnalisée pour vous apprendre à gérer votre site, ajouter du contenu et optimiser le référencement."
+    "question": "Puis-je ajouter des fonctionnalités à mon application après sa mise en ligne ?",
+    "answer": "Oui, il est tout à fait possible d’ajouter des fonctionnalités après la mise en ligne de votre application ou site. La structure de votre projet est conçue de manière flexible pour intégrer de futures évolutions et répondre à l’évolution de vos besoins."
+  },
+  {
+    "id": 6,
+    "question": "Combien de temps faut-il pour ajouter des fonctionnalités ou modifier un site/application ?",
+    "answer": "Le temps nécessaire dépend de la complexité des modifications. Les ajouts de fonctionnalités simples peuvent être réalisés en quelques jours, tandis que les modifications plus complexes peuvent nécessiter quelques semaines. Un planning détaillé vous sera fourni avant de commencer."
   }
 ]
