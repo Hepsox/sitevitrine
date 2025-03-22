@@ -8,8 +8,8 @@
 
   --background-color: radial-gradient(
     circle,
-    rgb(58, 32, 103) 0%,
-    rgba(15, 2, 33, 1) 74%
+    rgb(38, 20, 71) 40%,
+    /* Le cercle central plus large */ rgba(15, 2, 33, 1) 80%
   );
   --background-light: white;
 
@@ -34,8 +34,23 @@
 /* ========== Style Global ========== */
 body {
   background: var(--background-color);
+  background-size: 300% 300%; /* Agrandir l'halo autour du cercle */
+  animation: moveBackground 30s ease infinite; /* L'animation est plus lente ici */
   margin: 0;
   padding: 0;
+  height: 100vh;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
 }
 
 h1,
