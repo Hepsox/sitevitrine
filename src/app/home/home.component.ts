@@ -19,7 +19,7 @@ export class HomeComponent implements AfterViewInit {
     { label: 'Avis clients', href: '#avis' },
     { label: 'FAQ', href: '#faq' },
     {
-      label: 'Réservez un appel',
+      label: 'Réservez un appel gratuit',
       href: 'https://calendly.com/marie-delaire-prise-rdv/30min',
       class: 'call-to-action',
       isExternal: true,
