@@ -11,7 +11,7 @@ import { ListPrestationsComponent } from './list-prestations/list-prestations.co
 import { ListEtapesComponent } from './list-etapes/list-etapes.component';
 import { ListCommentairesComponent } from './list-commentaires/list-commentaires.component';
 import { HomeComponent } from './home/home.component';
-import { ListQuestionsComponent } from './list-questions/list-questions.component';
+import { QuestionsListComponent } from './list-questions/list-questions.component';
 import { CarouselModule } from 'primeng/carousel';
 import { SidebarModule } from 'primeng/sidebar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -23,7 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ListEtapesComponent,
     ListCommentairesComponent,
     HomeComponent,
-    ListQuestionsComponent,
+    QuestionsListComponent,
   ],
   imports: [
     BrowserModule,
