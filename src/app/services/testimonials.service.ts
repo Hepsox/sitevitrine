@@ -8,7 +8,7 @@ import { Testimonial } from '../models/testimonial.interfaces';
 })
 export class TestimonialsService {
   constructor(private http: HttpClient) {}
-  private _BASE_URL = 'assets/testimonials.json';
+  private _BASE_URL = 'assets/data/testimonials.json';
 
   getAllTestimonials(): Observable<Testimonial[]> {
     return this.http.get<Testimonial[]>(this._BASE_URL);

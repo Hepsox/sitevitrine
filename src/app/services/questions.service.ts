@@ -8,7 +8,7 @@ import { Question } from '../models/questions.types';
 })
 export class QuestionsService {
   constructor(private http: HttpClient) {}
-  private _BASE_URL = 'assets/questions.json';
+  private _BASE_URL = 'assets/data/questions.json';
 
   getAllQuestions(): Observable<Question[]> {
     return this.http.get<Question[]>(this._BASE_URL);

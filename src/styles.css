@@ -57,22 +57,19 @@ p {
   font-size: 20px;
   font-weight: 400;
 }
-
-.info-importante {
+.desktop-container {
+  padding: 0 15px;
+}
+.important-info {
   color: var(--primary-color);
   font-weight: bold;
 }
 
+/* SECTION HERO */
+
 .hero-img {
   border-radius: 20px;
 }
-
-.desktop-container {
-  padding: 0 15px;
-}
-
-/* HERO SECTION */
-
 .title-container {
   margin-top: 70px;
   margin-bottom: 40px;
@@ -85,21 +82,6 @@ p {
 
 .hero-container .title-container .container-btn {
   display: inline;
-}
-
-.etape {
-  background-color: white; /* Couleur par défaut */
-  transition: background-color 0.3s ease;
-}
-
-.first-etape {
-  background-color: #a255f9;
-  border-color: #a255f9 !important;
-  color: white;
-}
-
-.etape-ouverte {
-  background-color: #f0f0f0; /* Couleur lorsque l'étape est ouverte */
 }
 
 /* SLIDER LOGO */
@@ -117,8 +99,8 @@ p {
 }
 
 .logos-slide figure {
-  display: inline; /* Ajoute cette règle pour remettre les <figure> en ligne */
-  margin: 0; /* Assure qu'il n'y a pas de marge ajoutée autour des <figure> */
+  display: inline;
+  margin: 0;
 }
 
 .logos-slide img {
@@ -129,28 +111,22 @@ p {
 
 /* SECTION SERVICE */
 
-.services {
-  margin-bottom: 100px;
-}
-
-.services .left h2 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.services .left p {
-  font-size: 20px;
-  line-height: 1.8;
-}
-
-.service-call-to-action {
-  margin-bottom: 100px;
-}
-
 .container-prestations {
   margin-top: 80px;
 }
 
 /* SECTION ETAPES */
+
+.etape {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.first-etape {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color) !important;
+  color: var(--text-color);
+}
 
 .container-all-steps {
   background-color: #ffffff;

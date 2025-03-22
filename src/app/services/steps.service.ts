@@ -9,7 +9,7 @@ import { Step } from '../models/step.types';
 })
 export class StepsService {
   constructor(private http: HttpClient) {}
-  private _BASE_URL = 'assets/steps.json';
+  private _BASE_URL = 'assets/data/steps.json';
 
   getAllSteps(): Observable<Step[]> {
     return this.http.get<Step[]>(this._BASE_URL);

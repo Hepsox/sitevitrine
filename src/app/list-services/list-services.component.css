@@ -1,4 +1,7 @@
-/* list-prestations.component.css */
+.services {
+  margin-bottom: 100px;
+}
+
 .card-container {
   position: relative;
   margin: 0px;
@@ -10,9 +13,9 @@
   margin-bottom: 10px;
   position: relative;
   z-index: 2;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition pour l'ombre */
-  background-color: #322947; /* Couleur de fond */
-  box-shadow: 10px 10px 0px #322947; /* Ombre simple et nette */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: #322947;
+  box-shadow: 10px 10px 0px #322947;
 }
 
 .card h3 {
@@ -20,8 +23,7 @@
   margin-top: 10px;
   margin-bottom: -10px;
   font-weight: 700;
-  /* text-transform: uppercase; */
-  color: #ffffff; /* Couleur du texte */
+  color: var(--text-color);
 }
 
 .card p {
@@ -30,6 +32,19 @@
   font-weight: 400;
   color: rgb(255, 255, 255);
   letter-spacing: 0.4px;
+}
+
+.services .left h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.services .left p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.service-call-to-action {
+  margin-bottom: 100px;
 }
 
 @media (min-width: 768px) {
