@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "title": "Définition du projet et réflexion globale",
+    "title": "Définition du projet et proposition de devis",
     "subTitle": "Analyse approfondie de vos besoins et objectifs métier.",
-    "description": "Après notre premier échange, je m'assure de bien comprendre les spécificités de votre entreprise, vos processus métiers et vos objectifs. Je vous enverrai une proposition commerciale avec des options adaptées à vos besoins, afin que vous puissiez choisir celle qui vous correspond. Ensuite, nous travaillerons ensemble sur l’image et les fonctionnalités essentielles de votre solution numérique, qu’il s’agisse d’un site web, d’une application métier ou d’un logiciel personnalisé."
+    "description": "Après notre premier échange, je m'assure de bien comprendre les spécificités de votre entreprise, vos processus et vos objectifs. Je vous enverrai un devis détaillé avec des options adaptées à vos besoins, pour que vous puissiez choisir celle qui vous convient le mieux. Ensuite, nous travaillerons ensemble sur l'image et les fonctionnalités essentielles de votre projet, qu'il s'agisse d'un site web, d'une application métier ou d'un logiciel sur mesure."
   },
   {
     "id": 2,
-    "title": "Conception UI/UX et charte graphique",
+    "title": "Création de la maquette de votre projet",
     "subTitle": "Création du prototype et design sur mesure adapté à vos utilisateurs.",
-    "description": "Une fois la stratégie définie, je commence la création du prototype de votre solution. Que ce soit une application métier, un site web ou un logiciel spécifique à votre activité, je conçois une interface intuitive et un design cohérent, en prenant en compte vos besoins spécifiques et l’expérience utilisateur. Ce prototype est ensuite validé pour assurer qu’il répond à vos attentes."
+    "description": "Une fois le devis validé et le projet bien défini, je passe à la création du prototype en concevant des maquettes détaillées. Je travaille sur une interface intuitive et un design cohérent, en prenant en compte vos besoins spécifiques ainsi que l’expérience utilisateur pour garantir une navigation fluide. Chaque élément est pensé pour être à la fois fonctionnel et esthétique, afin de refléter l’image de votre entreprise. Le prototype est ensuite soumis à votre validation pour m'assurer qu'il répond pleinement à vos attentes avant de passer à la phase suivante."
   },
   {
     "id": 3,
     "title": "Développement de votre application",
     "subTitle": "Création de fonctionnalités adaptées à votre métier et à vos processus.",
-    "description": "Une fois le prototype validé, je passe au développement de votre solution sur mesure. Que ce soit pour un site web, une application métier ou un logiciel, chaque fonctionnalité est intégrée selon vos besoins spécifiques. Je m’assure que chaque détail est optimisé pour améliorer les processus internes de votre entreprise et garantir une solution performante et adaptée."
+    "description": "Une fois le prototype validé, je passe au développement de votre solution sur mesure. Que ce soit pour un site web, une application métier ou un logiciel, chaque fonctionnalité est intégrée en utilisant des technologies adaptées, avec un soin particulier pour la qualité du code et la performance. Je veille à ce que chaque détail soit optimisé pour répondre précisément à vos besoins et garantir une solution efficace et fluide."
   },
   {
     "id": 4,

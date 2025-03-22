@@ -1,13 +1,14 @@
 <ng-container *ngIf="testimonialsList$ | async as testimonialsList">
   <div class="container-commentaires"></div>
   <p-carousel
+    #carousel
     [value]="testimonialsList"
     [numVisible]="3"
     [numScroll]="1"
     [responsiveOptions]="responsiveOptions"
     [circular]="true"
     [showNavigators]="false"
-    [autoplayInterval]="2500"
+    [autoplayInterval]="3500"
   >
     <ng-template let-commentaire pTemplate="item">
       <div
@@ -54,6 +55,6 @@
         </div>
         <p>{{ commentaire.comment }}</p>
       </div>
-    </ng-template></p-carousel
-  >
+    </ng-template>
+  </p-carousel>
 </ng-container>

@@ -1,7 +1,6 @@
 /* ========== Variables Globales ========== */
 :root {
   --primary-color: #a256f9;
-  --secondary-color: #b456f0;
   --tertiary-color: #ff9100;
 
   --text-color: white;
@@ -197,9 +196,15 @@ p {
 
 /* SECTION ETAPES */
 
+.etape:hover,
+.etape:hover p {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
 .etape {
   background-color: var(--text-color);
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition sur les propriétés */
 }
 
 .first-etape {
@@ -401,7 +406,7 @@ p {
   border-radius: 10px;
 }
 .p-carousel-indicator.p-highlight button {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .commentaires .commentaires-img {

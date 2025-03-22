@@ -7,7 +7,7 @@
 
 .etape.ouverte,
 .etape.ouverte p {
-  background-color: black;
+  background-color: var(--primary-color);
   color: var(--text-color);
   font-size: 20px;
   line-height: 1.8;
@@ -15,7 +15,7 @@
 
 .etape {
   padding: 60px 15px 20px;
-  border: 1px solid black;
+  border: 1px solid var(--primary-color);
   border-radius: 10px;
   cursor: pointer;
 }
@@ -34,7 +34,7 @@
 .etape .description {
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.7s ease-in-out;
+  transition: max-height 1.7s ease-in-out;
 }
 
 .etape.ouverte .description {
@@ -86,12 +86,6 @@
   .description {
     font-size: 16px;
     line-height: 1.4;
-  }
-
-  .etape:hover,
-  .etape:hover p {
-    background-color: black;
-    color: var(--text-color);
   }
 
   @keyframes oscillation {

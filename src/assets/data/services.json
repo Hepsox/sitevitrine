@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "title": "Sites web et vitrines",
-    "description": "Je crée des sites vitrines modernes et professionnels pour présenter efficacement votre entreprise en ligne, avec une interface fluide et responsive, optimisée pour le SEO."
+    "title": "Sites web vitrines",
+    "description": "Je crée des sites vitrines modernes et professionnels pour mettre en avant votre entreprise en ligne. Ces sites offrent une navigation fluide, s’adaptent à tous les appareils (ordinateur, tablette, mobile), et sont optimisés pour améliorer votre visibilité sur Google."
   },
   {
     "id": 2,
     "title": "Solutions e-commerce",
-    "description": "Je développe des boutiques en ligne sécurisées et sur mesure, avec gestion des produits, des commandes et des paiements, pour offrir une expérience d'achat optimale."
+    "description": "Je développe des boutiques en ligne sur mesure, sécurisées et faciles à gérer. Vous pourrez facilement gérer vos produits, vos commandes et les paiements, tout en offrant à vos clients une expérience d'achat fluide et agréable."
   },
   {
     "id": 3,
     "title": "Applications et logiciels sur mesure",
-    "description": "Je conçois des applications web et des logiciels sur mesure pour répondre aux besoins spécifiques de votre entreprise, en optimisant vos processus et en améliorant l'efficacité."
+    "description": "Je conçois des applications web et des logiciels sur mesure, performants et adaptés aux besoins spécifiques de votre entreprise, avec une architecture robuste et une interface fluide."
   }
 ]
