@@ -84,6 +84,44 @@ p {
   width: 100%;
   border-radius: 5px;
 }
+.menu-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.menu-mobile nav {
+  background-color: #0f0221;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-radius: 15px;
+  height: 85%;
+  padding-top: 50px;
+}
+
+.menu-mobile nav a {
+  display: inline-block;
+  background-color: #140429;
+  margin: 8px;
+  width: 92%;
+  padding-left: 20px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.menu-mobile .call-to-action {
+  margin-top: 30px;
+}
+
+.menu-mobile nav a:visited {
+  color: white;
+}
 
 /* ========== Images ========== */
 .img-fluid {
@@ -200,6 +238,8 @@ p {
   font-size: 20px;
   line-height: 1.8;
 }
+
+/* ========== SECTION NUMBER ========== */
 
 .parent {
   display: grid;
@@ -382,44 +422,6 @@ p {
   z-index: 5;
 }
 
-.menu-mobile {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.menu-mobile nav {
-  background-color: #0f0221;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  border-radius: 15px;
-  height: 85%;
-  padding-top: 50px;
-}
-
-.menu-mobile nav a {
-  display: inline-block;
-  background-color: #140429;
-  margin: 8px;
-  width: 92%;
-  padding-left: 20px;
-  padding-top: 28px;
-  padding-bottom: 28px;
-  border-radius: 10px;
-  font-size: 20px;
-}
-
-.menu-mobile .call-to-action {
-  margin-top: 30px;
-}
-
-.menu-mobile nav a:visited {
-  color: white;
-}
 .icon1 {
   width: 50px;
   top: 20%;
@@ -547,7 +549,14 @@ p {
     transform: translateX(-100%);
   }
 }
+
+/* ========== RESPONSIVE ========== */
+
 @media (min-width: 768px) {
+  .desktop-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   .services {
     position: relative;
   }
@@ -595,39 +604,36 @@ p {
     color: white;
     font-weight: 300;
     white-space: nowrap;
-    position: relative; /* Nécessaire pour positionner la barre sous le texte */
-    text-decoration: none; /* Supprime le soulignement par défaut */
-    transition: color 0.3s ease; /* Animation de la couleur du texte */
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease;
   }
 
   .menu-desktop nav a:not(.call-to-action) {
-    padding-bottom: 5px; /* Espace sous le texte pour le soulignement */
+    padding-bottom: 5px;
   }
 
-  /* Appliquer uniquement aux autres liens (pas .call-to-action) */
   .menu-desktop nav a:not(.call-to-action)::after {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0;
-    height: 3px; /* Hauteur de la barre sous le texte */
+    height: 3px;
     border-radius: 2px;
-    background-color: #ff9002; /* Couleur initiale de la barre (orange) */
-    transition: width 0.5s ease, background-color 1s ease; /* Transition pour la largeur et la couleur */
+    background-color: var(--tertiary-bg-color);
+    transition: width 0.5s ease, background-color 1s ease;
   }
 
-  /* Effet au survol : étend la barre sous le texte et change la couleur progressivement */
   .menu-desktop nav a:not(.call-to-action):hover::after {
-    width: 100%; /* La barre s'étend sur toute la largeur du texte */
-    background-color: var(--primary-bg-color); /* Change d'abord à rose */
-    transition: width 1s ease, background-color 0.5s ease; /* Transition de couleur et de largeur */
+    width: 100%;
+    background-color: var(--primary-bg-color);
+    transition: width 1s ease, background-color 0.5s ease;
   }
 
-  /* Une fois l'extension terminée, la couleur change pour violet */
   .menu-desktop nav a:not(.call-to-action):hover::after {
-    background-color: #b456f0; /* Finalement, la barre devient violette */
-    transition: width 1s ease, background-color 0.5s ease; /* Transition continue après que la barre soit étendue */
+    background-color: var(--primary-color);
+    transition: width 1s ease, background-color 0.5s ease;
   }
 
   .commentaires {
@@ -682,16 +688,8 @@ p {
     line-height: 1.4;
   }
 
-  .desktop-container {
-    max-width: 1280px;
-    margin: 0 auto;
-  }
-
   .parent {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 25px;
-    grid-row-gap: 25px;
   }
 
   .square {
@@ -700,84 +698,15 @@ p {
   }
 
   .div1 {
-    background-image: url("assets/dsn-conseil-1.jpg");
-    background-size: cover; /* L'image couvre toute la div */
-    background-position: center; /* L'image est centrée dans la div */
-    height: 500px; /* Hauteur fixe de 800px pour div1 et div6 */
-    display: flex;
-    justify-content: center;
-    color: white; /* Texte visible sur l'image */
-    font-weight: bold;
-    font-size: 16px; /* Taille du texte */
-    border-radius: 10px;
+    height: 500px;
   }
 
   .div6 {
-    background-image: url("assets/proximum-formations.jpg");
-    background-size: cover; /* L'image couvre toute la div */
-    background-position: center; /* L'image est centrée dans la div */
-    height: 500px; /* Hauteur fixe de 800px pour div1 et div6 */
-    display: flex;
-    justify-content: center;
-    color: white; /* Texte visible sur l'image */
-    font-weight: bold;
-    font-size: 16px; /* Taille du texte */
-    border-radius: 10px;
+    height: 500px;
   }
 
   .div2 {
-    background-image: url("assets/rasta-1.jpg");
-    background-size: cover; /* L'image couvre toute la div */
-    background-position: center; /* L'image est centrée dans la div */
-    background-repeat: no-repeat; /* L'image ne se répète pas */
-    display: flex;
     height: 323px;
-
-    font-weight: bold;
-    font-size: 13px; /* Taille du texte */
-    border-radius: 10px;
-  }
-
-  .div3 {
-    background-color: #ff9100; /* Couleur de fond pour div3 */
-    display: flex;
-    flex-direction: column;
-
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  .div4 {
-    background-color: #ff5c83; /* Couleur de fond pour div4 */
-    display: flex;
-    flex-direction: column;
-
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  .div5 {
-    background-color: #b456f0; /* Couleur de fond pour div5 */
-    display: flex;
-    flex-direction: column;
-
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  .div3 h1,
-  .div4 h1,
-  .div5 h1 {
-    font-size: 35px;
-    margin-top: -30px;
-  }
-
-  .div3 h2,
-  .div4 h2,
-  .div5 h2 {
-    font-size: 16px;
-    font-weight: 400;
-    margin: 5px 0;
   }
 
   .number {
@@ -839,7 +768,7 @@ p {
   }
 
   .full-width-white {
-    background-color: white;
+    background-color: var(--text-color);
   }
 
   .steps {
