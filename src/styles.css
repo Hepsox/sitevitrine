@@ -116,6 +116,11 @@ p {
   animation: 10s slide infinite linear;
 }
 
+.logos-slide figure {
+  display: inline; /* Ajoute cette règle pour remettre les <figure> en ligne */
+  margin: 0; /* Assure qu'il n'y a pas de marge ajoutée autour des <figure> */
+}
+
 .logos-slide img {
   height: 40px;
   margin: 0 50px;

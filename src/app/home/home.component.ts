@@ -1,16 +1,9 @@
-import {
-  AfterViewInit,
-  Component,
-  ElementRef,
-  OnInit,
-  ViewChild,
-} from '@angular/core';
-import { After } from 'v8';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css',
+  styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements AfterViewInit {
   @ViewChild('logosSlide', { static: false }) logosSlide!: ElementRef;
@@ -30,6 +23,11 @@ export class HomeComponent implements AfterViewInit {
     const copy = this.logosSlide.nativeElement.cloneNode(true);
     const logosContainer = this.logos.nativeElement;
     logosContainer?.appendChild(copy);
+
+    const clonedLogosSlide = logosContainer.querySelector('.logos-slide');
+    if (clonedLogosSlide) {
+      clonedLogosSlide.style.animation = '10s slide infinite linear';
+    }
   }
 
   showMenu() {
