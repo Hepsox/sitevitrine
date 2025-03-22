@@ -39,7 +39,7 @@ export class ListStepsComponent {
     this.otherStepHovered = false;
   }
 
-  onContainerLeave(): void {
+  onContainerEnter(): void {
     this.otherStepHovered = false;
     this.openStepId = null;
     this.hasExitedOnce = true;
