@@ -20,6 +20,7 @@
           [href]="link.href"
           [attr.target]="link.isExternal ? '_blank' : null"
           [attr.rel]="link.isExternal ? 'noopener noreferrer' : null"
+          [ngClass]="link.class"
         >
           {{ link.label }}
         </a>
