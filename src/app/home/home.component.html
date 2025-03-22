@@ -24,6 +24,7 @@
           href="https://calendly.com/marie-delaire-prise-rdv/30min"
           class="call-to-action"
           target="_blank"
+          rel="noopener noreferrer"
           >Réservez un appel</a
         >
       </nav>
@@ -32,7 +33,7 @@
 </div>
 <p-sidebar [(visible)]="menuVisible" [fullScreen]="true">
   <div class="menu-mobile">
-    <nav>
+    <nav aria-label="Menu mobile">
       <a href="#services">Services</a>
       <a href="#realisations">Réalisations</a>
       <a href="#deroule-projet">Déroulé d'un projet</a>
@@ -42,13 +43,14 @@
         href="https://calendly.com/marie-delaire-prise-rdv/30min"
         class="call-to-action"
         target="_blank"
+        rel="noopener noreferrer"
         >Réservez un appel</a
       >
     </nav>
   </div>
 </p-sidebar>
 <div class="desktop-container">
-  <div class="hero-container">
+  <section class="hero-container">
     <div class="title-container">
       <h1
         data-aos="fade-up"
@@ -100,37 +102,66 @@
         class="img-fluid hero-img"
       />
     </div>
-  </div>
+  </section>
 </div>
 
 <section class="logos" #logos aria-label="Logos des entreprises partenaires">
   <div class="logos-slide" #logosSlide role="list">
     <figure role="listitem">
-      <img src="assets/logo-proximum.png" alt="Logo de l'entreprise Proximum" />
+      <img
+        src="assets/logo-proximum.png"
+        alt="Logo de l'entreprise Proximum, spécialisée dans l'accompagnement des collectivités territoriales et des services de l'État en matière de formations des agents et des élus"
+        loading="lazy"
+      />
     </figure>
     <figure role="listitem">
-      <img src="assets/logo-comint.png" alt="Logo de l'entreprise Co'mint" />
+      <img
+        src="assets/logo-comint.png"
+        alt="Logo de l'entreprise Co'mint, accompagnant les managers pour développer leurs compétences managériales"
+        loading="lazy"
+      />
     </figure>
     <figure role="listitem">
-      <img src="assets/novitoit.png" alt="Logo de l'entreprise Novitoit" />
+      <img
+        src="assets/novitoit.png"
+        alt="Logo de l'entreprise Novitoit, spécialisée dans la construction et la rénovation de charpentes, couvertures, zinguerie, aménagement de combles et installation de fenêtres de toit à Bordeaux"
+        loading="lazy"
+      />
     </figure>
     <figure role="listitem">
       <img
         src="assets/formaxis-logo-couleur.png"
-        alt="Logo de l'entreprise Formaxis"
+        alt="Logo de l'entreprise Formaxis, agence de digital learning spécialisée dans la conception et la réalisation de contenu pédagogique digital"
+        loading="lazy"
       />
     </figure>
     <figure role="listitem">
-      <img src="assets/synapse-logo.webp" alt="Logo de l'entreprise Synapse" />
+      <img
+        src="assets/synapse-logo.webp"
+        alt="Logo de l'entreprise Synapse, alliant intelligence artificielle et expertise médicale pour proposer des solutions de prescriptions innovantes et sûres"
+        loading="lazy"
+      />
     </figure>
     <figure role="listitem">
-      <img src="assets/ap.png" alt="Logo de l'entreprise Artistic Production" />
+      <img
+        src="assets/ap.png"
+        alt="Logo de l'entreprise Artistic Production, agence spécialisée dans l'administration et la production de spectacles"
+        loading="lazy"
+      />
     </figure>
     <figure role="listitem">
-      <img src="assets/lp.png" alt="Logo de l'entreprise LP Conseil" />
+      <img
+        src="assets/lp.png"
+        alt="Logo de l'entreprise LP Conseil, partenaire pour le développement RH à travers le coaching, la formation, le management et les conseils en ressources humaines sur toute la France"
+        loading="lazy"
+      />
     </figure>
     <figure role="listitem">
-      <img src="assets/groupe-vb.png" alt="Logo de l'entreprise Groupe VB" />
+      <img
+        src="assets/groupe-vb.png"
+        alt="Logo de l'entreprise Groupe VB, incubateur de compétences spécialisé dans le développement professionnel"
+        loading="lazy"
+      />
     </figure>
   </div>
 </section>
@@ -347,6 +378,7 @@
               href="https://calendly.com/marie-delaire-prise-rdv/30min"
               class="call-to-action light"
               target="_blank"
+              rel="noopener noreferrer"
               >Réservez un appel</a
             >
           </div>
