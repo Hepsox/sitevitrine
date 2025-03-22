@@ -167,25 +167,14 @@
 </section>
 
 <div class="desktop-container">
-  <section class="services">
-    <img
-      src="assets/icon-7.png"
-      class="decor-icon icon1 hide-mobile"
-      alt="Icone décorative"
-    />
-    <img
-      src="assets/icon-6.png"
-      class="decor-icon icon2 hide-mobile"
-      alt="Icone décorative"
-    />
-    <img
-      src="assets/icon-3.png"
-      class="decor-icon icon3 hide-mobile"
-      alt="Icone décorative"
-    />
+  <section class="services" aria-labelledby="services-title" id="services">
+    <img src="assets/icon-7.png" class="decor-icon icon1 hide-mobile" alt="" />
+    <img src="assets/icon-6.png" class="decor-icon icon2 hide-mobile" alt="" />
+    <img src="assets/icon-3.png" class="decor-icon icon3 hide-mobile" alt="" />
 
     <div class="left">
       <h2
+        id="services-title"
         data-aos="fade-up"
         data-aos-duration="500"
         [attr.data-aos-once]="'true'"
@@ -225,13 +214,15 @@
         technique et créative pour réaliser vos projets digitaux.
       </p>
 
-      <div class="container-btn" id="services">
+      <div class="container-btn">
         <a
           href="https://calendly.com/marie-delaire-prise-rdv/30min"
           class="call-to-action"
           target="_blank"
-          >Réservez un appel</a
+          title="Prenez rendez-vous avec Marie Delaire"
         >
+          Réservez un appel
+        </a>
       </div>
     </div>
 
@@ -240,91 +231,96 @@
     </div>
   </section>
 
-  <section class="hide-desktop">
+  <div class="hide-desktop">
     <div class="container-btn">
       <a
         href="https://calendly.com/marie-delaire-prise-rdv/30min"
         target="_blank"
         class="call-to-action service-call-to-action"
-        >Réservez un appel</a
+        title="Ce lien s'ouvrira dans un nouvel onglet"
       >
-
-      >
+        Réservez un appel
+      </a>
     </div>
-  </section>
+  </div>
 </div>
 
 <div class="desktop-container">
   <section class="all-number" id="realisations">
     <div class="parent">
-      <!-- Première brique avec un fade-in pour démarrer en douceur -->
       <div
         class="div1"
         data-aos="fade-in"
         data-aos-duration="600"
         [attr.data-aos-once]="'true'"
+        aria-hidden="true"
       ></div>
-
-      <!-- Deuxième brique avec un slide-up, mais plus lente et avec un léger délai -->
       <div
         class="div2 square"
         data-aos="slide-up"
         data-aos-duration="800"
         data-aos-delay="200"
         [attr.data-aos-once]="'true'"
+        aria-hidden="true"
       ></div>
-
-      <!-- Troisième brique, elle slide-up avec un délai plus long -->
       <div
         class="div3 square"
         data-aos="slide-up"
         data-aos-duration="800"
         data-aos-delay="400"
         [attr.data-aos-once]="'true'"
+        aria-labelledby="clients-title"
       >
-        <p class="number">12</p>
+        <p class="number" id="clients-title" aria-label="Nombre de clients">
+          12
+        </p>
         <h5>Clients</h5>
         <h6>
           Des projets réussis grâce à des solutions adaptées à leurs besoins
         </h6>
       </div>
-
-      <!-- Quatrième brique avec effet zoom-in pour apporter du dynamisme -->
       <div
         class="div4 square"
         data-aos="zoom-in"
         data-aos-duration="600"
         data-aos-delay="600"
         [attr.data-aos-once]="'true'"
+        aria-labelledby="projects-title"
       >
-        <p class="number">20</p>
+        <p class="number" id="projects-title" aria-label="Nombre de projets">
+          20
+        </p>
         <h5>Projets</h5>
         <h6>
           Sites web et des applications métier sur mesure pour des besoins
           variés
         </h6>
       </div>
-
-      <!-- Cinquième brique avec un slide-up, et encore un délai pour continuer l'effet -->
       <div
         class="div5 square"
         data-aos="slide-up"
         data-aos-duration="600"
         data-aos-delay="600"
         [attr.data-aos-once]="'true'"
+        aria-labelledby="experience-title"
       >
-        <p class="number">6</p>
+        <p
+          class="number"
+          id="experience-title"
+          aria-label="Années d'expérience"
+        >
+          6
+        </p>
         <h5>Ans</h5>
         <h6>Une expérience solide dans la création de solutions digitales</h6>
       </div>
-
-      <!-- Dernière brique avec fade-in pour finir en douceur -->
       <div
         class="div6"
         data-aos="fade-in"
         data-aos-duration="600"
         data-aos-delay="700"
         [attr.data-aos-once]="'true'"
+        aria-hidden="true"
       ></div>
     </div>
   </section>
