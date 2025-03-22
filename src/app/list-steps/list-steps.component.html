@@ -14,6 +14,7 @@
           (mouseenter)="onStepHover()"
           (mouseleave)="onStepLeave()"
           data-aos="fade-up"
+          [attr.data-aos-once]="'true'"
           [attr.data-aos-delay]="i * 100"
         >
           <span class="title">{{ step.title }}</span>
@@ -34,6 +35,7 @@
           (click)="onStepClick(i)"
           (mouseenter)="onStepHover()"
           (mouseleave)="onStepLeave()"
+          [attr.data-aos-once]="'true'"
           data-aos="fade-up"
           [attr.data-aos-delay]="(i + 1) * 100"
         >

@@ -351,7 +351,7 @@ p {
   align-items: center;
   color: var(--text-color);
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px;
   border-radius: 10px;
 }
 
@@ -416,6 +416,19 @@ p {
   margin-bottom: 100px;
 }
 
+.link-email-container {
+  display: flex; /* Cela permet à l'email de prendre la taille de son contenu */
+  margin-top: 10px; /* Ajoute un espacement au-dessus de l'email */
+}
+.link-email-with-background {
+  display: inline-block;
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+  font-weight: 600;
+  padding: 2px 12px;
+  border-radius: 2px;
+}
+
 .faq-img {
   display: none;
 }
@@ -428,7 +441,7 @@ p {
 /* ========== Témoignages ========== */
 
 .p-carousel-indicator button {
-  background-color: #292335;
+  background-color: var(--text-color);
   border: none;
   margin: 3px;
   height: 15px;
@@ -853,7 +866,7 @@ p {
   .div3 h6,
   .div4 h6,
   .div5 h6 {
-    font-size: 16px;
+    font-size: 17px;
     margin-top: 0px;
   }
 
