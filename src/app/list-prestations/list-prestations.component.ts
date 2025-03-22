@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { PrestationsService } from '../prestations.service';
-import { Prestation } from '../prestation.types';
+import { Prestation } from '../models/prestation.types';
 import { Observable } from 'rxjs';
+import { PrestationsService } from '../services/prestations.service';
 
 @Component({
   selector: 'app-list-prestations',

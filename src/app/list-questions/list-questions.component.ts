@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Question } from '../questions.types';
-import { QuestionsService } from '../questions.service';
+import { Question } from '../models/questions.types';
+import { QuestionsService } from '../services/questions.service';
 
 @Component({
   selector: 'app-list-questions',

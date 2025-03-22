@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Commentaire } from '../commentaire.types';
+import { Commentaire } from '../models/commentaire.types';
 import { Observable } from 'rxjs';
-import { CommentairesService } from '../commentaires.service';
+import { CommentairesService } from '../services/commentaires.service';
 
 @Component({
   selector: 'app-list-commentaires',

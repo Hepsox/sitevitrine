@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
-import { MenuLink } from '../menu.interface';
+import { MenuLink } from '../models/menu.interface';
 
 @Component({
   selector: 'app-home',

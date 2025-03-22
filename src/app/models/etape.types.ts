@@ -1,4 +1,4 @@
-export type Etape = {
+export type Step = {
   id: string;
   title: string;
   subTitle: string;

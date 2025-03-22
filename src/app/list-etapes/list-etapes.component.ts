@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Etape } from '../etape.types';
 import { Observable } from 'rxjs';
-import { EtapesService } from '../etapes.service';
+import { StepsService } from '../services/steps.service';
+import { Step } from '../models/etape.types';
 
 @Component({
   selector: 'app-list-etapes',
@@ -9,13 +9,13 @@ import { EtapesService } from '../etapes.service';
   styleUrls: ['./list-etapes.component.css'],
 })
 export class ListEtapesComponent {
-  listeEtapes$: Observable<Etape[]> = this.service.getAllEtapes();
+  listeEtapes$: Observable<Step[]> = this.service.getAllEtapes();
   etapeOuverte: number | null = null;
   otherEtapeHovered: boolean = false;
   anyEtapeClicked: boolean = false;
   hasExitedOnce: boolean = false; // Ajout d'une variable pour s'assurer que la classe disparaît après sortie
 
-  constructor(private service: EtapesService) {}
+  constructor(private service: StepsService) {}
 
   ngOnInit(): void {
     this.listeEtapes$.subscribe(() => {});
