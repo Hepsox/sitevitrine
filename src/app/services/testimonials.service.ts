@@ -1,16 +1,16 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { Commentaire } from '../models/commentaire.types';
+import { Testimonial } from '../models/testimonial.interfaces';
 
 @Injectable({
   providedIn: 'root',
 })
-export class CommentairesService {
+export class TestimonialsService {
   constructor(private http: HttpClient) {}
   private _BASE_URL = 'assets/commentaires.json';
 
-  getAllCommentaires(): Observable<Commentaire[]> {
-    return this.http.get<Commentaire[]>(this._BASE_URL);
+  getAllTestimonials(): Observable<Testimonial[]> {
+    return this.http.get<Testimonial[]>(this._BASE_URL);
   }
 }

@@ -1,16 +1,16 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Prestation } from './models/prestation.types';
+import { Service } from '../models/service.types';
 
 @Injectable({
   providedIn: 'root',
 })
-export class PrestationsService {
+export class ServicesService {
   constructor(private http: HttpClient) {}
   private _BASE_URL = 'assets/prestations.json';
 
-  getAllPrestations(): Observable<Prestation[]> {
-    return this.http.get<Prestation[]>(this._BASE_URL);
+  getAllServices(): Observable<Service[]> {
+    return this.http.get<Service[]>(this._BASE_URL);
   }
 }

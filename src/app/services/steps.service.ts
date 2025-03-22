@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 import { Observable } from 'rxjs';
-import { Step } from '../models/etape.types';
+import { Step } from '../models/step.types';
 
 @Injectable({
   providedIn: 'root',

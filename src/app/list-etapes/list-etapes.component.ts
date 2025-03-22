@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { StepsService } from '../services/steps.service';
-import { Step } from '../models/etape.types';
+import { Step } from '../models/step.types';
 
 @Component({
   selector: 'app-list-etapes',

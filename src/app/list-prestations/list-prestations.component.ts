@@ -1,20 +1,19 @@
 import { Component } from '@angular/core';
-import { Prestation } from '../models/prestation.types';
 import { Observable } from 'rxjs';
-import { PrestationsService } from '../services/prestations.service';
+import { Service } from '../models/service.types';
+import { ServicesService } from '../services/services.service';
 
 @Component({
-  selector: 'app-list-prestations',
+  selector: 'app-list-services',
   templateUrl: './list-prestations.component.html',
   styleUrls: ['./list-prestations.component.css'],
 })
-export class ListPrestationsComponent {
-  listePrestations$: Observable<Prestation[]> =
-    this.service.getAllPrestations();
+export class ListServicesComponent {
+  listePrestations$: Observable<Service[]> = this.service.getAllServices();
   colors: string[] = ['#FF9002', '#B456F0', '#FE5B83']; // Couleurs des cartes
   colorTitles: string[] = ['#ffffff', '#ffffff', '#ffffff']; // Couleur des titres
 
-  constructor(private service: PrestationsService) {}
+  constructor(private service: ServicesService) {}
 
   getCardStyle(i: number): any {
     return {

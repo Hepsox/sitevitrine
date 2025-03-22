@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Commentaire } from '../models/commentaire.types';
 import { Observable } from 'rxjs';
-import { CommentairesService } from '../services/commentaires.service';
+import { TestimonialsService } from '../services/testimonials.service';
+import { Testimonial } from '../models/testimonial.interfaces';
 
 @Component({
   selector: 'app-list-commentaires',
@@ -9,18 +9,15 @@ import { CommentairesService } from '../services/commentaires.service';
   styleUrls: ['./list-commentaires.component.css'],
   host: { ngSkipHydration: 'true' },
 })
-export class ListCommentairesComponent {
-  listeCommentaires$: Observable<Commentaire[]> =
-    this.service.getAllCommentaires();
-
-  // Tableau dynamique pour les couleurs
+export class ListTestimonialsComponent {
   borderColors = ['#ff5c83', '#B456F0', '#FF9100'];
 
-  constructor(private service: CommentairesService) {}
+  testimonialsList$: Observable<Testimonial[]> =
+    this.service.getAllTestimonials();
 
-  // Fonction pour obtenir une couleur de bordure basée sur l'index
+  constructor(private service: TestimonialsService) {}
+
   getBorderColor(index: number): string {
-    // On utilise le modulo pour faire une rotation des couleurs
     return this.borderColors[index % this.borderColors.length];
   }
 
