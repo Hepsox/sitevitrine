@@ -5,7 +5,7 @@
     </div>
     <div
       class="burger hide-desktop"
-      (click)="menuVisible = !menuVisible"
+      (click)="toggleMenu()"
       aria-label="Ouvrir le menu de navigation"
       [attr.aria-expanded]="menuVisible ? 'true' : 'false'"
       aria-controls="menu-mobile"
@@ -15,18 +15,14 @@
     </div>
     <div class="hide-mobile menu-desktop">
       <nav aria-label="Navigation principale">
-        <a href="#services">Services</a>
-        <a href="#realisations">Réalisations</a>
-        <a href="#deroule-projet">Déroulé d'un projet</a>
-        <a href="#avis">Avis clients</a>
-        <a href="#faq">FAQ</a>
         <a
-          href="https://calendly.com/marie-delaire-prise-rdv/30min"
-          class="call-to-action"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Réservez un appel</a
+          *ngFor="let link of menuLinks"
+          [href]="link.href"
+          [attr.target]="link.isExternal ? '_blank' : null"
+          [attr.rel]="link.isExternal ? 'noopener noreferrer' : null"
         >
+          {{ link.label }}
+        </a>
       </nav>
     </div>
   </header>
@@ -34,21 +30,18 @@
 <p-sidebar [(visible)]="menuVisible" [fullScreen]="true">
   <div class="menu-mobile">
     <nav aria-label="Menu mobile">
-      <a href="#services">Services</a>
-      <a href="#realisations">Réalisations</a>
-      <a href="#deroule-projet">Déroulé d'un projet</a>
-      <a href="#avis">Avis clients</a>
-      <a href="#faq">FAQ</a>
       <a
-        href="https://calendly.com/marie-delaire-prise-rdv/30min"
-        class="call-to-action"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Réservez un appel</a
+        *ngFor="let link of menuLinks"
+        [href]="link.href"
+        [attr.target]="link.isExternal ? '_blank' : null"
+        [attr.rel]="link.isExternal ? 'noopener noreferrer' : null"
       >
+        {{ link.label }}
+      </a>
     </nav>
   </div>
 </p-sidebar>
+
 <div class="desktop-container">
   <section class="hero-container">
     <div class="title-container">

@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
+import { MenuLink } from '../menu.interface';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,20 @@ export class HomeComponent implements AfterViewInit {
   @ViewChild('logos', { static: false }) logos!: ElementRef;
 
   menuVisible: boolean = false;
+
+  menuLinks: MenuLink[] = [
+    { label: 'Services', href: '#services' },
+    { label: 'Réalisations', href: '#realisations' },
+    { label: "Déroulé d'un projet", href: '#deroule-projet' },
+    { label: 'Avis clients', href: '#avis' },
+    { label: 'FAQ', href: '#faq' },
+    {
+      label: 'Réservez un appel',
+      href: 'https://calendly.com/marie-delaire-prise-rdv/30min',
+      class: 'call-to-action',
+      isExternal: true,
+    },
+  ];
 
   ngAfterViewInit() {
     if (this.logosSlide) {
@@ -30,8 +45,7 @@ export class HomeComponent implements AfterViewInit {
     }
   }
 
-  showMenu() {
-    console.log('hello');
-    this.menuVisible = true;
+  toggleMenu() {
+    this.menuVisible = !this.menuVisible;
   }
 }
