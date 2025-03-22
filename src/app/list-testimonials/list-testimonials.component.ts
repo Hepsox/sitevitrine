@@ -4,9 +4,9 @@ import { TestimonialsService } from '../services/testimonials.service';
 import { Testimonial } from '../models/testimonial.interfaces';
 
 @Component({
-  selector: 'app-list-commentaires',
-  templateUrl: './list-commentaires.component.html',
-  styleUrls: ['./list-commentaires.component.css'],
+  selector: 'app-list-testimonials',
+  templateUrl: './list-testimonials.component.html',
+  styleUrls: ['./list-testimonials.component.css'],
   host: { ngSkipHydration: 'true' },
 })
 export class ListTestimonialsComponent {

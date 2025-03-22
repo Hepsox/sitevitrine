@@ -1,13 +1,13 @@
 <ng-container *ngIf="stepsList$ | async as stepsList">
-  <div class="container-all-steps" (mouseleave)="onContainerLeave()">
+  <div class="container-tous-etape" (mouseleave)="onContainerLeave()">
     <div class="side-container">
       <ng-container *ngFor="let step of stepsList; let i = index">
         <div
           *ngIf="i % 2 == 0"
-          class="step"
+          class="etape"
           [ngClass]="{
-            open: openStepId === i,
-            'first-step':
+            ouverte: openStepId === i,
+            'first-etape':
               i === 0 && !hasExitedOnce && !otherStepHovered && !anyStepClicked
           }"
           (click)="onStepClick(i)"
@@ -20,7 +20,7 @@
           <p class="subtitle">{{ step.subTitle }}</p>
           <p class="description">{{ step.description }}</p>
           <span class="see-more">{{
-            openStepId !== i ? "Learn more" : "Close"
+            openStepId !== i ? "En savoir +" : "Fermer"
           }}</span>
         </div>
       </ng-container>
@@ -29,8 +29,8 @@
       <ng-container *ngFor="let step of stepsList; let i = index">
         <div
           *ngIf="i % 2 != 0"
-          class="step"
-          [ngClass]="{ open: openStepId === i }"
+          class="etape"
+          [ngClass]="{ ouverte: openStepId === i }"
           (click)="onStepClick(i)"
           (mouseenter)="onStepHover()"
           (mouseleave)="onStepLeave()"
@@ -41,7 +41,7 @@
           <p class="subtitle">{{ step.subTitle }}</p>
           <p class="description">{{ step.description }}</p>
           <span class="see-more">{{
-            openStepId !== i ? "Learn more" : "Close"
+            openStepId !== i ? "En savoir +" : "Fermer"
           }}</span>
         </div>
       </ng-container>

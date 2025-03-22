@@ -8,7 +8,7 @@ import { Service } from '../models/service.types';
 })
 export class ServicesService {
   constructor(private http: HttpClient) {}
-  private _BASE_URL = 'assets/prestations.json';
+  private _BASE_URL = 'assets/services.json';
 
   getAllServices(): Observable<Service[]> {
     return this.http.get<Service[]>(this._BASE_URL);

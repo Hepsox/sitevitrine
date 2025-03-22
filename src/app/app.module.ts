@@ -7,15 +7,15 @@ import {
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideHttpClient } from '@angular/common/http';
-import { ListTestimonialsComponent } from './list-commentaires/list-commentaires.component';
+import { ListTestimonialsComponent } from './list-testimonials/list-testimonials.component';
 import { HomeComponent } from './home/home.component';
-import { QuestionsListComponent } from './list-questions/list-questions.component';
 import { CarouselModule } from 'primeng/carousel';
 import { SidebarModule } from 'primeng/sidebar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestimonialsService } from './services/testimonials.service';
-import { ListServicesComponent } from './list-prestations/list-prestations.component';
+import { ListServicesComponent } from './list-services/list-prestations.component';
 import { ListStepsComponent } from './list-etapes/list-etapes.component';
+import { ListQuestionsComponent } from './list-questions/list-questions.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +23,8 @@ import { ListStepsComponent } from './list-etapes/list-etapes.component';
     ListServicesComponent,
     ListStepsComponent,
     ListTestimonialsComponent,
+    ListQuestionsComponent,
     HomeComponent,
-    QuestionsListComponent,
   ],
   imports: [
     BrowserModule,

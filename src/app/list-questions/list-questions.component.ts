@@ -8,7 +8,7 @@ import { QuestionsService } from '../services/questions.service';
   templateUrl: './list-questions.component.html',
   styleUrl: './list-questions.component.css',
 })
-export class QuestionsListComponent {
+export class ListQuestionsComponent {
   questionsList$: Observable<Question[]> = this.service.getAllQuestions();
 
   openQuestionId: number | null = null;
@@ -16,7 +16,6 @@ export class QuestionsListComponent {
   constructor(private service: QuestionsService) {}
 
   ngOnInit(): void {
-    // Initialisation de toutes les réponses à "false" au début
     this.questionsList$.subscribe((questions) => {});
   }
 }

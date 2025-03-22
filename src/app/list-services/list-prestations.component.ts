@@ -5,11 +5,11 @@ import { ServicesService } from '../services/services.service';
 
 @Component({
   selector: 'app-list-services',
-  templateUrl: './list-prestations.component.html',
-  styleUrls: ['./list-prestations.component.css'],
+  templateUrl: './list-services.component.html',
+  styleUrls: ['./list-services.component.css'],
 })
 export class ListServicesComponent {
-  listePrestations$: Observable<Service[]> = this.service.getAllServices();
+  listeServices$: Observable<Service[]> = this.service.getAllServices();
   colors: string[] = ['#FF9002', '#B456F0', '#FE5B83']; // Couleurs des cartes
   colorTitles: string[] = ['#ffffff', '#ffffff', '#ffffff']; // Couleur des titres
 

@@ -1,29 +1,32 @@
-<ng-container *ngIf="questionsList$ | async as questions">
-  <div class="all-questions">
-    <div class="container-all-question">
-      <div
-        *ngFor="let question of questions; let i = index"
-        class="container-question"
-        [ngClass]="openQuestionId === i ? 'opened' : ''"
-        (click)="openQuestionId = openQuestionId === i ? null : i"
-        [attr.data-aos]="'fade-up'"
-        [attr.data-aos-duration]="'500'"
-        [attr.data-aos-once]="'true'"
-        [attr.data-aos-delay]="i === questions.length - 1 ? '1000' : i * 200"
-        [attr.data-aos-offset]="i === questions.length - 1 ? '100' : '0'"
-      >
-        <div class="question">
-          <span
-            [ngClass]="{ rotate: openQuestionId === i }"
-            class="question-sign"
-            >+</span
-          >
-          <h4>{{ question.question }}</h4>
-        </div>
+<ng-container
+  *ngIf="questionsList$ | async as questionsList"
+  class="all-questions"
+>
+  <div class="container-all-question">
+    <div
+      *ngFor="let question of questionsList; let i = index"
+      class="container-question"
+      [ngClass]="openQuestionId === i ? 'ouverte' : ''"
+      (click)="
+        openQuestionId !== i ? (openQuestionId = i) : (openQuestionId = null)
+      "
+      [attr.data-aos]="'fade-up'"
+      [attr.data-aos-duration]="'500'"
+      [attr.data-aos-once]="'true'"
+      [attr.data-aos-delay]="i === questionsList.length - 1 ? '1000' : i * 200"
+      [attr.data-aos-offset]="i === questionsList.length - 1 ? '100' : '0'"
+    >
+      <div class="question">
+        <span
+          [ngClass]="{ rotate: openQuestionId === i }"
+          class="signe-question"
+          >+</span
+        >
+        <h4>{{ question.question }}</h4>
+      </div>
 
-        <div class="answer">
-          <p>{{ question.answer }}</p>
-        </div>
+      <div class="reponse">
+        <p>{{ question.answer }}</p>
       </div>
     </div>
   </div>
