@@ -331,7 +331,6 @@
     <section class="steps" aria-labelledby="process-title">
       <section class="container-all-steps">
         <div class="left">
-          <!-- Titre principal, avec un aria-labelledby pour la clarté de l'accessibilité -->
           <h2
             id="process-title"
             data-aos="fade-up"
@@ -395,8 +394,12 @@
 </div>
 
 <div class="desktop-container">
-  <section class="commentaires intro" id="avis">
-    <h2>
+  <section
+    class="commentaires intro"
+    id="avis"
+    aria-labelledby="comments-title"
+  >
+    <h2 id="comments-title">
       <span
         data-aos="fade-up"
         data-aos-duration="600"
@@ -422,11 +425,11 @@
     </div>
 
     <div class="container-commentaires">
-      <app-list-commentaires style="max-width: 100%"></app-list-commentaires>
+      <app-list-commentaires></app-list-commentaires>
     </div>
   </section>
-  <section class="faq" id="faq">
-    <h2>
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <h2 id="faq-title">
       <span
         data-aos="fade-up"
         data-aos-duration="700"
