@@ -237,7 +237,7 @@
         href="https://calendly.com/marie-delaire-prise-rdv/30min"
         target="_blank"
         class="call-to-action service-call-to-action"
-        title="Ce lien s'ouvrira dans un nouvel onglet"
+        title="Réservez un appel"
       >
         Réservez un appel
       </a>
@@ -327,11 +327,13 @@
 </div>
 
 <div class="full-width-white" id="deroule-projet">
-  <div class="desktop-container" style="background-color: white">
-    <section class="steps">
+  <div class="desktop-container">
+    <section class="steps" aria-labelledby="process-title">
       <section class="container-all-steps">
         <div class="left">
+          <!-- Titre principal, avec un aria-labelledby pour la clarté de l'accessibilité -->
           <h2
+            id="process-title"
             data-aos="fade-up"
             data-aos-duration="500"
             [attr.data-aos-once]="'true'"
@@ -369,18 +371,23 @@
             mise en ligne, en assurant que chaque phase du projet soit
             parfaitement adaptée à vos besoins.
           </p>
+
           <div class="hide-mobile">
             <a
               href="https://calendly.com/marie-delaire-prise-rdv/30min"
               class="call-to-action light"
               target="_blank"
               rel="noopener noreferrer"
-              >Réservez un appel</a
+              aria-label="Réservez un appel pour discuter de votre projet"
+              title="Réservez un appel"
             >
+              Réservez un appel
+            </a>
           </div>
         </div>
+
         <div class="container-steps">
-          <app-list-etapes style="width: 100%"></app-list-etapes>
+          <app-list-etapes aria-labelledby="steps-list-title"></app-list-etapes>
         </div>
       </section>
     </section>
