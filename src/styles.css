@@ -640,6 +640,7 @@ p {
 
 .final-cta .call-to-action {
   margin-top: 30px;
+  display: inline-flex;
 }
 /* ========== RESPONSIVE ========== */
 @media (min-width: 768px) {
@@ -776,7 +777,7 @@ p {
     margin-bottom: 0;
   }
   h2 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.1;
   }
 
