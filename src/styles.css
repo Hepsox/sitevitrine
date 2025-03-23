@@ -68,7 +68,8 @@ p {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 40px;
+  text-wrap: balance;
 }
 
 p {
@@ -243,6 +244,7 @@ p {
 
 .services {
   margin-bottom: 80px;
+  margin-top: 100px;
 }
 
 .services .left p {
@@ -278,7 +280,6 @@ p {
 .steps .left h2 {
   padding-top: 100px;
   margin-bottom: 10px;
-  font-size: 45px;
 }
 .steps .left p {
   margin-bottom: 50px;
@@ -399,6 +400,7 @@ p {
   font-size: 150px;
   font-weight: 900;
   margin: 10px;
+  margin-left: 0;
 }
 
 .div4 .number {

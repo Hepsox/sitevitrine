@@ -104,7 +104,11 @@
   </section>
 </div>
 
-<section class="logos" #logos aria-label="Logos des entreprises partenaires">
+<section
+  class="logos hide-mobile"
+  #logos
+  aria-label="Logos des entreprises partenaires"
+>
   <div class="logos-slide" #logosSlide role="list">
     <figure role="listitem">
       <img
@@ -470,7 +474,6 @@
         <a
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="200"
           data-aos-easing="ease-in-out"
           [attr.data-aos-once]="'true'"
           class="link-email-with-background"
