@@ -72,18 +72,13 @@
     line-height: 1.1;
   }
 
-  .etape.etape.ouverte .subtitle {
+  .etape.etape .subtitle {
     font-size: 17px;
     line-height: 1.4;
   }
 
-  .etape.etape.ouverte .description {
+  .etape.etape .description {
     font-size: 16px;
-    line-height: 1.4;
-  }
-  .subtitle,
-  .description {
-    font-size: 17px;
     line-height: 1.4;
   }
 

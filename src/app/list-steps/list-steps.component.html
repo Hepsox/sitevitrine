@@ -1,5 +1,5 @@
 <ng-container *ngIf="stepsList$ | async as stepsList">
-  <div class="all-steps-container" (mouseenter)="onContainerEnter()">
+  <div class="all-steps-container">
     <div class="side-container">
       <ng-container *ngFor="let step of stepsList; let i = index">
         <div
@@ -7,15 +7,13 @@
           class="etape"
           [ngClass]="{
             ouverte: openStepId === i,
-            'first-etape':
-              i === 0 && !hasExitedOnce && !otherStepHovered && !anyStepClicked
+            'first-etape': hoverPristine && i === 0
           }"
-          (click)="onStepClick(i)"
-          (mouseenter)="onStepHover()"
-          (mouseleave)="onStepLeave()"
           data-aos="fade-up"
           [attr.data-aos-once]="'true'"
           [attr.data-aos-delay]="i * 100"
+          (mouseenter)="hoverPristine = false"
+          (click)="onCardClick(i)"
         >
           <span class="title">{{ step.title }}</span>
           <p class="subtitle">{{ step.subTitle }}</p>
@@ -32,12 +30,11 @@
           *ngIf="i % 2 != 0"
           class="etape"
           [ngClass]="{ ouverte: openStepId === i }"
-          (click)="onStepClick(i)"
-          (mouseenter)="onStepHover()"
-          (mouseleave)="onStepLeave()"
           [attr.data-aos-once]="'true'"
           data-aos="fade-up"
           [attr.data-aos-delay]="(i + 1) * 100"
+          (mouseenter)="hoverPristine = false"
+          (click)="onCardClick(i)"
         >
           <span class="title">{{ step.title }}</span>
           <p class="subtitle">{{ step.subTitle }}</p>

@@ -11,37 +11,15 @@ import { Step } from '../models/step.types';
 export class ListStepsComponent {
   stepsList$: Observable<Step[]> = this.service.getAllSteps();
   openStepId: number | null = null;
-  otherStepHovered: boolean = false;
-  anyStepClicked: boolean = false;
-  hasExitedOnce: boolean = false;
-  constructor(private service: StepsService) {}
+  hoverPristine: boolean = true;
 
-  ngOnInit(): void {
-    this.stepsList$.subscribe(() => {});
-  }
-
-  onStepClick(i: number): void {
-    if (this.openStepId === i) {
+  onCardClick(i: number) {
+    if (i === this.openStepId) {
       this.openStepId = null;
-      this.anyStepClicked = false;
     } else {
       this.openStepId = i;
-      this.anyStepClicked = true;
     }
-    this.hasExitedOnce = true;
   }
 
-  onStepHover(): void {
-    this.otherStepHovered = true;
-  }
-
-  onStepLeave(): void {
-    this.otherStepHovered = false;
-  }
-
-  onContainerEnter(): void {
-    this.otherStepHovered = false;
-    this.openStepId = null;
-    this.hasExitedOnce = true;
-  }
+  constructor(private service: StepsService) {}
 }
