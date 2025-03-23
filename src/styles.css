@@ -23,6 +23,10 @@
   --transition-speed: 0.5s;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ========== Reset de Base ========== */
 * {
   font-family: "Inter Tight", sans-serif;
@@ -98,6 +102,24 @@ p {
   width: 100%;
   border-radius: 5px;
 }
+
+#scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 50px;
+  height: 50px;
+  color: var(--text-color);
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  z-index: 999999;
+}
+
 .menu-mobile {
   display: flex;
   align-items: center;
@@ -107,14 +129,17 @@ p {
 
 .menu-mobile nav {
   background-color: #0f0221;
+  /* background-color: red; */
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   border-radius: 15px;
-  height: 85%;
-  padding-top: 50px;
+  margin-top: 7px;
+  /* height: 85%; */
+  padding-top: 15px;
+  padding-bottom: 18px;
 }
 
 .menu-mobile nav a {
@@ -131,8 +156,11 @@ p {
 
 .menu-mobile .call-to-action {
   margin-top: 30px;
+  background-color: var(--primary-color);
+  border-color: var(--text-color);
 }
 
+.menu-mobile nav a,
 .menu-mobile nav a:visited {
   color: white;
 }
@@ -150,6 +178,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.full-width-white {
+  background-color: var(--text-color);
 }
 /* ========== Header ========== */
 .header-bar {
@@ -405,10 +437,6 @@ p {
   color: var(--primary-color);
 }
 
-.call-to-action:hover {
-  animation: borderDistortion 1.2s ease-in-out infinite;
-}
-
 /* ========== SECTION FAQ ========== */
 
 .faq {
@@ -598,9 +626,24 @@ p {
   }
 }
 
-/* ========== RESPONSIVE ========== */
+.p-carousel-indicators {
+  display: none;
+}
 
+.final-cta {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.final-cta .call-to-action {
+  margin-top: 30px;
+}
+/* ========== RESPONSIVE ========== */
 @media (min-width: 768px) {
+  .p-carousel-indicators {
+    display: flex;
+  }
   .desktop-container {
     max-width: 1280px;
     margin: 0 auto;
@@ -671,6 +714,10 @@ p {
     border-radius: 2px;
     background-color: var(--tertiary-bg-color);
     transition: width 0.5s ease, background-color 1s ease;
+  }
+
+  .call-to-action:hover {
+    animation: borderDistortion 1.2s ease-in-out infinite;
   }
 
   .menu-desktop nav a:not(.call-to-action):hover::after {
@@ -814,10 +861,6 @@ p {
     margin-top: 50px;
   }
 
-  .full-width-white {
-    background-color: var(--text-color);
-  }
-
   .steps {
     display: flex;
     margin: 0 auto;
@@ -879,7 +922,7 @@ p {
   }
 
   .hide-desktop {
-    display: none;
+    display: none !important;
   }
 
   .hide-mobile {
@@ -922,5 +965,9 @@ p {
     top: 70px;
     width: 250px;
     height: 50px;
+  }
+
+  .final-cta {
+    margin-top: 180px;
   }
 }

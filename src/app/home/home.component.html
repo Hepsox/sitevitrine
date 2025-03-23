@@ -1,4 +1,7 @@
-<div class="desktop-container">
+<a href="#top" id="scroll-to-top" class="hide-desktop" *ngIf="!menuVisible">
+  &uarr;
+</a>
+<div class="desktop-container" id="top">
   <header class="header-bar">
     <div class="container-logo">
       <h3>Rozardi</h3>
@@ -28,7 +31,7 @@
     </div>
   </header>
 </div>
-<p-sidebar [(visible)]="menuVisible" [fullScreen]="true">
+<p-sidebar [(visible)]="menuVisible" [fullScreen]="true" [blockScroll]="true">
   <div class="menu-mobile">
     <nav aria-label="Menu mobile">
       <a
@@ -37,6 +40,7 @@
         [attr.target]="link.isExternal ? '_blank' : null"
         [attr.rel]="link.isExternal ? 'noopener noreferrer' : null"
         [ngClass]="link.class"
+        (click)="menuMobileClick($event, link)"
       >
         {{ link.label }}
       </a>
@@ -53,7 +57,7 @@
         [attr.data-aos-once]="'true'"
         class="title"
       >
-        Je développe des
+        Je conçois des
         <span
           data-aos="fade-up"
           data-aos-duration="1000"
@@ -464,15 +468,46 @@
       </span>
     </p>
 
-    <div class="all-questions"><app-list-questions></app-list-questions></div>
+    <div class="all-questions">
+      <app-list-questions />
+    </div>
     <div class="faq-img">
       <img src="assets/icon-2.png" class="img-fluid" alt="" />
     </div>
+  </section>
+  <section class="final-cta" aria-labelledby="final-cta">
+    <h2 id="final-cta">
+      <span
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        [attr.data-aos-once]="'true'"
+      >
+        Vous êtes <span class="important-info effect">convaincu</span> ?
+      </span>
+      <br />
+      <span
+        data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-delay="200"
+        data-aos-easing="ease-in-out"
+        [attr.data-aos-once]="'true'"
+      >
+        <a
+          href="https://calendly.com/marie-delaire-prise-rdv/30min"
+          class="call-to-action"
+          target="_blank"
+          title="Prenez rendez-vous avec Marie Delaire"
+        >
+          Réservez un appel gratuit
+        </a>
+      </span>
+    </h2>
   </section>
 </div>
 
 <footer>
   <div class="footer-logo">
-    <h6>Rozardi - © 2025</h6>
+    <span>Rozardi - © 2025</span>
   </div>
 </footer>
