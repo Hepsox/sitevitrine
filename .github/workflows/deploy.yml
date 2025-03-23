@@ -29,5 +29,8 @@ jobs:
       - name: Build Angular app
         run: npm run build -- --output-path=dist/browser --base-href="/sitevitrine/"
 
+      - name: Check build output
+        run: ls -R dist/browser
+
       - name: Deploy to GitHub Pages
         run: npx angular-cli-ghpages --dir=dist/browser --no-silent
