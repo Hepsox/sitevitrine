@@ -34,12 +34,18 @@ jobs:
       - name: Build the application
         run: npm run build -- --output-path=dist --base-href="/sitevitrine/"
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.BUILD_PATH }}/dist/browser
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    # environment:
-    #   name: github-pages
-    #   url: ${{ steps.deployment.outputs.page_url }}
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
