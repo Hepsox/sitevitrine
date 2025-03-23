@@ -21,15 +21,15 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Create CNAME file
-        run: echo "rozardi.fr" > ./dist/sitevitrine/CNAME
-
       - name: Build the application
         run: npm run build --base-href "https://rozardi.fr/"
+
+      - name: Create CNAME file
+        run: echo "rozardi.fr" > ./dist/sitevitrine/CNAME # Assurez-vous que le chemin est correct
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/browser/sitevitrine
+          publish_dir: ./dist/sitevitrine # Assurez-vous que le chemin est correct
           cname: rozardi.fr
