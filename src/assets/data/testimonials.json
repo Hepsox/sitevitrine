@@ -4,7 +4,7 @@
     "name": "Delphine Monnier",
     "company": "Co'mint",
     "comment": "Nous avons choisi Marie pour réaliser notre site CO'MINT et nous avons eu raison ! Elle a été de très bon conseil, patiente et réactive. En plus, elle a du goût ! Très professionnelle, elle a su nous guider dans l'optimisation de notre projet. Un grand merci à toi pour cette belle aventure !",
-    "photo": "assets/delphine-monnier.jpg",
+    "photo": "assets/images/delphine-monnier.jpg",
     "borderColor": "#B456F0"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Nelly Boivin",
     "company": "Maou Massages",
     "comment": "Marie a été super dans la conception de mon site internet. Elle a su retranscrire exactement ce que je voulais en respectant mes choix et mes valeurs. Elle est très professionnelle et super réactive. Elle est pleine de bons conseils pour donner de la visibilité au site et est très pédagogue pour sa gestion en autonomie. Merci Marie",
-    "photo": "assets/nelly-boivin.jpeg",
+    "photo": "assets/images/nelly-boivin.jpeg",
     "borderColor": "#FF9100"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Mounir Rebiai",
     "company": "Tortue Pizza",
     "comment": "J’ai sollicité le travail de Marie trouver par hasard sur Google en 2020 pour la création de mon site internet, elle a été très réactive et ma de suite fait des propositions selon mes envies et pour le plus grand plaisir de mes clients qui me disent souvent que le site est super bien optimisé. J’ai recontacter Marie en 2022 pour des modifications tarifaires et elle a été comme à sont habitude très réactive.",
-    "photo": "assets/tortue-pizza.png",
+    "photo": "assets/images/tortue-pizza.png",
     "borderColor": "#ff5c83"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Eleonor Simiu",
     "company": "Consultante Stratégie",
     "comment": "Réaliser mon site Web avec Marie a été une excellente expérience ! Marie est professionnelle, à l'écoute, et a un vrai sens de l'esthétique.",
-    "photo": "assets/eleonor-simiu.jpeg",
+    "photo": "assets/images/eleonor-simiu.jpeg",
     "borderColor": "#B456F0"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Luc Pascal",
     "company": "LP Conseils",
     "comment": "Marie est une très bonne professionnelle, elle a accompagné la mise en ligne de notre site avec souplesse et rigueur en s'adaptant à nos besoins. Je recommande vivement ses prestations.",
-    "photo": "assets/luc-pascal.jpg",
+    "photo": "assets/images/luc-pascal.jpg",
     "borderColor": "#FF9100"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Céline Nouaux",
     "company": "Le petit cafetier",
     "comment": "Nous avons contacté Marie pour la refonte de notre site et nous ne l'avons pas regretté. Marie est très réactive, professionnelle, à l'écoute et de très bon conseil. Bien sûr, nous recommandons !!",
-    "photo": "assets/coffee-truck-le-petit-cafetier.jpg",
+    "photo": "assets/images/coffee-truck-le-petit-cafetier.jpg",
     "borderColor": "#ff5c83"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Corinne Mazel",
     "company": "Le Crayon Zen ",
     "comment": "Réceptive à mes demandes et mes besoins spécifiques, Marie a su me  proposer des solutions adaptées avec une formation sur mesure et des horaires flexibles. Je recommande ses services sans hésiter !",
-    "photo": "assets/corinne-mazel.jpg",
+    "photo": "assets/images/corinne-mazel.jpg",
     "borderColor": "#B456F0"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Jacques Chartier",
     "company": "Artistic Production",
     "comment": "Marie a été très réactive, efficace et pédagogue pour la création de notre site internet en peu de temps. A recommander sans hésiter.",
-    "photo": "assets/jacques-chartier.jpeg",
+    "photo": "assets/images/jacques-chartier.jpeg",
     "borderColor": "#FF9100"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Quentin Martel",
     "company": "Podcasts Production",
     "comment": "Ayant fait appel à Marie pour différents services, je ne peux que la recommander les yeux fermés ! Très compétente et disponible, je la remercie pour son professionnalisme !",
-    "photo": "assets/quentin-martel.jpeg",
+    "photo": "assets/images/quentin-martel.jpeg",
     "borderColor": "#ff5c83"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Pierre Mangin",
     "company": "Sarl Dany Mangin",
     "comment": "J'ai confié mon projet de création de site internet à Marie et je suis vraiment très satisfait du résultat ! Rapidité, compréhension parfaite de ce que je désirai et des réponses rapides à toutes mes questions ! Si il avait été possible de mettre 6 étoiles et bien j'en aurai mis 7 ;D Je recommande très fortement !!!",
-    "photo": "assets/sarl-dany-mangin.png",
+    "photo": "assets/images/sarl-dany-mangin.png",
     "borderColor": "#B456F0"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Clarisse Capdeville",
     "company": "Freelance",
     "comment": "Un réel plaisir d'avoir travaillé avec Marie ! Travail au top, réactivité et professionnalisme. Je recommande !",
-    "photo": "assets/clarisse-capdeville.png",
+    "photo": "assets/images/clarisse-capdeville.png",
     "borderColor": "#FF9100"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Clémentine Espinasse",
     "company": "Synapse medicine",
     "comment": "Nous avions une urgence pour la refonte de notre site wordpress, Marie a été à la hauteur de la mission. Je la recommande vivement!",
-    "photo": "assets/clementine-espinasse.jpeg",
+    "photo": "assets/images/clementine-espinasse.jpeg",
     "borderColor": "#ff5c83"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Isabelle Rollo",
     "company": "Réflexologue Plantaire",
     "comment": "Je remercie Marie pour l'excellent travail réalisé sur mon site Web et mon Logo. Nous avons travaillé à distance et tout s'est très bien passé !",
-    "photo": "assets/isabelle-rollo.png",
+    "photo": "assets/images/isabelle-rollo.png",
     "borderColor": "#B456F0"
   },
 
@@ -109,7 +109,7 @@
     "name": "Christine Pareyt",
     "company": "Co'mint",
     "comment": "Super collaboration : bonne écoute et adaptation de la part de Marie. Résultat : un site qui nous ressemble, qu'on aime et qui est efficace !",
-    "photo": "assets/christine-pareyt.jpeg",
+    "photo": "assets/images/christine-pareyt.jpeg",
     "borderColor": "#FF9100"
   },
 
@@ -118,7 +118,7 @@
     "name": "Nathalie Maitre",
     "company": "L'atelier de famille",
     "comment": "Je suis tres satisfaite des prestations de Marie, elle a su interpréter mes demandes de façon simple efficace et rapide. Ses actions m'ont permis de me faire connaître rapidement. Elle se rend toujours disponible pour toute question, elle est très réactive.",
-    "photo": "assets/nathalie-maitre.png",
+    "photo": "assets/images/nathalie-maitre.png",
     "borderColor": "#ff5c83"
   },
   {
@@ -126,7 +126,7 @@
     "name": "Véronique Galimont",
     "company": "Sophrologue",
     "comment": "Merci Marie pour votre compétence professionnelle, ce fut un réel plaisir d'échanger autour de la création de mon site !! Marie a prit le temps de tout m'expliquer et a été à l'écoute de mes envies je recommande ++",
-    "photo": "assets/veronique-galimont.webp",
+    "photo": "assets/images/veronique-galimont.webp",
     "borderColor": "#B456F0"
   }
 ]
