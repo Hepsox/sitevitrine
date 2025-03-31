@@ -8,6 +8,7 @@ interface ProjectImage {
 export interface Project {
   id: number;
   company: string;
+  duration: string;
   industry: string;
   projectType: string;
   description: string;

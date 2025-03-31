@@ -4,6 +4,7 @@
     "company": "Co'mint",
     "industry": "Coach en management",
     "projectType": "Site vitrine",
+    "duration": " 2 semaines",
     "description": "Donec at eros facilisis, pulvinar arcu vitae, condimentum elit. Nulla id imperdiet dolor. Donec eleifend leo vitae tristique scelerisque. Praesent quis nisl quam. Nullam et augue rutrum, ullamcorper lorem vitae, dapibus enim. Mauris ac tellus dapibus",
     "goals": "Développer la notoriété de l'entreprise",
     "testimonials": [
@@ -18,7 +19,11 @@
     "projectImages": [
       {
         "id": "1",
-        "photo": "assets/images/delphine-monnier.jpg"
+        "photo": "assets/images/moodstation-1.jpg"
+      },
+      {
+        "id": "2",
+        "photo": "assets/images/proximum-formations.jpg"
       }
     ]
   },
@@ -26,6 +31,7 @@
     "id": 2,
     "company": "Proximum",
     "industry": "Organisme de formation",
+    "duration": " 3 semaines",
     "projectType": "Catalogue de formation",
     "description": "Donec at eros facilisis, pulvinar arcu vitae, condimentum elit. Nulla id imperdiet dolor. Donec eleifend leo vitae tristique scelerisque. Praesent quis nisl quam. Nullam et augue rutrum, ullamcorper lorem vitae, dapibus enim. Mauris ac tellus dapibus",
     "goals": "Catalogue pour trouver une formation en fonction de ses objectifs",

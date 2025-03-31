@@ -1,0 +1,33 @@
+.project-info {
+  margin-bottom: 40px;
+  background-color: #322947;
+  padding: 10px 15px 40px 10px;
+  border-radius: 8px;
+}
+.project-info h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: -15px;
+}
+
+.project-info span {
+  font-weight: 600;
+}
+
+.project-details h3 {
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+.project-description {
+  margin-bottom: 50px;
+}
+
+.project-img {
+  border-radius: 20px;
+}
+
+.container-all-img-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
