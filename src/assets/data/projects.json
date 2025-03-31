@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 3,
     "company": "Co'mint",
     "industry": "Coach en management",
     "projectType": "Site vitrine",
@@ -28,13 +28,13 @@
     ]
   },
   {
-    "id": 2,
+    "id": 7,
     "company": "Proximum",
     "industry": "Organisme de formation",
     "duration": " 3 semaines",
     "projectType": "Catalogue de formation",
     "description": "Donec at eros facilisis, pulvinar arcu vitae, condimentum elit. Nulla id imperdiet dolor. Donec eleifend leo vitae tristique scelerisque. Praesent quis nisl quam. Nullam et augue rutrum, ullamcorper lorem vitae, dapibus enim. Mauris ac tellus dapibus",
-    "results": "Catalogue pour trouver une formation en fonction de ses objectifs",
+    "results": "✅ Site fonctionnel et ergonomique, adapté aux besoins métier. ✅ Navigation fluide, facilitant l’accès aux formations. ✅ Expérience utilisateur optimisée, design épuré et développement performant. ✅ Site responsive, accessible sur tous les appareils. ✅ Mise en avant des formations, améliorant la conversion des visiteurs.",
     "testimonials": [
       {
         "id": "2",
@@ -46,6 +46,10 @@
     "projectImages": [
       {
         "id": "2",
+        "photo": "assets/images/eleonor-simiu.jpeg"
+      },
+      {
+        "id": "3",
         "photo": "assets/images/eleonor-simiu.jpeg"
       }
     ]

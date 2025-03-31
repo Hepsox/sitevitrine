@@ -43,6 +43,14 @@
   gap: 40px;
 }
 @media (min-width: 768px) {
+  .project-info {
+    background-color: #322947;
+    padding: 3px 15px 40px 6px;
+    border-radius: 8px;
+    line-height: 1;
+
+    margin-top: -20px;
+  }
   .container-imgs-project {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -63,7 +71,8 @@
   }
 
   .project-header {
-    margin-top: 50px;
+    margin-top: 70px;
+    font-size: 50px;
   }
 
   .left {
@@ -85,10 +94,12 @@
 
   .project-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    width: max-content;
   }
 
   .project-info h4 {
-    font-size: 18px;
+    font-size: 16px;
+    padding-right: 40px;
   }
 }
