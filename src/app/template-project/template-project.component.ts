@@ -24,9 +24,8 @@ export class TemplateProjectComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const id = +this.route.snapshot.paramMap.get('id')!;
-    this.project$ = this.projectService.getOneProject(id);
-    this.testimonials$ =
-      this.testimonialsService.getTestimonialsByProjectId(id);
+    const slug = this.route.snapshot.paramMap.get('slug')!;
+    this.project$ = this.projectService.getProjectBySlug(slug);
+    this.testimonials$ = this.testimonialsService.getTestimonialsBySlug(slug);
   }
 }

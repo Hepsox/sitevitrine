@@ -1,19 +1,21 @@
 [
   {
-    "id": 3,
+    "id": 1,
+    "slug": "co-mint",
     "company": "Co'mint",
     "industry": "Coach en management",
     "projectType": "Site vitrine",
-    "duration": " 2 semaines",
+    "duration": "2 semaines",
     "description": "Pour ce projet, j’ai conçu et développé un site web visant à structurer et mettre en avant les offres de formation en fonction des problématiques métier. J’ai d’abord travaillé sur l’architecture de l’information afin d’optimiser la navigation et guider efficacement les utilisateurs vers les parcours adaptés à leurs besoins. Le webdesign a été pensé pour offrir une expérience fluide et intuitive, avec une hiérarchisation claire des contenus et des appels à l’action stratégiques. Ensuite, j’ai développé le site en assurant sa performance, sa compatibilité responsive et une navigation optimisée. L’ensemble permet une meilleure accessibilité aux formations, une expérience utilisateur améliorée et une mise en avant efficace des parcours, favorisant ainsi la conversion des visiteurs en apprenants.",
     "results": "✅ Site fonctionnel et ergonomique, adapté aux besoins métier. ✅ Navigation fluide, facilitant l’accès aux formations. ✅ Expérience utilisateur optimisée, design épuré et développement performant. ✅ Site responsive, accessible sur tous les appareils. ✅ Mise en avant des formations, améliorant la conversion des visiteurs.",
     "testimonials": [
       {
         "id": "1",
-        "name": "Delphine Monier",
-        "photo": "assets/images/delphine-monnier.jpg",
+        "name": "Delphine Monnier",
         "company": "Co'mint",
-        "comment": "Donec at eros facilisis, pulvinar arcu vitae, condimentum elit. Nulla id imperdiet dolor. Donec eleifend leo vitae tristique scelerisque. Praesent quis nisl quam. Nullam et augue rutrum, ullamcorper lorem vitae, dapibus enim. Mauris ac tellus dapibus, euismod ex eu..."
+        "comment": "Nous avons choisi Marie pour réaliser notre site CO'MINT et nous avons eu raison ! Elle a été de très bon conseil, patiente et réactive. En plus, elle a du goût ! Très professionnelle, elle a su nous guider dans l'optimisation de notre projet. Un grand merci à toi pour cette belle aventure !",
+        "photo": "assets/images/delphine-monnier.jpg",
+        "borderColor": "#B456F0"
       }
     ],
     "projectImages": [
@@ -28,19 +30,22 @@
     ]
   },
   {
-    "id": 7,
+    "id": 2,
+    "slug": "proximum",
     "company": "Proximum",
     "industry": "Organisme de formation",
-    "duration": " 3 semaines",
     "projectType": "Catalogue de formation",
+    "duration": "3 semaines",
     "description": "Donec at eros facilisis, pulvinar arcu vitae, condimentum elit. Nulla id imperdiet dolor. Donec eleifend leo vitae tristique scelerisque. Praesent quis nisl quam. Nullam et augue rutrum, ullamcorper lorem vitae, dapibus enim. Mauris ac tellus dapibus",
-    "results": "✅ Site fonctionnel et ergonomique, adapté aux besoins métier. ✅ Navigation fluide, facilitant l’accès aux formations. ✅ Expérience utilisateur optimisée, design épuré et développement performant. ✅ Site responsive, accessible sur tous les appareils. ✅ Mise en avant des formations, améliorant la conversion des visiteurs.",
+    "results": "Catalogue pour trouver une formation en fonction de ses objectifs",
     "testimonials": [
       {
         "id": "2",
-        "name": "Jean Dupuis",
-        "company": "WebStore Pro",
-        "comment": "Working with this team was a game-changer. They delivered a high-quality e-commerce platform that exceeded our expectations. The user experience is seamless, and our conversion rate has improved significantly."
+        "name": "Eleonor Simiu",
+        "company": "Consultante Stratégie",
+        "comment": "Réaliser mon site Web avec Marie a été une excellente expérience ! Marie est professionnelle, à l'écoute, et a un vrai sens de l'esthétique.",
+        "photo": "assets/images/eleonor-simiu.jpeg",
+        "borderColor": "#B456F0"
       }
     ],
     "projectImages": [
@@ -51,6 +56,396 @@
       {
         "id": "3",
         "photo": "assets/images/eleonor-simiu.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "tortue-pizza",
+    "company": "Tortue Pizza",
+    "industry": "Restauration",
+    "projectType": "Site vitrine",
+    "duration": "4 semaines",
+    "description": "Le projet consistait à créer un site simple et visuel pour mettre en avant les produits de Tortue Pizza. L’objectif était de simplifier les commandes en ligne et de moderniser l’image du restaurant. La navigation est optimisée pour faciliter les commandes et afficher clairement le menu.",
+    "results": "✅ Site moderne et fonctionnel, adapté aux besoins du restaurant. ✅ Commandes en ligne simplifiées. ✅ Navigation fluide et design moderne.",
+    "testimonials": [
+      {
+        "id": "12",
+        "name": "Mounir Rebiai",
+        "company": "Tortue Pizza",
+        "comment": "J’ai sollicité le travail de Marie trouver par hasard sur Google en 2020 pour la création de mon site internet, elle a été très réactive et ma de suite fait des propositions selon mes envies et pour le plus grand plaisir de mes clients qui me disent souvent que le site est super bien optimisé. J’ai recontacter Marie en 2022 pour des modifications tarifaires et elle a été comme à sont habitude très réactive.",
+        "photo": "assets/images/tortue-pizza.png",
+        "borderColor": "#ff5c83"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "3",
+        "photo": "assets/images/tortue-pizza.png"
+      },
+      {
+        "id": "3",
+        "photo": "assets/images/eleonor-simiu.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "lp-conseils",
+    "company": "LP Conseils",
+    "industry": "Conseil",
+    "projectType": "Site vitrine",
+    "duration": "3 semaines",
+    "description": "Le site a été conçu pour offrir un accès simple à des conseils spécialisés dans le domaine de la gestion d'entreprise. Le design a été épuré pour garantir une navigation fluide et une bonne visibilité des services offerts.",
+    "results": "✅ Site simple, professionnel et intuitif. ✅ Mise en avant claire des services. ✅ Navigation fluide et design minimaliste.",
+    "testimonials": [
+      {
+        "id": "3",
+        "name": "Luc Pascal",
+        "company": "LP Conseils",
+        "comment": "Marie est une très bonne professionnelle, elle a accompagné la mise en ligne de notre site avec souplesse et rigueur en s'adaptant à nos besoins. Je recommande vivement ses prestations.",
+        "photo": "assets/images/luc-pascal.jpg",
+        "borderColor": "#FF9100"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "4",
+        "photo": "assets/images/luc-pascal.jpg"
+      },
+      {
+        "id": "3",
+        "photo": "assets/images/eleonor-simiu.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "le-petit-cafetier",
+    "company": "Le petit cafetier",
+    "industry": "Restauration mobile",
+    "projectType": "Refonte de site",
+    "duration": "2 semaines",
+    "description": "Reprise du site de l'entreprise pour le moderniser, améliorer l'ergonomie et renforcer l'image de marque en ligne. Le but était également d'offrir une expérience utilisateur optimale, facilitant les commandes et l'information sur les services.",
+    "results": "✅ Refonte réussie avec un design moderne. ✅ Site optimisé pour les utilisateurs. ✅ Réactivité et simplicité d'utilisation.",
+    "testimonials": [
+      {
+        "id": "4",
+        "name": "Céline Nouaux",
+        "company": "Le petit cafetier",
+        "comment": "Nous avons contacté Marie pour la refonte de notre site et nous ne l'avons pas regretté. Marie est très réactive, professionnelle, à l'écoute et de très bon conseil. Bien sûr, nous recommandons !!",
+        "photo": "assets/images/coffee-truck-le-petit-cafetier.jpg",
+        "borderColor": "#ff5c83"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "5",
+        "photo": "assets/images/coffee-truck-le-petit-cafetier.jpg"
+      },
+      {
+        "id": "3",
+        "photo": "assets/images/eleonor-simiu.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "le-crayon-zen",
+    "company": "Le Crayon Zen",
+    "industry": "Bien-être",
+    "projectType": "Site vitrine",
+    "duration": "3 semaines",
+    "description": "Création d'un site vitrine dédié aux services de bien-être pour offrir une visibilité optimale. Le design a été réfléchi pour mettre en valeur les prestations et apporter une expérience zen et fluide.",
+    "results": "✅ Site à l'image du bien-être. ✅ Design épuré et relaxation. ✅ Navigation optimisée pour la prise de contact.",
+    "testimonials": [
+      {
+        "id": "5",
+        "name": "Corinne Mazel",
+        "company": "Le Crayon Zen",
+        "comment": "Réceptive à mes demandes et mes besoins spécifiques, Marie a su me proposer des solutions adaptées avec une formation sur mesure et des horaires flexibles. Je recommande ses services sans hésiter !",
+        "photo": "assets/images/corinne-mazel.jpg",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "6",
+        "photo": "assets/images/corinne-mazel.jpg"
+      },
+      {
+        "id": "3",
+        "photo": "assets/images/eleonor-simiu.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "artistic-production",
+    "company": "Artistic Production",
+    "industry": "Production artistique",
+    "projectType": "Site vitrine",
+    "duration": "4 semaines",
+    "description": "Création d'un site internet pour une production artistique, permettant de mettre en avant les projets passés et futurs de manière visuelle et impactante.",
+    "results": "✅ Site qui reflète l'impact artistique de la société. ✅ Mise en valeur des projets en portfolio.",
+    "testimonials": [
+      {
+        "id": "6",
+        "name": "Jacques Chartier",
+        "company": "Artistic Production",
+        "comment": "Marie a été très réactive, efficace et pédagogue pour la création de notre site internet en peu de temps. A recommander sans hésiter.",
+        "photo": "assets/images/jacques-chartier.jpeg",
+        "borderColor": "#FF9100"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "7",
+        "photo": "assets/images/jacques-chartier.jpeg"
+      },
+      {
+        "id": "3",
+        "photo": "assets/images/eleonor-simiu.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "podcasts-production",
+    "company": "Podcasts Production",
+    "industry": "Production de podcasts",
+    "projectType": "Site vitrine",
+    "duration": "3 semaines",
+    "description": "Création d'un site web simple et efficace pour mettre en avant les podcasts produits par l'entreprise, avec une section dédiée aux dernières productions.",
+    "results": "✅ Site performant et adapté à la diffusion des podcasts.",
+    "testimonials": [
+      {
+        "id": "7",
+        "name": "Quentin Martel",
+        "company": "Podcasts Production",
+        "comment": "Ayant fait appel à Marie pour différents services, je ne peux que la recommander les yeux fermés ! Très compétente et disponible, je la remercie pour son professionnalisme !",
+        "photo": "assets/images/quentin-martel.jpeg",
+        "borderColor": "#ff5c83"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "8",
+        "photo": "assets/images/quentin-martel.jpeg"
+      },
+      {
+        "id": "3",
+        "photo": "assets/images/eleonor-simiu.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "sarl-dany-mangin",
+    "company": "Sarl Dany Mangin",
+    "industry": "Commerce",
+    "projectType": "Site vitrine",
+    "duration": "3 semaines",
+    "description": "Création d'un site pour la présentation de l'entreprise et de ses produits, dans une interface épurée et moderne.",
+    "results": "✅ Site professionnel et esthétique.",
+    "testimonials": [
+      {
+        "id": "8",
+        "name": "Pierre Mangin",
+        "company": "Sarl Dany Mangin",
+        "comment": "J'ai confié mon projet de création de site internet à Marie et je suis vraiment très satisfait du résultat ! Rapidité, compréhension parfaite de ce que je désirai et des réponses rapides à toutes mes questions ! Si il avait été possible de mettre 6 étoiles et bien j'en aurai mis 7 ;D Je recommande très fortement !!!",
+        "photo": "assets/images/sarl-dany-mangin.png",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "9",
+        "photo": "assets/images/sarl-dany-mangin.png"
+      },
+      {
+        "id": "3",
+        "photo": "assets/images/eleonor-simiu.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "clarisse-capdeville",
+    "company": "Freelance",
+    "industry": "Freelance",
+    "projectType": "Site vitrine",
+    "duration": "Non spécifié",
+    "description": "Création d'un site web pour une freelance, avec une présentation des services et des réalisations.",
+    "results": "✅ Site élégant et professionnel, adapté à la présentation des services de freelance.",
+    "testimonials": [
+      {
+        "id": "9",
+        "name": "Clarisse Capdeville",
+        "company": "Freelance",
+        "comment": "Un réel plaisir d'avoir travaillé avec Marie ! Travail au top, réactivité et professionnalisme. Je recommande !",
+        "photo": "assets/images/clarisse-capdeville.png",
+        "borderColor": "#FF9100"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "9",
+        "photo": "assets/images/clarisse-capdeville.png"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/clarisse-capdeville.png"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "clementine-espinasse",
+    "company": "Synapse medicine",
+    "industry": "Médical",
+    "projectType": "Refonte de site",
+    "duration": "4 semaines",
+    "description": "Refonte d'un site WordPress pour une entreprise dans le domaine médical, avec une mise à jour du design et des fonctionnalités.",
+    "results": "✅ Refonte réussie avec un site moderne et fonctionnel.",
+    "testimonials": [
+      {
+        "id": "10",
+        "name": "Clémentine Espinasse",
+        "company": "Synapse medicine",
+        "comment": "Nous avions une urgence pour la refonte de notre site wordpress, Marie a été à la hauteur de la mission. Je la recommande vivement!",
+        "photo": "assets/images/clementine-espinasse.jpeg",
+        "borderColor": "#ff5c83"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "10",
+        "photo": "assets/images/clementine-espinasse.jpeg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/clarisse-capdeville.png"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "isabelle-rollo",
+    "company": "Réflexologue Plantaire",
+    "industry": "Santé et bien-être",
+    "projectType": "Création de site",
+    "duration": "3 semaines",
+    "description": "Création d'un site internet et d'un logo pour une réflexologue plantaire, avec un design épuré et informatif.",
+    "results": "✅ Site simple et efficace, à l'image de la pratique professionnelle.",
+    "testimonials": [
+      {
+        "id": "11",
+        "name": "Isabelle Rollo",
+        "company": "Réflexologue Plantaire",
+        "comment": "Je remercie Marie pour l'excellent travail réalisé sur mon site Web et mon Logo. Nous avons travaillé à distance et tout s'est très bien passé !",
+        "photo": "assets/images/isabelle-rollo.png",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "11",
+        "photo": "assets/images/isabelle-rollo.png"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/clarisse-capdeville.png"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "christine-pareyt",
+    "company": "Co'mint",
+    "industry": "Consulting",
+    "projectType": "Site vitrine",
+    "duration": "5 semaines",
+    "description": "Création d'un site vitrine pour Co'mint, avec un design moderne et une présentation claire des services.",
+    "results": "✅ Site dynamique et fidèle à l'image de l'entreprise.",
+    "testimonials": [
+      {
+        "id": "14",
+        "name": "Christine Pareyt",
+        "company": "Co'mint",
+        "comment": "Super collaboration : bonne écoute et adaptation de la part de Marie. Résultat : un site qui nous ressemble, qu'on aime et qui est efficace !",
+        "photo": "assets/images/christine-pareyt.jpeg",
+        "borderColor": "#FF9100"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "14",
+        "photo": "assets/images/christine-pareyt.jpeg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/clarisse-capdeville.png"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "nathalie-maitre",
+    "company": "L'atelier de famille",
+    "industry": "Artisanat",
+    "projectType": "Site vitrine",
+    "duration": "2 semaines",
+    "description": "Création d'un site pour L'atelier de famille, avec un focus sur la présentation des produits artisanaux.",
+    "results": "✅ Site rapide et adapté pour mettre en valeur les créations artisanales.",
+    "testimonials": [
+      {
+        "id": "15",
+        "name": "Nathalie Maitre",
+        "company": "L'atelier de famille",
+        "comment": "Je suis tres satisfaite des prestations de Marie, elle a su interpréter mes demandes de façon simple efficace et rapide. Ses actions m'ont permis de me faire connaître rapidement. Elle se rend toujours disponible pour toute question, elle est très réactive.",
+        "photo": "assets/images/nathalie-maitre.png",
+        "borderColor": "#ff5c83"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "15",
+        "photo": "assets/images/nathalie-maitre.png"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/clarisse-capdeville.png"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "veronique-galimont",
+    "company": "Sophrologue",
+    "industry": "Santé et bien-être",
+    "projectType": "Création de site",
+    "duration": "4 semaines",
+    "description": "Création d'un site pour une sophrologue, avec un design apaisant et fonctionnel.",
+    "results": "✅ Site clair et efficace, parfaitement adapté à la profession.",
+    "testimonials": [
+      {
+        "id": "16",
+        "name": "Véronique Galimont",
+        "company": "Sophrologue",
+        "comment": "Merci Marie pour votre compétence professionnelle, ce fut un réel plaisir d'échanger autour de la création de mon site !! Marie a prit le temps de tout m'expliquer et a été à l'écoute de mes envies je recommande ++",
+        "photo": "assets/images/veronique-galimont.webp",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/veronique-galimont.webp"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/clarisse-capdeville.png"
       }
     ]
   }

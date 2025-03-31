@@ -19,12 +19,15 @@ export class ProjectsService {
     );
   }
 
-  getOneProject(id: number): Observable<Project | null> {
+  getProjectBySlug(slug: string): Observable<Project | null> {
     return this.http.get<Project[]>(this._BASE_URL).pipe(
-      map((projects) => projects.find((project) => project.id === id) || null),
+      map((projects) => {
+        const project = projects.find((project) => project.slug === slug);
+        return project || null; // Si aucun projet n'est trouvé, retourne null
+      }),
       catchError((error) => {
         console.error('Erreur lors de la récupération du projet:', error);
-        return of(null);
+        return of(null); // En cas d'erreur, retourne null
       })
     );
   }

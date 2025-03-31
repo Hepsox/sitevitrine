@@ -1,12 +1,20 @@
-import { Testimonial } from './testimonial.interfaces';
-
 interface ProjectImage {
   id: string;
   photo: string;
 }
 
+export interface Testimonial {
+  id: string;
+  name: string;
+  company: string;
+  comment: string;
+  photo: string;
+  borderColor: string;
+}
+
 export interface Project {
   id: number;
+  slug: string;
   company: string;
   duration: string;
   industry: string;
