@@ -3,6 +3,8 @@ import { Observable } from 'rxjs';
 import { Project } from '../models/project.interface';
 import { ProjectsService } from '../services/projects.service';
 import { ActivatedRoute } from '@angular/router';
+import { Testimonial } from '../models/testimonial.interfaces';
+import { TestimonialsService } from '../services/testimonials.service';
 
 @Component({
   selector: 'app-template-project',
@@ -11,13 +13,20 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class TemplateProjectComponent implements OnInit {
   project$: Observable<Project | null> | undefined;
+  testimonials$!: Observable<Testimonial[]>;
+  borderColors = ['#ff5c83', '#B456F0', '#FF9100'];
+
   constructor(
-    private service: ProjectsService,
+    private projectService: ProjectsService,
+    private testimonialsService: TestimonialsService,
+
     private route: ActivatedRoute
   ) {}
 
   ngOnInit(): void {
     const id = +this.route.snapshot.paramMap.get('id')!;
-    this.project$ = this.service.getOneProject(id);
+    this.project$ = this.projectService.getOneProject(id);
+    this.testimonials$ =
+      this.testimonialsService.getTestimonialsByProjectId(id);
   }
 }
