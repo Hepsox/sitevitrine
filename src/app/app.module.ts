@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ListServicesComponent } from './list-services/list-prestations.component';
 import { ListStepsComponent } from './list-steps/list-steps.component';
 import { ListQuestionsComponent } from './list-questions/list-questions.component';
+import { TemplateProjectComponent } from './template-project/template-project.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ListQuestionsComponent } from './list-questions/list-questions.componen
     ListTestimonialsComponent,
     ListQuestionsComponent,
     HomeComponent,
+    TemplateProjectComponent,
   ],
   imports: [
     BrowserModule,

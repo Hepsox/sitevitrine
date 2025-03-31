@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "company": "Co'mint",
+    "industry": "Coach en management",
+    "projectType": "Site vitrine",
+    "description": "Donec at eros facilisis, pulvinar arcu vitae, condimentum elit. Nulla id imperdiet dolor. Donec eleifend leo vitae tristique scelerisque. Praesent quis nisl quam. Nullam et augue rutrum, ullamcorper lorem vitae, dapibus enim. Mauris ac tellus dapibus",
+    "goals": "Développer la notoriété de l'entreprise",
+    "testimonials": [
+      {
+        "id": "1",
+        "name": "Delphine Monier",
+        "photo": "assets/images/delphine-monnier.jpg",
+        "company": "Co'mint",
+        "comment": "Donec at eros facilisis, pulvinar arcu vitae, condimentum elit. Nulla id imperdiet dolor. Donec eleifend leo vitae tristique scelerisque. Praesent quis nisl quam. Nullam et augue rutrum, ullamcorper lorem vitae, dapibus enim. Mauris ac tellus dapibus, euismod ex eu..."
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "1",
+        "photo": "assets/images/delphine-monnier.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "company": "Proximum",
+    "industry": "Organisme de formation",
+    "projectType": "Catalogue de formation",
+    "description": "Donec at eros facilisis, pulvinar arcu vitae, condimentum elit. Nulla id imperdiet dolor. Donec eleifend leo vitae tristique scelerisque. Praesent quis nisl quam. Nullam et augue rutrum, ullamcorper lorem vitae, dapibus enim. Mauris ac tellus dapibus",
+    "goals": "Catalogue pour trouver une formation en fonction de ses objectifs",
+    "testimonials": [
+      {
+        "id": "2",
+        "name": "Jean Dupuis",
+        "company": "WebStore Pro",
+        "comment": "Working with this team was a game-changer. They delivered a high-quality e-commerce platform that exceeded our expectations. The user experience is seamless, and our conversion rate has improved significantly."
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "2",
+        "photo": "assets/images/eleonor-simiu.jpeg"
+      }
+    ]
+  }
+]
