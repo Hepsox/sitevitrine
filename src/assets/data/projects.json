@@ -5,8 +5,8 @@
     "industry": "Coach en management",
     "projectType": "Site vitrine",
     "duration": " 2 semaines",
-    "description": "Donec at eros facilisis, pulvinar arcu vitae, condimentum elit. Nulla id imperdiet dolor. Donec eleifend leo vitae tristique scelerisque. Praesent quis nisl quam. Nullam et augue rutrum, ullamcorper lorem vitae, dapibus enim. Mauris ac tellus dapibus",
-    "goals": "Développer la notoriété de l'entreprise",
+    "description": "Pour ce projet, j’ai conçu et développé un site web visant à structurer et mettre en avant les offres de formation en fonction des problématiques métier. J’ai d’abord travaillé sur l’architecture de l’information afin d’optimiser la navigation et guider efficacement les utilisateurs vers les parcours adaptés à leurs besoins. Le webdesign a été pensé pour offrir une expérience fluide et intuitive, avec une hiérarchisation claire des contenus et des appels à l’action stratégiques. Ensuite, j’ai développé le site en assurant sa performance, sa compatibilité responsive et une navigation optimisée. L’ensemble permet une meilleure accessibilité aux formations, une expérience utilisateur améliorée et une mise en avant efficace des parcours, favorisant ainsi la conversion des visiteurs en apprenants.",
+    "results": "✅ Site fonctionnel et ergonomique, adapté aux besoins métier. ✅ Navigation fluide, facilitant l’accès aux formations. ✅ Expérience utilisateur optimisée, design épuré et développement performant. ✅ Site responsive, accessible sur tous les appareils. ✅ Mise en avant des formations, améliorant la conversion des visiteurs.",
     "testimonials": [
       {
         "id": "1",
@@ -34,7 +34,7 @@
     "duration": " 3 semaines",
     "projectType": "Catalogue de formation",
     "description": "Donec at eros facilisis, pulvinar arcu vitae, condimentum elit. Nulla id imperdiet dolor. Donec eleifend leo vitae tristique scelerisque. Praesent quis nisl quam. Nullam et augue rutrum, ullamcorper lorem vitae, dapibus enim. Mauris ac tellus dapibus",
-    "goals": "Catalogue pour trouver une formation en fonction de ses objectifs",
+    "results": "Catalogue pour trouver une formation en fonction de ses objectifs",
     "testimonials": [
       {
         "id": "2",

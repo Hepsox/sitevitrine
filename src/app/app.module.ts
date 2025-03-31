@@ -16,6 +16,9 @@ import { ListServicesComponent } from './list-services/list-prestations.componen
 import { ListStepsComponent } from './list-steps/list-steps.component';
 import { ListQuestionsComponent } from './list-questions/list-questions.component';
 import { TemplateProjectComponent } from './template-project/template-project.component';
+import { HeaderComponent } from './header/header.component';
+import { TextFormatPipe } from './pipes/pipes/text-format.pipe';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { TemplateProjectComponent } from './template-project/template-project.co
     ListQuestionsComponent,
     HomeComponent,
     TemplateProjectComponent,
+    HeaderComponent,
+    TextFormatPipe,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

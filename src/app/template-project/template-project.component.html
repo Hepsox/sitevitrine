@@ -1,25 +1,112 @@
 <div *ngIf="project$ | async as project" class="desktop-container">
-  <div>
+  <div class="container-imgs-project">
     <img [src]="project.projectImages[0].photo" class="img-fluid project-img" />
     <img
       [src]="project.projectImages[1].photo"
       class="img-fluid project-img hide-mobile"
     />
   </div>
-  <h1 class="project-header">{{ project.company }}</h1>
+  <h1 class="project-header">Découvrez le projet : {{ project.company }}</h1>
   <div class="project-info">
     <h4><span>Secteur d'activité :</span> {{ project.industry }}</h4>
     <h4><span>Durée du projet :</span> {{ project.duration }}</h4>
     <h4><span>Type de projet :</span> {{ project.projectType }}</h4>
   </div>
-  <div class="project-details">
-    <div class="project-description">
-      <h3>Descritpion du projet</h3>
-      <p>{{ project.description }}</p>
+  <div class="container-all-info">
+    <div class="left">
+      <div class="project-details">
+        <div class="project-description">
+          <h3>Descritpion du projet</h3>
+          <p>{{ project.description }}</p>
+        </div>
+        <div class="project-goals">
+          <h3>Les Résultats</h3>
+          <p [innerHTML]="project.results | textFormat"></p>
+        </div>
+      </div>
     </div>
-    <div class="project-goals">
-      <h3>Les objectifs</h3>
-      <p>{{ project.goals }}</p>
+    <div class="right">
+      <ng-container *ngIf="testimonials$ | async as testimonials">
+        <div class="container-commentaires"></div>
+        <p-carousel
+          #carousel
+          [value]="testimonials"
+          [numVisible]="3"
+          [numScroll]="1"
+          [circular]="true"
+        >
+          <ng-template let-testimonial pTemplate="item">
+            <div
+              class="commentaire"
+              [ngStyle]="{
+                border:
+                  '10px solid ' +
+                  borderColors[testimonial.id % borderColors.length],
+                height: '90%',
+                marginLeft: '10px',
+                marginRight: '10px'
+              }"
+            >
+              <img
+                [src]="testimonial.photo"
+                alt="photo de {{ testimonial.name }}"
+                class="img-fluid round-img"
+              />
+              <div class="info-commentaire">
+                <h4>
+                  {{ testimonial.name }} -
+                  <span
+                    [ngStyle]="{
+                      color: borderColors[testimonial.id % borderColors.length]
+                    }"
+                    class="important"
+                  >
+                    {{ testimonial.company }}
+                  </span>
+                </h4>
+                <div class="stars-container">
+                  <div class="star">
+                    <img
+                      src="assets/images/etoile.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="star">
+                    <img
+                      src="assets/images/etoile.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="star">
+                    <img
+                      src="assets/images/etoile.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="star">
+                    <img
+                      src="assets/images/etoile.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="star">
+                    <img
+                      src="assets/images/etoile.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <p>{{ testimonial.comment }}</p>
+            </div>
+          </ng-template>
+        </p-carousel>
+      </ng-container>
     </div>
   </div>
 
@@ -28,66 +115,4 @@
     <img [src]="project.projectImages[0].photo" class="img-fluid project-img" />
     <img [src]="project.projectImages[0].photo" class="img-fluid project-img" />
   </div>
-
-  <ng-container *ngIf="testimonials$ | async as testimonials">
-    <div class="container-commentaires"></div>
-    <p-carousel
-      #carousel
-      [value]="testimonials"
-      [numVisible]="3"
-      [numScroll]="1"
-      [circular]="true"
-    >
-      <ng-template let-testimonial pTemplate="item">
-        <div
-          class="commentaire"
-          [ngStyle]="{
-            border:
-              '10px solid ' +
-              borderColors[testimonial.id % borderColors.length],
-            height: '90%',
-            marginLeft: '10px',
-            marginRight: '10px'
-          }"
-        >
-          <img
-            [src]="testimonial.photo"
-            alt="photo de {{ testimonial.name }}"
-            class="img-fluid round-img"
-          />
-          <div class="info-commentaire">
-            <h4>
-              {{ testimonial.name }} -
-              <span
-                [ngStyle]="{
-                  color: borderColors[testimonial.id % borderColors.length]
-                }"
-                class="important"
-              >
-                {{ testimonial.company }}
-              </span>
-            </h4>
-            <div class="stars-container">
-              <div class="star">
-                <img src="assets/images/etoile.png" class="img-fluid" alt="" />
-              </div>
-              <div class="star">
-                <img src="assets/images/etoile.png" class="img-fluid" alt="" />
-              </div>
-              <div class="star">
-                <img src="assets/images/etoile.png" class="img-fluid" alt="" />
-              </div>
-              <div class="star">
-                <img src="assets/images/etoile.png" class="img-fluid" alt="" />
-              </div>
-              <div class="star">
-                <img src="assets/images/etoile.png" class="img-fluid" alt="" />
-              </div>
-            </div>
-          </div>
-          <p>{{ testimonial.comment }}</p>
-        </div>
-      </ng-template>
-    </p-carousel>
-  </ng-container>
 </div>

@@ -12,7 +12,7 @@ export interface Project {
   industry: string;
   projectType: string;
   description: string;
-  goals: string;
+  results: string;
   testimonials: Testimonial[];
   projectImages: ProjectImage[];
 }
