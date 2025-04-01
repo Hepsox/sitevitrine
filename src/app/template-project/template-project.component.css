@@ -65,8 +65,8 @@
   }
 
   .container-imgs-project .project-img {
-    width: 49%;
-    height: 50%;
+    /* width: 49%; */
+    height: 300px;
     aspect-ratio: cover;
   }
 

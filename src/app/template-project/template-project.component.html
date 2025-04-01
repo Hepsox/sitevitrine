@@ -1,10 +1,7 @@
 <div *ngIf="project$ | async as project" class="desktop-container">
   <div class="container-imgs-project">
+    <!-- <img [src]="project.projectImages[0].photo" class="img-fluid project-img" /> -->
     <img [src]="project.projectImages[0].photo" class="img-fluid project-img" />
-    <img
-      [src]="project.projectImages[1].photo"
-      class="img-fluid project-img hide-mobile"
-    />
   </div>
   <h1 class="project-header">Découvrez le projet : {{ project.company }}</h1>
   <div class="project-info">
@@ -111,8 +108,7 @@
   </div>
 
   <div class="container-all-img-projects">
-    <img [src]="project.projectImages[0].photo" class="img-fluid project-img" />
-    <img [src]="project.projectImages[0].photo" class="img-fluid project-img" />
-    <img [src]="project.projectImages[0].photo" class="img-fluid project-img" />
+    <img [src]="project.projectImages[1].photo" class="img-fluid project-img" />
+    <img [src]="project.projectImages[2].photo" class="img-fluid project-img" />
   </div>
 </div>

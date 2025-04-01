@@ -126,8 +126,8 @@
     "industry": "Restauration",
     "projectType": "Site e-commerce",
     "duration": "1 mois",
-    "description": "Le projet consistait en une refonte totale du site e-commerce afin d'améliorer l'expérience utilisateur et de moderniser l'interface. J'ai été responsable de la création d'une logique de commerce en ligne solide, permettant une gestion fluide des produits et des commandes. Une partie clé du projet a été la conception de fiches produits personnalisées, offrant des informations détaillées et un design optimisé pour chaque article. J'ai également développé un système de gestion des commandes, incluant la prise en charge de la logistique de livraison et des paiements en ligne. Cela comprenait l’intégration de solutions de paiement sécurisé, garantissant des transactions simples et sûres pour les clients. Enfin, l’objectif était de rendre l’expérience d'achat la plus fluide et intuitive possible, avec une interface claire, rapide et accessible sur tous les appareils.",
-    "results": "✅ Augmentation du taux de conversion grâce à une interface simplifiée et une navigation fluide. ✅ Meilleure présentation des produits, contribuant à une meilleure prise de décision d'achat des clients. ✅ Processus de gestion des commandes plus rapide, réduisant les erreurs et améliorant l'efficacité des équipes. ✅ Augmentation des ventes en ligne grâce à une solution de paiement fluide et sécurisée, renforçant la confiance des clients. ✅ Service client amélioré avec une gestion des livraisons optimisée et une meilleure réactivité face aux demandes.",
+    "description": "Le projet consistait en une refonte totale du site e-commerce afin d'améliorer l'expérience utilisateur et de moderniser l'interface. J'ai été responsable de la création d'une logique de commerce en ligne solide, permettant une gestion fluide des produits et des commandes. Une partie clé du projet a été la conception de fiches produits personnalisées, offrant des informations détaillées et un design optimisé pour chaque article. J'ai également développé un système de gestion des commandes, incluant la prise en charge de la logistique de livraison et des paiements en ligne. Cela comprenait l’intégration de solutions de paiement sécurisé, garantissant des transactions simples et sûres pour les clients. ",
+    "results": "✅ Augmentation du taux de conversion grâce à une interface simplifiée et une navigation fluide. ✅ Meilleure présentation des produits, contribuant à une meilleure prise de décision d'achat des clients. ✅ Augmentation des ventes en ligne grâce à une solution de paiement fluide et sécurisée, renforçant la confiance des clients.",
     "testimonials": [
       {
         "id": "4",
@@ -140,12 +140,16 @@
     ],
     "projectImages": [
       {
-        "id": "5",
-        "photo": "assets/images/coffee-truck-le-petit-cafetier.jpg"
+        "id": "3",
+        "photo": "assets/images/lpc-3.jpg"
       },
       {
         "id": "3",
-        "photo": "assets/images/eleonor-simiu.jpeg"
+        "photo": "assets/images/lpc-2.jpg"
+      },
+      {
+        "id": "3",
+        "photo": "assets/images/lpc-1.jpg"
       }
     ]
   },
@@ -246,8 +250,8 @@
     "industry": "Commerce",
     "projectType": "Site vitrine",
     "duration": "3 semaines",
-    "description": "Création d'un site pour la présentation de l'entreprise et de ses produits, dans une interface épurée et moderne.",
-    "results": "✅ Site professionnel et esthétique.",
+    "description": "J'ai conçu l'identité graphique complète, en créant un logo et des éléments visuels qui reflètent les valeurs et l'image de la société. Le projet a également inclus la création du webdesign du site, en veillant à ce qu’il soit à la fois esthétique et fonctionnel, et adapté à la présentation de la société. J'ai ensuite développé le site, en intégrant les différentes pages nécessaires pour présenter les services de la société de manière claire et professionnelle. L'objectif était de donner à l'entreprise une présence en ligne moderne et cohérente, facilitant la présentation de ses activités à ses clients.",
+    "results": "✅ Création d’une identité graphique unique, renforçant l’image professionnelle et l'authenticité de la société. ✅ Site web moderne et responsive, parfaitement adapté à la présentation des services de la société. ✅ Webdesign intuitif et esthétique, offrant une expérience utilisateur fluide et agréable. ✅ Présentation claire et professionnelle des activités de la société, améliorant sa visibilité en ligne. ✅ Développement d'un site optimisé, accessible sur tous les appareils et garantissant une navigation fluide.",
     "testimonials": [
       {
         "id": "8",
@@ -270,44 +274,14 @@
     ]
   },
   {
-    "id": 9,
-    "slug": "clarisse-capdeville",
-    "company": "Freelance",
-    "industry": "Organisme de formation",
-    "projectType": "Site vitrine, Formation",
-    "duration": "Non spécifié",
-    "description": "Création d'un site web pour une freelance, avec une présentation des services et des réalisations.",
-    "results": "✅ Site élégant et professionnel, adapté à la présentation des services de freelance.",
-    "testimonials": [
-      {
-        "id": "9",
-        "name": "Clarisse Capdeville",
-        "company": "Freelance",
-        "comment": "Un réel plaisir d'avoir travaillé avec Marie ! Travail au top, réactivité et professionnalisme. Je recommande !",
-        "photo": "assets/images/clarisse-capdeville.png",
-        "borderColor": "#FF9100"
-      }
-    ],
-    "projectImages": [
-      {
-        "id": "9",
-        "photo": "assets/images/clarisse-capdeville.png"
-      },
-      {
-        "id": "9",
-        "photo": "assets/images/clarisse-capdeville.png"
-      }
-    ]
-  },
-  {
     "id": 10,
-    "slug": "clementine-espinasse",
+    "slug": "synapse-medicine",
     "company": "Synapse medicine",
     "industry": "Médical",
     "projectType": "Mise à jour",
     "duration": "4 semaines",
-    "description": "Refonte d'un site WordPress pour une entreprise dans le domaine médical, avec une mise à jour du design et des fonctionnalités.",
-    "results": "✅ Refonte réussie avec un site moderne et fonctionnel.",
+    "description": "Pour Synapse, j'ai ajouté une nouvelle page à un site existant en respectant une maquette fournie. Le projet a été réalisé dans un timing très court, nécessitant une gestion efficace du temps et des priorités. L'objectif était de créer une page cohérente avec l'existant, tout en respectant les spécifications de la maquette et en garantissant une intégration rapide et fluide au site déjà en place.",
+    "results": "✅ Ajout rapide d’une nouvelle page conforme à la maquette, respectant les exigences de design et de contenu. ✅ Respect du timing serré, livrant la page dans les délais impartis sans compromettre la qualité. ✅ Intégration harmonieuse de la page au site existant, assurant la cohérence visuelle et fonctionnelle. ✅ Amélioration de la structure du site avec une nouvelle page bien conçue, enrichissant le contenu disponible pour les utilisateurs. ✅ Optimisation de l'expérience utilisateur grâce à une navigation fluide et une mise en page responsive.",
     "testimonials": [
       {
         "id": "10",
@@ -456,8 +430,8 @@
     "industry": "Batiment",
     "projectType": "Site vitrine",
     "duration": "4 semaines",
-    "description": "Création d'un site pour une sophrologue, avec un design apaisant et fonctionnel.",
-    "results": "✅ Site clair et efficace, parfaitement adapté à la profession.",
+    "description": "Pour Novitoit, j'ai conçu la charte graphique et le webdesign du site vitrine, en mettant en avant les services et les réalisations de l'entreprise spécialisée dans le bâtiment. L'objectif était de créer une identité visuelle professionnelle et cohérente, tout en optimisant l'ergonomie du site pour faciliter la navigation. J'ai également travaillé sur le référencement naturel (SEO) afin d'améliorer la visibilité du site sur les moteurs de recherche et d'attirer plus de prospects.",
+    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
     "testimonials": [
       {
         "id": "16",
@@ -471,11 +445,19 @@
     "projectImages": [
       {
         "id": "16",
-        "photo": "assets/images/veronique-galimont.webp"
+        "photo": "assets/images/novitoit-5.jpeg"
       },
       {
         "id": "9",
-        "photo": "assets/images/clarisse-capdeville.png"
+        "photo": "assets/images/novitoit-5.jpeg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/novitoit-6.png"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/novitoit-4.png"
       }
     ]
   }
