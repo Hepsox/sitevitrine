@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "isVisibleOnProjectsPage": true,
     "slug": "co-mint",
     "company": "Co'mint",
     "industry": "Organisme de formation",
@@ -16,6 +17,14 @@
         "comment": "Nous avons choisi Marie pour réaliser notre site CO'MINT et nous avons eu raison ! Elle a été de très bon conseil, patiente et réactive. En plus, elle a du goût ! Très professionnelle, elle a su nous guider dans l'optimisation de notre projet. Un grand merci à toi pour cette belle aventure !",
         "photo": "assets/images/delphine-monnier.jpg",
         "borderColor": "#B456F0"
+      },
+      {
+        "id": "14",
+        "name": "Christine Pareyt",
+        "company": "Co'mint",
+        "comment": "Super collaboration : bonne écoute et adaptation de la part de Marie. Résultat : un site qui nous ressemble, qu'on aime et qui est efficace !",
+        "photo": "assets/images/christine-pareyt.jpeg",
+        "borderColor": "#FF9100"
       }
     ],
     "projectImages": [
@@ -26,11 +35,16 @@
       {
         "id": "2",
         "photo": "assets/images/proximum-formations.jpg"
+      },
+      {
+        "id": "2",
+        "photo": "assets/images/proximum-formations.jpg"
       }
     ]
   },
   {
     "id": 2,
+    "isVisibleOnProjectsPage": true,
     "slug": "proximum",
     "company": "Proximum",
     "industry": "Organisme de formation",
@@ -57,6 +71,7 @@
   {
     "id": 3,
     "slug": "tortue-pizza",
+    "isVisibleOnProjectsPage": true,
     "company": "Tortue Pizza",
     "industry": "Restauration",
     "projectType": "Site vitrine",
@@ -91,6 +106,7 @@
   {
     "id": 4,
     "slug": "lp-conseils",
+    "isVisibleOnProjectsPage": true,
     "company": "LP Conseils",
     "industry": "Organisme de formation",
     "projectType": "Maintenance",
@@ -111,15 +127,12 @@
       {
         "id": "4",
         "photo": "assets/images/luc-pascal.jpg"
-      },
-      {
-        "id": "3",
-        "photo": "assets/images/eleonor-simiu.jpeg"
       }
     ]
   },
   {
     "id": 5,
+    "isVisibleOnProjectsPage": true,
     "slug": "le-petit-cafetier",
     "company": "Le petit cafetier",
     "industry": "Restauration",
@@ -154,6 +167,7 @@
   },
   {
     "id": 6,
+    "isVisibleOnProjectsPage": true,
     "slug": "le-crayon-zen",
     "company": "Le Crayon Zen",
     "industry": "Bien-être",
@@ -188,6 +202,7 @@
   },
   {
     "id": 7,
+    "isVisibleOnProjectsPage": false,
     "slug": "artistic-production",
     "company": "Artistic Production",
     "industry": "Production artistique",
@@ -218,6 +233,7 @@
   },
   {
     "id": 8,
+    "isVisibleOnProjectsPage": false,
     "slug": "podcasts-production",
     "company": "Podcasts Production",
     "industry": "Production de podcasts",
@@ -248,6 +264,7 @@
   },
   {
     "id": 9,
+    "isVisibleOnProjectsPage": true,
     "slug": "sarl-dany-mangin",
     "company": "Sarl Dany Mangin",
     "industry": "Commerce",
@@ -278,6 +295,7 @@
   },
   {
     "id": 10,
+    "isVisibleOnProjectsPage": true,
     "slug": "synapse-medicine",
     "company": "Synapse medicine",
     "industry": "Médical",
@@ -308,6 +326,7 @@
   },
   {
     "id": 11,
+    "isVisibleOnProjectsPage": true,
     "slug": "isabelle-rollo",
     "company": "Réflexologue Plantaire",
     "industry": "Santé et bien-être",
@@ -337,37 +356,8 @@
     ]
   },
   {
-    "id": 14,
-    "slug": "christine-pareyt",
-    "company": "Co'mint",
-    "industry": "Consulting",
-    "projectType": "Site vitrine",
-    "duration": "5 semaines",
-    "description": "Création d'un site vitrine pour Co'mint, avec un design moderne et une présentation claire des services.",
-    "results": "✅ Site dynamique et fidèle à l'image de l'entreprise.",
-    "testimonials": [
-      {
-        "id": "14",
-        "name": "Christine Pareyt",
-        "company": "Co'mint",
-        "comment": "Super collaboration : bonne écoute et adaptation de la part de Marie. Résultat : un site qui nous ressemble, qu'on aime et qui est efficace !",
-        "photo": "assets/images/christine-pareyt.jpeg",
-        "borderColor": "#FF9100"
-      }
-    ],
-    "projectImages": [
-      {
-        "id": "14",
-        "photo": "assets/images/christine-pareyt.jpeg"
-      },
-      {
-        "id": "9",
-        "photo": "assets/images/clarisse-capdeville.png"
-      }
-    ]
-  },
-  {
     "id": 15,
+    "isVisibleOnProjectsPage": true,
     "slug": "nathalie-maitre",
     "company": "L'atelier de famille",
     "industry": "Artisanat",
@@ -398,6 +388,7 @@
   },
   {
     "id": 16,
+    "isVisibleOnProjectsPage": true,
     "slug": "veronique-galimont",
     "company": "Sophrologue",
     "industry": "Santé et bien-être",
@@ -432,6 +423,7 @@
   },
   {
     "id": 16,
+    "isVisibleOnProjectsPage": true,
     "slug": "novitoit",
     "company": "Novitoit",
     "industry": "Batiment",
@@ -457,6 +449,7 @@
   },
   {
     "id": 17,
+    "isVisibleOnProjectsPage": true,
     "slug": "formaxis",
     "company": "Formaxis",
     "industry": "Organisme de formation",
@@ -482,6 +475,7 @@
   },
   {
     "id": 17,
+    "isVisibleOnProjectsPage": true,
     "slug": "crizalid",
     "company": "Crizalid",
     "industry": "Organisme de formation",
@@ -507,6 +501,7 @@
   },
   {
     "id": 18,
+    "isVisibleOnProjectsPage": true,
     "slug": "pain-pain",
     "company": "Pain Pain",
     "industry": "Boulangerie",
@@ -532,6 +527,7 @@
   },
   {
     "id": 19,
+    "isVisibleOnProjectsPage": true,
     "slug": "delphine-nouviant",
     "company": "Delphine Nouviant",
     "industry": "Consulting",
@@ -582,6 +578,7 @@
   },
   {
     "id": 21,
+    "isVisibleOnProjectsPage": true,
     "slug": "maou-massages",
     "company": "Maou Massages",
     "industry": "Consulting",
@@ -607,6 +604,7 @@
   },
   {
     "id": 21,
+    "isVisibleOnProjectsPage": true,
     "slug": "boboyaka",
     "company": "Association Boboyaka",
     "industry": "Association",

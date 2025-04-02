@@ -14,6 +14,7 @@ export interface Testimonial {
 
 export interface Project {
   id: number;
+  isVisibleOnProjectsPage: boolean;
   slug: string;
   company: string;
   duration: string;

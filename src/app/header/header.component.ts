@@ -15,6 +15,7 @@ export class HeaderComponent {
     { label: "Déroulé d'un projet", href: '#deroule-projet' },
     { label: 'Avis clients', href: '#avis' },
     { label: 'FAQ', href: '#faq' },
+    { label: 'Les projets', href: 'les-projets' },
     {
       label: 'Réservez un appel gratuit',
       href: 'https://calendly.com/marie-delaire-prise-rdv/30min',

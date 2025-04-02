@@ -12,6 +12,9 @@ export class ProjectsService {
 
   getAllProjects(): Observable<Project[]> {
     return this.http.get<Project[]>(this._BASE_URL).pipe(
+      map((projects) =>
+        projects.filter((project) => project.isVisibleOnProjectsPage === true)
+      ),
       catchError((error) => {
         console.error('Erreur lors de la récupération des projets:', error);
         return of([]);

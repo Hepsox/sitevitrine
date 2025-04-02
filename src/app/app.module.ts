@@ -19,6 +19,7 @@ import { TemplateProjectComponent } from './template-project/template-project.co
 import { HeaderComponent } from './header/header.component';
 import { TextFormatPipe } from './pipes/pipes/text-format.pipe';
 import { FooterComponent } from './footer/footer.component';
+import { ListProjectsComponent } from './list-projects/list-projects.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     TextFormatPipe,
     FooterComponent,
+    ListProjectsComponent,
   ],
   imports: [
     BrowserModule,

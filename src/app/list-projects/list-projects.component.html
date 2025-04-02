@@ -1,0 +1,5 @@
+<ng-container *ngIf="projectsList$ | async as projectsList">
+  <ng-container *ngFor="let project of projectsList">
+    {{ project.company }}
+  </ng-container>
+</ng-container>
