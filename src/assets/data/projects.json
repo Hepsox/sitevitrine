@@ -40,22 +40,26 @@
     "results": "✅ Catalogue de formations facilement accessible et bien structuré, améliorant l’expérience utilisateur. ✅ Processus d’ajout de formations automatisé, facilitant la gestion et la mise à jour des contenus. ✅ Navigation fluide et intuitive, permettant aux utilisateurs de trouver rapidement les formations recherchées. ✅ Optimisation SEO du catalogue de formations, augmentant sa visibilité dans les résultats de recherche. ✅ Formation des équipes pour une gestion autonome et efficace du site et du catalogue.",
     "testimonials": [
       {
-        "id": "2",
-        "name": "Eleonor Simiu",
-        "company": "Consultante Stratégie",
-        "comment": "Réaliser mon site Web avec Marie a été une excellente expérience ! Marie est professionnelle, à l'écoute, et a un vrai sens de l'esthétique.",
-        "photo": "assets/images/eleonor-simiu.jpeg",
-        "borderColor": "#B456F0"
+        "id": "",
+        "name": "",
+        "company": "",
+        "comment": "",
+        "photo": "",
+        "borderColor": ""
       }
     ],
     "projectImages": [
       {
         "id": "3",
-        "photo": "assets/images/eleonor-simiu.jpeg"
+        "photo": "assets/images/proximum-mobile-1.jpg"
       },
       {
         "id": "4",
-        "photo": "assets/images/eleonor-simiu.jpeg"
+        "photo": "assets/images/proximum-desktop.jpg"
+      },
+      {
+        "id": "4",
+        "photo": "assets/images/proximum-mobile-2.jpg"
       }
     ]
   },
@@ -81,11 +85,15 @@
     "projectImages": [
       {
         "id": "5",
-        "photo": "assets/images/tortue-pizza.png"
+        "photo": "assets/images/tortue-pizza-mobile-1.jpg"
       },
       {
         "id": "6",
-        "photo": "assets/images/eleonor-simiu.jpeg"
+        "photo": "assets/images/tortue-pizza-mobile-2.jpg"
+      },
+      {
+        "id": "6",
+        "photo": "assets/images/tortue-pizza-desktop.jpg"
       }
     ]
   },
@@ -175,11 +183,15 @@
     "projectImages": [
       {
         "id": "6",
-        "photo": "assets/images/corinne-mazel.jpg"
+        "photo": "assets/images/le-crayon-zen-1.jpg"
       },
       {
         "id": "3",
-        "photo": "assets/images/eleonor-simiu.jpeg"
+        "photo": "assets/images/le-crayon-zen-2.jpg"
+      },
+      {
+        "id": "3",
+        "photo": "assets/images/le-crayon-zen-3.jpg"
       }
     ]
   },
@@ -415,11 +427,15 @@
     "projectImages": [
       {
         "id": "16",
-        "photo": "assets/images/veronique-galimont.webp"
+        "photo": "assets/images/veronique-galimont-3.jpg"
       },
       {
         "id": "9",
-        "photo": "assets/images/clarisse-capdeville.png"
+        "photo": "assets/images/veronique-galimont-1.jpg"
+      },
+      {
+        "id": "10",
+        "photo": "assets/images/veronique-galimont-2.jpg"
       }
     ]
   },
@@ -445,19 +461,253 @@
     "projectImages": [
       {
         "id": "16",
-        "photo": "assets/images/novitoit-5.jpeg"
+        "photo": "assets/images/novitoit-mobile-1.jpg"
       },
       {
         "id": "9",
-        "photo": "assets/images/novitoit-5.jpeg"
+        "photo": "assets/images/novitoit-mobile-3.jpg"
       },
       {
         "id": "9",
-        "photo": "assets/images/novitoit-6.png"
+        "photo": "assets/images/novitoit-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "formaxis",
+    "company": "Formaxis",
+    "industry": "Organisme de formation",
+    "projectType": "Site vitrine",
+    "duration": "4 semaines",
+    "description": "Pour Novitoit, j'ai conçu la charte graphique et le webdesign du site vitrine, en mettant en avant les services et les réalisations de l'entreprise spécialisée dans le bâtiment. L'objectif était de créer une identité visuelle professionnelle et cohérente, tout en optimisant l'ergonomie du site pour faciliter la navigation. J'ai également travaillé sur le référencement naturel (SEO) afin d'améliorer la visibilité du site sur les moteurs de recherche et d'attirer plus de prospects.",
+    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
+    "testimonials": [
+      {
+        "id": "16",
+        "name": "Véronique Galimont",
+        "company": "Sophrologue",
+        "comment": "Merci Marie pour votre compétence professionnelle, ce fut un réel plaisir d'échanger autour de la création de mon site !! Marie a prit le temps de tout m'expliquer et a été à l'écoute de mes envies je recommande ++",
+        "photo": "assets/images/veronique-galimont.webp",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/formaxis-mobile-1.jpg"
       },
       {
         "id": "9",
-        "photo": "assets/images/novitoit-4.png"
+        "photo": "assets/images/formaxis-desktop.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/formaxis-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "crizalid",
+    "company": "Crizalid",
+    "industry": "Organisme de formation",
+    "projectType": "Site vitrine",
+    "duration": "4 semaines",
+    "description": "Pour Novitoit, j'ai conçu la charte graphique et le webdesign du site vitrine, en mettant en avant les services et les réalisations de l'entreprise spécialisée dans le bâtiment. L'objectif était de créer une identité visuelle professionnelle et cohérente, tout en optimisant l'ergonomie du site pour faciliter la navigation. J'ai également travaillé sur le référencement naturel (SEO) afin d'améliorer la visibilité du site sur les moteurs de recherche et d'attirer plus de prospects.",
+    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
+    "testimonials": [
+      {
+        "id": "16",
+        "name": "Véronique Galimont",
+        "company": "Sophrologue",
+        "comment": "Merci Marie pour votre compétence professionnelle, ce fut un réel plaisir d'échanger autour de la création de mon site !! Marie a prit le temps de tout m'expliquer et a été à l'écoute de mes envies je recommande ++",
+        "photo": "assets/images/veronique-galimont.webp",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/crizalid-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/crizalid-desktop.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/crizalid-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "pain-pain",
+    "company": "Pain Pain",
+    "industry": "Boulangerie",
+    "projectType": "Site vitrine",
+    "duration": "4 semaines",
+    "description": "Pour Novitoit, j'ai conçu la charte graphique et le webdesign du site vitrine, en mettant en avant les services et les réalisations de l'entreprise spécialisée dans le bâtiment. L'objectif était de créer une identité visuelle professionnelle et cohérente, tout en optimisant l'ergonomie du site pour faciliter la navigation. J'ai également travaillé sur le référencement naturel (SEO) afin d'améliorer la visibilité du site sur les moteurs de recherche et d'attirer plus de prospects.",
+    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
+    "testimonials": [
+      {
+        "id": "16",
+        "name": "Véronique Galimont",
+        "company": "Sophrologue",
+        "comment": "Merci Marie pour votre compétence professionnelle, ce fut un réel plaisir d'échanger autour de la création de mon site !! Marie a prit le temps de tout m'expliquer et a été à l'écoute de mes envies je recommande ++",
+        "photo": "assets/images/veronique-galimont.webp",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/painpain-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/painpain-mobile-3.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/painpain-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "delphine-nouviant",
+    "company": "Delphine Nouviant",
+    "industry": "Consulting",
+    "projectType": "Site vitrine",
+    "duration": "2 semaines",
+    "description": "Pour Novitoit, j'ai conçu la charte graphique et le webdesign du site vitrine, en mettant en avant les services et les réalisations de l'entreprise spécialisée dans le bâtiment. L'objectif était de créer une identité visuelle professionnelle et cohérente, tout en optimisant l'ergonomie du site pour faciliter la navigation. J'ai également travaillé sur le référencement naturel (SEO) afin d'améliorer la visibilité du site sur les moteurs de recherche et d'attirer plus de prospects.",
+    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
+    "testimonials": [
+      {
+        "id": "16",
+        "name": "Véronique Galimont",
+        "company": "Sophrologue",
+        "comment": "Merci Marie pour votre compétence professionnelle, ce fut un réel plaisir d'échanger autour de la création de mon site !! Marie a prit le temps de tout m'expliquer et a été à l'écoute de mes envies je recommande ++",
+        "photo": "assets/images/veronique-galimont.webp",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/delphine-nouviant-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/delphine-nouviant-desktop.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/delphine-nouviant-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "eleonor-simiu",
+    "company": "Eleonor Simiu",
+    "industry": "Consulting",
+    "projectType": "Site vitrine",
+    "duration": "2 semaines",
+    "description": "Pour Novitoit, j'ai conçu la charte graphique et le webdesign du site vitrine, en mettant en avant les services et les réalisations de l'entreprise spécialisée dans le bâtiment. L'objectif était de créer une identité visuelle professionnelle et cohérente, tout en optimisant l'ergonomie du site pour faciliter la navigation. J'ai également travaillé sur le référencement naturel (SEO) afin d'améliorer la visibilité du site sur les moteurs de recherche et d'attirer plus de prospects.",
+    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
+    "testimonials": [
+      {
+        "id": "16",
+        "name": "Véronique Galimont",
+        "company": "Sophrologue",
+        "comment": "Merci Marie pour votre compétence professionnelle, ce fut un réel plaisir d'échanger autour de la création de mon site !! Marie a prit le temps de tout m'expliquer et a été à l'écoute de mes envies je recommande ++",
+        "photo": "assets/images/veronique-galimont.webp",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/eleonor-simiu-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/eleonor-simiu-desktop.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/eleonor-simiu-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "maou-massages",
+    "company": "Maou Massages",
+    "industry": "Consulting",
+    "projectType": "Site vitrine",
+    "duration": "2 semaines",
+    "description": "Pour Novitoit, j'ai conçu la charte graphique et le webdesign du site vitrine, en mettant en avant les services et les réalisations de l'entreprise spécialisée dans le bâtiment. L'objectif était de créer une identité visuelle professionnelle et cohérente, tout en optimisant l'ergonomie du site pour faciliter la navigation. J'ai également travaillé sur le référencement naturel (SEO) afin d'améliorer la visibilité du site sur les moteurs de recherche et d'attirer plus de prospects.",
+    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
+    "testimonials": [
+      {
+        "id": "16",
+        "name": "Véronique Galimont",
+        "company": "Sophrologue",
+        "comment": "Merci Marie pour votre compétence professionnelle, ce fut un réel plaisir d'échanger autour de la création de mon site !! Marie a prit le temps de tout m'expliquer et a été à l'écoute de mes envies je recommande ++",
+        "photo": "assets/images/veronique-galimont.webp",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/maou-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/maou-mobile-3.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/maou-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "boboyaka",
+    "company": "Association Boboyaka",
+    "industry": "Association",
+    "projectType": "Site vitrine",
+    "duration": "2 semaines",
+    "description": "Pour Novitoit, j'ai conçu la charte graphique et le webdesign du site vitrine, en mettant en avant les services et les réalisations de l'entreprise spécialisée dans le bâtiment. L'objectif était de créer une identité visuelle professionnelle et cohérente, tout en optimisant l'ergonomie du site pour faciliter la navigation. J'ai également travaillé sur le référencement naturel (SEO) afin d'améliorer la visibilité du site sur les moteurs de recherche et d'attirer plus de prospects.",
+    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
+    "testimonials": [
+      {
+        "id": "16",
+        "name": "Véronique Galimont",
+        "company": "Sophrologue",
+        "comment": "Merci Marie pour votre compétence professionnelle, ce fut un réel plaisir d'échanger autour de la création de mon site !! Marie a prit le temps de tout m'expliquer et a été à l'écoute de mes envies je recommande ++",
+        "photo": "assets/images/veronique-galimont.webp",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/boboyaka-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/boboyaka-desktop.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/boboyaka-mobile-2.jpg"
       }
     ]
   }
