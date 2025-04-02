@@ -1,0 +1,13 @@
+<div class="card desktop-container">
+  <div class="card-container-img">
+    <img [src]="project.projectImages[0].photo" class="img-fluid" />
+  </div>
+  <div class="card-header">
+    <h2>{{ project.company }}</h2>
+    <h3>{{ project.industry }}</h3>
+  </div>
+  <div class="card-body">
+    <p>{{ shortDescription }}</p>
+    <a class="call-to-action" href="#"> Voir le projet</a>
+  </div>
+</div>

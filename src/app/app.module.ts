@@ -20,6 +20,7 @@ import { HeaderComponent } from './header/header.component';
 import { TextFormatPipe } from './pipes/pipes/text-format.pipe';
 import { FooterComponent } from './footer/footer.component';
 import { ListProjectsComponent } from './list-projects/list-projects.component';
+import { CardProjectComponent } from './card-project/card-project.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { ListProjectsComponent } from './list-projects/list-projects.component';
     TextFormatPipe,
     FooterComponent,
     ListProjectsComponent,
+    CardProjectComponent,
   ],
   imports: [
     BrowserModule,
