@@ -22,8 +22,8 @@
         </div>
       </div>
     </div>
-    <div class="right">
-      <ng-container *ngIf="testimonials$ | async as testimonials">
+    <ng-container *ngIf="testimonials$ | async as testimonials">
+      <div *ngIf="hasTestimonials(testimonials)" class="right">
         <div class="container-commentaires"></div>
         <p-carousel
           #carousel
@@ -62,35 +62,7 @@
                   </span>
                 </h4>
                 <div class="stars-container">
-                  <div class="star">
-                    <img
-                      src="assets/images/etoile.png"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div class="star">
-                    <img
-                      src="assets/images/etoile.png"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div class="star">
-                    <img
-                      src="assets/images/etoile.png"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div class="star">
-                    <img
-                      src="assets/images/etoile.png"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div class="star">
+                  <div class="star" *ngFor="let _ of [1, 2, 3, 4, 5]">
                     <img
                       src="assets/images/etoile.png"
                       class="img-fluid"
@@ -103,8 +75,8 @@
             </div>
           </ng-template>
         </p-carousel>
-      </ng-container>
-    </div>
+      </div>
+    </ng-container>
   </div>
 
   <div class="container-all-img-projects">

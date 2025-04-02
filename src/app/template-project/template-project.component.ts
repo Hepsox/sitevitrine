@@ -23,6 +23,10 @@ export class TemplateProjectComponent implements OnInit {
     private route: ActivatedRoute
   ) {}
 
+  hasTestimonials(testimonials: Testimonial[] | null): boolean {
+    return testimonials !== null && testimonials.length > 0;
+  }
+
   ngOnInit(): void {
     const slug = this.route.snapshot.paramMap.get('slug')!;
     this.project$ = this.projectService.getProjectBySlug(slug);
