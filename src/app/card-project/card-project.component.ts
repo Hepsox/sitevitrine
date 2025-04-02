@@ -16,7 +16,7 @@ export class CardProjectComponent {
 
   private getShortDescription(
     description: string,
-    limit: number = 300
+    limit: number = 250
   ): string {
     return description.length > limit
       ? description.slice(0, limit) + '...'
