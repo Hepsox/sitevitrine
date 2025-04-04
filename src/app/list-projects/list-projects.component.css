@@ -1,0 +1,30 @@
+.container-btn-filter {
+  margin-bottom: 20px;
+}
+.filter-btn {
+  background-color: transparent;
+  border: 3px solid var(--tertiary-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-transform: capitalize;
+  margin: 0px 5px 10px 5px;
+
+  font-size: 14px;
+}
+
+.filter-btn:active {
+  background-color: var(--tertiary-color); /* temporaire pendant clic */
+}
+
+.filter-btn.active {
+  background-color: var(--tertiary-color); /* reste actif */
+}
+@media (min-width: 768px) {
+  .container-btn-filter {
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+}

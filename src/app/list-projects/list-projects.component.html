@@ -1,5 +1,26 @@
-<ng-container *ngIf="projectsList$ | async as projectsList">
-  <ng-container *ngFor="let project of projectsList">
-    <app-card-project [project]="project"></app-card-project>
+<div class="desktop-container">
+  <ng-container *ngIf="projectsList$ | async as projectsList">
+    <div class="container-btn-filter">
+      <button
+        class="filter-btn"
+        [class.active]="selectedIndustry === null"
+        (click)="filterProjects(null)"
+      >
+        Tout
+      </button>
+
+      <button
+        class="filter-btn"
+        *ngFor="let industry of industries$ | async"
+        [class.active]="selectedIndustry === industry"
+        (click)="filterProjects(industry)"
+      >
+        {{ industry }}
+      </button>
+    </div>
+
+    <ng-container *ngFor="let project of projectsList">
+      <app-card-project [project]="project"></app-card-project>
+    </ng-container>
   </ng-container>
-</ng-container>
+</div>
