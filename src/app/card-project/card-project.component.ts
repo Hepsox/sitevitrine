@@ -11,7 +11,9 @@ export class CardProjectComponent {
   shortDescription: string = '';
 
   ngOnInit(): void {
-    this.shortDescription = this.getShortDescription(this.project.description);
+    this.shortDescription = this.getShortDescription(
+      this.project.description[0].text
+    );
   }
 
   private getShortDescription(

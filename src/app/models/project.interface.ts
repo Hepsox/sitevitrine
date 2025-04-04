@@ -3,6 +3,11 @@ interface ProjectImage {
   photo: string;
 }
 
+interface Description {
+  title: string;
+  text: string;
+}
+
 export interface Testimonial {
   id: string;
   name: string;
@@ -20,7 +25,7 @@ export interface Project {
   duration: string;
   industry: string;
   projectType: string;
-  description: string;
+  description: Description[];
   results: string;
   testimonials: Testimonial[];
   projectImages: ProjectImage[];
