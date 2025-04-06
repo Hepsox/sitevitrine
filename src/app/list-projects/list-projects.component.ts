@@ -16,7 +16,7 @@ export class ListProjectsComponent implements OnInit {
 
   constructor(
     private service: ProjectsService,
-    private storageService: StorageService // Injecter StorageService
+    private storageService: StorageService
   ) {}
 
   ngOnInit() {
