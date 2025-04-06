@@ -5,7 +5,10 @@
   <div class="card-content">
     <div class="card-header">
       <h2>{{ project.company }}</h2>
-      <h3>{{ project.industry }}</h3>
+      <div class="card-header-info">
+        <h3 class="industry">{{ project.industry }}</h3>
+        <h3 class="project-type">{{ project.projectType }}</h3>
+      </div>
     </div>
     <div class="card-body">
       <p>{{ shortDescription }}</p>

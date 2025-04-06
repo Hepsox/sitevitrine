@@ -39,15 +39,15 @@
     "projectImages": [
       {
         "id": "1",
-        "photo": "assets/images/moodstation-1.jpg"
+        "photo": "assets/images/comint-mobile-1.jpg"
       },
       {
         "id": "2",
-        "photo": "assets/images/proximum-formations.jpg"
+        "photo": "assets/images/comint-mobile-2.jpg"
       },
       {
         "id": "2",
-        "photo": "assets/images/proximum-formations.jpg"
+        "photo": "assets/images/comint-desktop.jpg"
       }
     ]
   },
@@ -290,6 +290,257 @@
       {
         "id": "7",
         "photo": "assets/images/artistic-mobile-1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "isVisibleOnProjectsPage": false,
+    "slug": "podcasts-production",
+    "company": "Podcasts Production",
+    "industry": "Production de podcasts",
+    "projectType": "Formation",
+    "duration": "3 semaines",
+    "description": "J'ai dispensé une formation complète sur WordPress, couvrant la création de sites web et de blogs. La formation a inclus l'enseignement de la création de pages, de l'ajout de contenu, ainsi que de la gestion de la structure du blog. J'ai également abordé l'optimisation du contenu pour le SEO et la gestion des médias afin de faciliter la publication et la mise à jour des épisodes de podcast de manière autonome.",
+    "results": "✅ Compétences acquises pour créer et gérer un site web et un blog sur WordPress de manière autonome. ✅ Mise en place d'un blog structuré, facilitant la publication rapide et efficace des épisodes de podcast. ✅ Gestion optimisée du contenu, permettant des mises à jour fluides et une meilleure organisation des articles. ✅ Amélioration du référencement, augmentant la visibilité des podcasts dans les moteurs de recherche. ✅ Autonomie totale dans la gestion du site et du contenu, réduisant la dépendance à des prestataires externes.",
+    "testimonials": [
+      {
+        "id": "7",
+        "name": "Quentin Martel",
+        "company": "Podcasts Production",
+        "comment": "Ayant fait appel à Marie pour différents services, je ne peux que la recommander les yeux fermés ! Très compétente et disponible, je la remercie pour son professionnalisme !",
+        "photo": "assets/images/quentin-martel.jpeg",
+        "borderColor": "#ff5c83"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "",
+        "photo": ""
+      },
+      {
+        "id": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "isVisibleOnProjectsPage": true,
+    "slug": "sarl-dany-mangin",
+    "company": "Sarl Dany Mangin",
+    "industry": "Commerce / Artisanat",
+    "projectType": "Site vitrine",
+    "duration": "3 semaines",
+    "description": [
+      {
+        "title": "Création d’un webdesign sur mesure, de l’idée à l’interface",
+        "text": "Conception de l’ensemble du webdesign à partir de zéro, en imaginant une interface à la fois esthétique et fonctionnelle, parfaitement adaptée à l’image et aux besoins de l’entreprise. Chaque élément graphique a été pensé pour refléter les valeurs de la société tout en garantissant une expérience utilisateur fluide et engageante."
+      },
+      {
+        "title": "Développement du site vitrine pour valoriser les services",
+        "text": "Une fois le design validé, j’ai développé le site en intégrant toutes les pages nécessaires à une présentation claire et professionnelle des services. L’objectif était d’offrir à l’entreprise une présence en ligne moderne, cohérente et facile d’accès, afin de faciliter la prise de contact et la compréhension de son offre."
+      }
+    ],
+
+    "results": "✅ Création d’une identité graphique unique, renforçant l’image professionnelle. ✅ Site web parfaitement adapté à la présentation des services de la société.  ✅ Présentation claire et professionnelle améliorant sa visibilité en ligne. ",
+    "testimonials": [
+      {
+        "id": "8",
+        "name": "Pierre Mangin",
+        "company": "Sarl Dany Mangin",
+        "comment": "J'ai confié mon projet de création de site internet à Marie et je suis vraiment très satisfait du résultat ! Rapidité, compréhension parfaite de ce que je désirai et des réponses rapides à toutes mes questions ! Si il avait été possible de mettre 6 étoiles et bien j'en aurai mis 7 ;D Je recommande très fortement !!!",
+        "photo": "assets/images/sarl-dany-mangin.png",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "9",
+        "photo": "assets/images/sarl-dany-mangin-mobile-1.jpg"
+      },
+      {
+        "id": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "isVisibleOnProjectsPage": true,
+    "slug": "synapse-medicine",
+    "company": "Synapse medicine",
+    "industry": "Santé / Bien-être",
+    "projectType": "Mise à jour",
+    "duration": "1 semaine",
+    "description": [
+      {
+        "title": "Intégration d’une nouvelle page selon maquette fournie",
+        "text": "Ajout d’une nouvelle page à un site existant, en respectant scrupuleusement une maquette fournie. L’enjeu principal était de garantir une parfaite cohérence avec l’identité visuelle et la structure déjà en place."
+      },
+      {
+        "title": "Réactivité et efficacité dans un délai court",
+        "text": "Le projet a été réalisé dans un timing très serré, ce qui a nécessité une gestion rigoureuse du temps et des priorités. J’ai assuré une intégration rapide et fluide, en veillant à la qualité du rendu et à l’alignement avec les attentes du client."
+      }
+    ],
+
+    "results": "✅ Ajout rapide d’une nouvelle page conforme à la maquette, respectant les exigences de design et de contenu. ✅ Respect du timing serré, livrant la page dans les délais impartis sans compromettre la qualité. ✅ Intégration harmonieuse de la page au site existant, assurant la cohérence visuelle et fonctionnelle. ",
+    "testimonials": [
+      {
+        "id": "10",
+        "name": "Clémentine Espinasse",
+        "company": "Synapse medicine",
+        "comment": "Nous avions une urgence pour la refonte de notre site wordpress, Marie a été à la hauteur de la mission. Je la recommande vivement!",
+        "photo": "assets/images/clementine-espinasse.jpeg",
+        "borderColor": "#ff5c83"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "10",
+        "photo": "assets/images/synapse-mobile-1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "isVisibleOnProjectsPage": false,
+    "slug": "isabelle-rollo",
+    "company": "Réflexologue Plantaire",
+    "industry": "Santé / Bien-être",
+    "projectType": "Site vitrine",
+    "duration": "1 mois",
+    "description": "Création d'un site internet et d'un logo pour une réflexologue plantaire, avec un design épuré et informatif.",
+    "results": "✅ Site simple et efficace, à l'image de la pratique professionnelle.",
+    "testimonials": [
+      {
+        "id": "11",
+        "name": "Isabelle Rollo",
+        "company": "Réflexologue Plantaire",
+        "comment": "Je remercie Marie pour l'excellent travail réalisé sur mon site Web et mon Logo. Nous avons travaillé à distance et tout s'est très bien passé !",
+        "photo": "assets/images/isabelle-rollo.png",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "",
+        "photo": ""
+      },
+      {
+        "id": "",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "isVisibleOnProjectsPage": false,
+    "slug": "nathalie-maitre",
+    "company": "L'atelier de famille",
+    "industry": "Commerce / Artisanat",
+    "projectType": "Site vitrine",
+    "duration": "2 semaines",
+    "description": "Création d'un site pour L'atelier de famille, avec un focus sur la présentation des produits artisanaux.",
+    "results": "✅ Site rapide et adapté pour mettre en valeur les créations artisanales.",
+    "testimonials": [
+      {
+        "id": "15",
+        "name": "Nathalie Maitre",
+        "company": "L'atelier de famille",
+        "comment": "Je suis tres satisfaite des prestations de Marie, elle a su interpréter mes demandes de façon simple efficace et rapide. Ses actions m'ont permis de me faire connaître rapidement. Elle se rend toujours disponible pour toute question, elle est très réactive.",
+        "photo": "assets/images/nathalie-maitre.png",
+        "borderColor": "#ff5c83"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "",
+        "photo": ""
+      },
+      {
+        "id": "",
+        "photo": ""
+      }
+    ]
+  },
+
+  {
+    "id": 16,
+    "isVisibleOnProjectsPage": true,
+    "slug": "veronique-galimont",
+    "company": "Véronique Galimont",
+    "industry": "Santé / Bien-être",
+    "projectType": "Site vitrine",
+    "duration": "4 semaines",
+    "description": [
+      {
+        "title": "Structuration de l’offre et création d’une navigation claire",
+        "text": "Création d’une arborescence claire permettant de structurer les différentes prestations proposées par la sophrologue : séances individuelles, ateliers de groupe, accompagnement en entreprise. Insertion de contenus pensés pour guider l’utilisateur dans sa compréhension de l’offre, des bénéfices de la sophrologie, et des modalités de réservation. Mise en place d’une navigation intuitive facilitant l’accès aux informations essentielles (tarifs, déroulé des séances, prise de contact)."
+      },
+      {
+        "title": "Webdesign personnalisé et optimisation SEO",
+        "text": "Conception d’un webdesign sur mesure, en cohérence avec l’univers de la sophrologie : palette de couleurs douces, typographies apaisantes, mise en page aérée. Intégration d’éléments visuels favorisant la sérénité et la confiance. Insertion de balises SEO, rédaction optimisée des titres et descriptions, hiérarchisation des contenus et choix de mots-clés adaptés pour améliorer la visibilité du site sur les recherches locales liées à la sophrologie."
+      }
+    ],
+    "results": "✅ Meilleure compréhension de l’offre grâce à une présentation structurée et accessible. ✅ Augmentation des prises de rendez-vous via le site. ✅ Amélioration du positionnement sur des requêtes locales",
+    "testimonials": [
+      {
+        "id": "16",
+        "name": "Véronique Galimont",
+        "company": "Sophrologue",
+        "comment": "Merci Marie pour votre compétence professionnelle, ce fut un réel plaisir d'échanger autour de la création de mon site !! Marie a prit le temps de tout m'expliquer et a été à l'écoute de mes envies je recommande ++",
+        "photo": "assets/images/veronique-galimont.webp",
+        "borderColor": "#B456F0"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/veronique-galimont-3.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/veronique-galimont-1.jpg"
+      },
+      {
+        "id": "10",
+        "photo": "assets/images/veronique-galimont-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "isVisibleOnProjectsPage": true,
+    "slug": "novitoit",
+    "company": "Novitoit",
+    "industry": "BTP",
+    "projectType": "Site vitrine",
+    "duration": "4 semaines",
+    "description": [
+      {
+        "title": "Création de la charte graphique et du webdesign du site vitrine",
+        "text": "Conception complète de la charte graphique et du webdesign du site vitrine, mettant en avant les services et réalisations de l'entreprise spécialisée dans le bâtiment. L’objectif était de créer une identité visuelle professionnelle, cohérente, et d’optimiser l’ergonomie du site pour offrir une expérience utilisateur fluide.."
+      },
+      {
+        "title": "Optimisation SEO et structure de contenu",
+        "text": "Travail approfondi sur le référencement naturel (SEO) afin d’améliorer la visibilité du site sur les moteurs de recherche et attirer davantage de prospects. L’optimisation de la structure du site, la hiérarchisation des titres, et un maillage interne structuré ont permis une meilleure indexation et un trafic organique accru."
+      }
+    ],
+    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
+    "testimonials": [],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/novitoit-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/novitoit-mobile-3.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/novitoit-mobile-2.jpg"
       }
     ]
   }

@@ -22,9 +22,30 @@
   margin-bottom: 0;
 }
 
-.card-header h3 {
+.industry {
+  display: flex;
+  width: max-content;
+  font-style: italic;
+
   margin-top: 2px;
-  font-size: 22px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: var(--tertiary-color);
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.project-type {
+  font-size: 13px;
+
+  display: flex;
+  font-style: italic;
+  width: max-content;
+  font-weight: 500;
+
+  background-color: var(--primary-bg-color);
+  padding: 10px;
+  border-radius: 2px;
   font-weight: 500;
 }
 
@@ -36,7 +57,12 @@
   .card {
     display: flex;
   }
-
+  .card-header-info {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    margin-top: -10px;
+  }
   .card-content {
     display: flex;
     flex-direction: column;
@@ -50,7 +76,7 @@
   }
 
   .card-content h3 {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 
   .card-container-img {
