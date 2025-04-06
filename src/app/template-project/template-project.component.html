@@ -38,6 +38,8 @@
             [value]="testimonials"
             [numVisible]="1"
             [numScroll]="1"
+            [showNavigators]="testimonials.length > 1"
+            [showIndicators]="testimonials.length > 1"
             [circular]="true"
           >
             <ng-template let-testimonial pTemplate="item">
