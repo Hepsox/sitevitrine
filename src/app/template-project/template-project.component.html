@@ -1,15 +1,40 @@
 <ng-container *ngIf="project$ | async as project">
   <div class="desktop-container">
-    <div class="container-imgs-project">
+    <div
+      class="container-imgs-project"
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out"
+      data-aos-offset="50"
+      [attr.data-aos-once]="'true'"
+    >
       <img
         [src]="project.projectImages[0].photo"
         class="img-fluid project-img"
       />
     </div>
 
-    <h1 class="project-header">Découvrez le projet : {{ project.company }}</h1>
+    <h1
+      class="project-header"
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="100"
+      data-aos-offset="50"
+      data-aos-easing="ease-in-out"
+      [attr.data-aos-once]="'true'"
+    >
+      Découvrez le projet : {{ project.company }}
+    </h1>
 
-    <div class="project-info">
+    <div
+      class="project-info"
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="250"
+      data-aos-offset="50"
+      data-aos-easing="ease-in-out"
+      [attr.data-aos-once]="'true'"
+    >
       <h4><span>Secteur d'activité :</span> {{ project.industry }}</h4>
       <h4><span>Durée du projet :</span> {{ project.duration }}</h4>
       <h4><span>Type de projet :</span> {{ project.projectType }}</h4>
@@ -18,13 +43,30 @@
     <div class="container-all-info">
       <div class="left">
         <div class="project-details">
-          <div class="project-description">
+          <div
+            class="project-description"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="400"
+            data-aos-offset="50"
+            data-aos-easing="ease-in-out"
+            [attr.data-aos-once]="'true'"
+          >
             <h3>{{ project.description[0].title }}</h3>
             <p>{{ project.description[0].text }}</p>
             <h3>{{ project.description[1].title }}</h3>
             <p>{{ project.description[1].text }}</p>
           </div>
-          <div class="project-goals">
+
+          <div
+            class="project-goals"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="500"
+            data-aos-offset="50"
+            data-aos-easing="ease-in-out"
+            [attr.data-aos-once]="'true'"
+          >
             <h3>Les Résultats</h3>
             <p [innerHTML]="project.results | textFormat"></p>
           </div>
@@ -32,7 +74,16 @@
       </div>
 
       <ng-container *ngIf="testimonials$ | async as testimonials">
-        <div *ngIf="hasTestimonials(testimonials)" class="right">
+        <div
+          *ngIf="hasTestimonials(testimonials)"
+          class="right"
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="650"
+          data-aos-offset="50"
+          data-aos-easing="ease-in-out"
+          [attr.data-aos-once]="'true'"
+        >
           <div class="container-commentaires"></div>
           <p-carousel
             [value]="testimonials"
@@ -53,6 +104,12 @@
                   marginLeft: '10px',
                   marginRight: '10px'
                 }"
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="800"
+                data-aos-offset="50"
+                data-aos-easing="ease-in-out"
+                [attr.data-aos-once]="'true'"
               >
                 <img
                   [src]="testimonial.photo"
@@ -90,7 +147,15 @@
       </ng-container>
     </div>
 
-    <div class="container-all-img-projects">
+    <div
+      class="container-all-img-projects"
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="900"
+      data-aos-offset="50"
+      data-aos-easing="ease-in-out"
+      [attr.data-aos-once]="'true'"
+    >
       <img
         *ngIf="project.projectImages[1]?.photo"
         [src]="project.projectImages[1].photo"
