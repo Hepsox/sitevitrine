@@ -9,6 +9,7 @@ import { Project } from '../models/project.interface';
 export class CardProjectComponent {
   @Input() project!: Project;
   shortDescription: string = '';
+  @Input() dataAos!: string;
 
   ngOnInit(): void {
     this.shortDescription = this.getShortDescription(

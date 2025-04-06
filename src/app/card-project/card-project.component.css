@@ -93,4 +93,9 @@
     padding-bottom: 20px;
     font-size: 18px;
   }
+
+  .industry,
+  .project-type {
+    padding: 4px 10px;
+  }
 }

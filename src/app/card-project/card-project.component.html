@@ -1,4 +1,10 @@
-<div class="card">
+<div
+  class="card"
+  data-aos="fade-up"
+  data-aos-duration="500"
+  [attr.data-aos-delay]="dataAos"
+  data-aos-once="true"
+>
   <div class="card-container-img">
     <img [src]="project.projectImages[0].photo" class="img-fluid" />
   </div>
@@ -12,9 +18,9 @@
     </div>
     <div class="card-body">
       <p>{{ shortDescription }}</p>
-      <a class="call-to-action" [routerLink]="['/projet', project.slug]"
-        >Voir le projet</a
-      >
+      <a class="call-to-action" [routerLink]="['/projet', project.slug]">
+        Voir le projet
+      </a>
     </div>
   </div>
 </div>
