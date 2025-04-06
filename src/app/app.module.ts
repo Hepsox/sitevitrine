@@ -21,6 +21,7 @@ import { TextFormatPipe } from './pipes/pipes/text-format.pipe';
 import { FooterComponent } from './footer/footer.component';
 import { ListProjectsComponent } from './list-projects/list-projects.component';
 import { CardProjectComponent } from './card-project/card-project.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { CardProjectComponent } from './card-project/card-project.component';
     AppRoutingModule,
     CarouselModule,
     SidebarModule,
+    FormsModule,
   ],
   providers: [provideClientHydration(), provideHttpClient()],
   bootstrap: [AppComponent],

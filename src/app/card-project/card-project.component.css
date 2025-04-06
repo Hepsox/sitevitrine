@@ -26,8 +26,6 @@
   display: flex;
   width: max-content;
   font-style: italic;
-
-  margin-top: 2px;
   font-size: 13px;
   font-weight: 500;
   background-color: var(--tertiary-color);
@@ -52,7 +50,13 @@
 .card-body p {
   line-height: 1.6;
 }
-
+.card-header-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -5px;
+  gap: 10px;
+}
 @media (min-width: 768px) {
   .card {
     display: flex;
