@@ -1,5 +1,6 @@
 <div class="desktop-container">
-  <ng-container *ngIf="projectsList$ | async as projectsList">
+  <ng-container *ngIf="projectsList$ | async as projectsList; else loading">
+    <!-- Affichage de la liste des projets après le chargement -->
     <div class="container-btn-filter">
       <div class="filter-buttons">
         <button
@@ -41,4 +42,11 @@
       </app-card-project>
     </ng-container>
   </ng-container>
+
+  <ng-template #loading>
+    <!-- Affichage du spinner pendant le chargement des projets -->
+    <div class="loader">
+      <div class="spinner"></div>
+    </div>
+  </ng-template>
 </div>

@@ -12,6 +12,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrl: './list-projects.component.css',
 })
 export class ListProjectsComponent implements OnInit {
+  isLoading: boolean = true; // Indicateur de chargement
   selectedIndustry: string | null = null;
   projectsList$!: Observable<Project[]>;
   industries$!: Observable<string[]>;
@@ -24,7 +25,6 @@ export class ListProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.projectsList$ = this.service.getAllProjects();
-
     this.industries$ = this.service.getIndustries();
 
     this.route.queryParamMap.subscribe((params) => {
