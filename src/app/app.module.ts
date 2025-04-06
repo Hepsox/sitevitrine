@@ -15,6 +15,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ListServicesComponent } from './list-services/list-prestations.component';
 import { ListStepsComponent } from './list-steps/list-steps.component';
 import { ListQuestionsComponent } from './list-questions/list-questions.component';
+import { TemplateProjectComponent } from './template-project/template-project.component';
+import { HeaderComponent } from './header/header.component';
+import { TextFormatPipe } from './pipes/pipes/text-format.pipe';
+import { FooterComponent } from './footer/footer.component';
+import { ListProjectsComponent } from './list-projects/list-projects.component';
+import { CardProjectComponent } from './card-project/card-project.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,6 +31,12 @@ import { ListQuestionsComponent } from './list-questions/list-questions.componen
     ListTestimonialsComponent,
     ListQuestionsComponent,
     HomeComponent,
+    TemplateProjectComponent,
+    HeaderComponent,
+    TextFormatPipe,
+    FooterComponent,
+    ListProjectsComponent,
+    CardProjectComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +44,7 @@ import { ListQuestionsComponent } from './list-questions/list-questions.componen
     AppRoutingModule,
     CarouselModule,
     SidebarModule,
+    FormsModule,
   ],
   providers: [provideClientHydration(), provideHttpClient()],
   bootstrap: [AppComponent],

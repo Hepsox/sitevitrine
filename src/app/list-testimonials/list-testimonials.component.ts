@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { TestimonialsService } from '../services/testimonials.service';
 import { Testimonial } from '../models/testimonial.interfaces';
@@ -13,7 +13,7 @@ export class ListTestimonialsComponent {
   borderColors = ['#ff5c83', '#B456F0', '#FF9100'];
 
   testimonialsList$: Observable<Testimonial[]> =
-    this.service.getAllTestimonials();
+    this.service.getAllTestimonialsOnProject();
 
   constructor(private service: TestimonialsService) {}
 
