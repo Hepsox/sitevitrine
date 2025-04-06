@@ -34,6 +34,9 @@ jobs:
       - name: Build the application
         run: npm run build -- --output-path=dist
 
+      - name: Copy custom 404.html
+        run: cp 404.html dist/browser/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -50,5 +53,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Copy custom 404.html
-        run: cp 404.html dist/browser/
