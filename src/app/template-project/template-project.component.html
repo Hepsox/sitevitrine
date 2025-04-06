@@ -1,0 +1,171 @@
+<ng-container *ngIf="project$ | async as project">
+  <div class="desktop-container">
+    <div
+      class="container-imgs-project"
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out"
+      data-aos-offset="50"
+      [attr.data-aos-once]="'true'"
+    >
+      <img
+        [src]="project.projectImages[0].photo"
+        class="img-fluid project-img"
+      />
+    </div>
+
+    <h1
+      class="project-header"
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="100"
+      data-aos-offset="50"
+      data-aos-easing="ease-in-out"
+      [attr.data-aos-once]="'true'"
+    >
+      Découvrez le projet : {{ project.company }}
+    </h1>
+
+    <div
+      class="project-info"
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="250"
+      data-aos-offset="50"
+      data-aos-easing="ease-in-out"
+      [attr.data-aos-once]="'true'"
+    >
+      <h4><span>Secteur d'activité :</span> {{ project.industry }}</h4>
+      <h4><span>Durée du projet :</span> {{ project.duration }}</h4>
+      <h4><span>Type de projet :</span> {{ project.projectType }}</h4>
+    </div>
+
+    <div class="container-all-info">
+      <div class="left">
+        <div class="project-details">
+          <div
+            class="project-description"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="400"
+            data-aos-offset="50"
+            data-aos-easing="ease-in-out"
+            [attr.data-aos-once]="'true'"
+          >
+            <h3>{{ project.description[0].title }}</h3>
+            <p>{{ project.description[0].text }}</p>
+            <h3>{{ project.description[1].title }}</h3>
+            <p>{{ project.description[1].text }}</p>
+          </div>
+
+          <div
+            class="project-goals"
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-delay="500"
+            data-aos-offset="50"
+            data-aos-easing="ease-in-out"
+            [attr.data-aos-once]="'true'"
+          >
+            <h3>Les Résultats</h3>
+            <p [innerHTML]="project.results | textFormat"></p>
+          </div>
+        </div>
+      </div>
+
+      <ng-container *ngIf="testimonials$ | async as testimonials">
+        <div
+          *ngIf="hasTestimonials(testimonials)"
+          class="right"
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="650"
+          data-aos-offset="50"
+          data-aos-easing="ease-in-out"
+          [attr.data-aos-once]="'true'"
+        >
+          <div class="container-commentaires"></div>
+          <p-carousel
+            [value]="testimonials"
+            [numVisible]="1"
+            [numScroll]="1"
+            [showNavigators]="testimonials.length > 1"
+            [showIndicators]="testimonials.length > 1"
+            [circular]="true"
+          >
+            <ng-template let-testimonial pTemplate="item">
+              <div
+                class="commentaire"
+                [ngStyle]="{
+                  border:
+                    '10px solid ' +
+                    borderColors[testimonial.id % borderColors.length],
+                  height: '90%',
+                  marginLeft: '10px',
+                  marginRight: '10px'
+                }"
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="800"
+                data-aos-offset="50"
+                data-aos-easing="ease-in-out"
+                [attr.data-aos-once]="'true'"
+              >
+                <img
+                  [src]="testimonial.photo"
+                  alt="photo de {{ testimonial.name }}"
+                  class="img-fluid round-img"
+                />
+                <div class="info-commentaire">
+                  <h4>
+                    {{ testimonial.name }} -
+                    <span
+                      [ngStyle]="{
+                        color:
+                          borderColors[testimonial.id % borderColors.length]
+                      }"
+                      class="important"
+                    >
+                      {{ testimonial.company }}
+                    </span>
+                  </h4>
+                  <div class="stars-container">
+                    <div class="star" *ngFor="let _ of [1, 2, 3, 4, 5]">
+                      <img
+                        src="assets/images/etoile.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p>{{ testimonial.comment }}</p>
+              </div>
+            </ng-template>
+          </p-carousel>
+        </div>
+      </ng-container>
+    </div>
+
+    <div
+      class="container-all-img-projects"
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="900"
+      data-aos-offset="50"
+      data-aos-easing="ease-in-out"
+      [attr.data-aos-once]="'true'"
+    >
+      <img
+        *ngIf="project.projectImages[1]?.photo"
+        [src]="project.projectImages[1].photo"
+        class="img-fluid project-img"
+      />
+      <img
+        *ngIf="project.projectImages[2]?.photo"
+        [src]="project.projectImages[2].photo"
+        class="img-fluid project-img"
+      />
+    </div>
+  </div>
+</ng-container>

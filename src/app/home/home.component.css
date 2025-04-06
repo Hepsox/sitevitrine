@@ -23,6 +23,13 @@
   font-weight: 500;
 }
 
+.projects-btn {
+  margin-top: 50px;
+}
+.all-number .container-btn {
+  display: flex;
+  justify-content: center;
+}
 @media (min-width: 768px) {
   .container-prestations {
     margin-top: 20px;

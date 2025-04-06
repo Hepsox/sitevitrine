@@ -1,0 +1,56 @@
+<span
+  id="scroll-to-top"
+  class="hide-desktop"
+  *ngIf="!menuVisible"
+  (click)="scrollToTop()"
+>
+  &uarr;
+</span>
+<div class="desktop-container" id="top">
+  <header class="header-bar">
+    <div class="container-logo">
+      <a href="/" aria-label="Retour à l'accueil">
+        <h3>Rozardi</h3>
+      </a>
+    </div>
+    <div
+      class="burger hide-desktop"
+      (click)="toggleMenu()"
+      aria-label="Ouvrir le menu de navigation"
+      [attr.aria-expanded]="menuVisible ? 'true' : 'false'"
+      aria-controls="menu-mobile"
+    >
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="hide-mobile menu-desktop">
+      <nav aria-label="Navigation principale">
+        <a
+          *ngFor="let link of menuLinks"
+          [href]="link.href"
+          [attr.target]="link.isExternal ? '_blank' : null"
+          [attr.rel]="link.isExternal ? 'noopener noreferrer' : null"
+          [ngClass]="link.class"
+        >
+          {{ link.label }}
+        </a>
+      </nav>
+    </div>
+  </header>
+</div>
+<p-sidebar [(visible)]="menuVisible" [fullScreen]="true" [blockScroll]="true">
+  <div class="menu-mobile">
+    <nav aria-label="Menu mobile">
+      <a
+        *ngFor="let link of menuLinks"
+        [href]="link.href"
+        [attr.target]="link.isExternal ? '_blank' : null"
+        [attr.rel]="link.isExternal ? 'noopener noreferrer' : null"
+        [ngClass]="link.class"
+        (click)="menuMobileClick($event, link)"
+      >
+        {{ link.label }}
+      </a>
+    </nav>
+  </div>
+</p-sidebar>

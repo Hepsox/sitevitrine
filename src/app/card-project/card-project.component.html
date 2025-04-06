@@ -1,0 +1,26 @@
+<div
+  class="card"
+  data-aos="fade-up"
+  data-aos-duration="500"
+  [attr.data-aos-delay]="dataAos"
+  data-aos-once="true"
+>
+  <div class="card-container-img">
+    <img [src]="project.projectImages[0].photo" class="img-fluid" />
+  </div>
+  <div class="card-content">
+    <div class="card-header">
+      <h2>{{ project.company }}</h2>
+      <div class="card-header-info">
+        <h3 class="industry">{{ project.industry }}</h3>
+        <h3 class="project-type">{{ project.projectType }}</h3>
+      </div>
+    </div>
+    <div class="card-body">
+      <p>{{ shortDescription }}</p>
+      <a class="call-to-action" [routerLink]="['/projet', project.slug]">
+        Voir le projet
+      </a>
+    </div>
+  </div>
+</div>

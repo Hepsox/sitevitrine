@@ -1,0 +1,44 @@
+<div class="desktop-container">
+  <ng-container *ngIf="projectsList$ | async as projectsList">
+    <div class="container-btn-filter">
+      <div class="filter-buttons">
+        <button
+          class="filter-btn"
+          [class.active]="selectedIndustry === null"
+          (click)="filterProjects(null)"
+        >
+          Tout
+        </button>
+
+        <button
+          class="filter-btn"
+          *ngFor="let industry of industries$ | async"
+          [class.active]="selectedIndustry === industry"
+          (click)="filterProjects(industry)"
+        >
+          {{ industry | titlecase }}
+        </button>
+      </div>
+
+      <div class="filter-select">
+        <select
+          [(ngModel)]="selectedIndustry"
+          (change)="filterProjects(selectedIndustry)"
+        >
+          <option [ngValue]="null">Tout</option>
+          <option
+            *ngFor="let industry of industries$ | async"
+            [ngValue]="industry"
+          >
+            {{ industry | titlecase }}
+          </option>
+        </select>
+      </div>
+    </div>
+
+    <ng-container *ngFor="let project of projectsList; let i = index">
+      <app-card-project [project]="project" [dataAos]="(i * 50).toString()">
+      </app-card-project>
+    </ng-container>
+  </ng-container>
+</div>
