@@ -1,6 +1,11 @@
-<a href="#top" id="scroll-to-top" class="hide-desktop" *ngIf="!menuVisible">
+<span
+  id="scroll-to-top"
+  class="hide-desktop"
+  *ngIf="!menuVisible"
+  (click)="scrollToTop()"
+>
   &uarr;
-</a>
+</span>
 <div class="desktop-container" id="top">
   <header class="header-bar">
     <div class="container-logo">

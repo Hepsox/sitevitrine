@@ -36,4 +36,11 @@ export class HeaderComponent {
   toggleMenu() {
     this.menuVisible = !this.menuVisible;
   }
+
+  scrollToTop(): void {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // 'smooth' pour un défilement fluide
+    });
+  }
 }
