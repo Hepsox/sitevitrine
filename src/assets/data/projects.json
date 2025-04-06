@@ -1,5 +1,40 @@
 [
   {
+    "id": 16,
+    "isVisibleOnProjectsPage": true,
+    "slug": "novitoit",
+    "company": "Novitoit",
+    "industry": "BTP",
+    "projectType": "Site vitrine",
+    "duration": "4 semaines",
+    "description": [
+      {
+        "title": "Création de la charte graphique et du webdesign du site vitrine",
+        "text": "Conception complète de la charte graphique et du webdesign du site vitrine, mettant en avant les services et réalisations de l'entreprise spécialisée dans le bâtiment. L’objectif était de créer une identité visuelle professionnelle, cohérente, et d’optimiser l’ergonomie du site pour offrir une expérience utilisateur fluide.."
+      },
+      {
+        "title": "Optimisation SEO et structure de contenu",
+        "text": "Travail approfondi sur le référencement naturel (SEO) afin d’améliorer la visibilité du site sur les moteurs de recherche et attirer davantage de prospects. L’optimisation de la structure du site, la hiérarchisation des titres, et un maillage interne structuré ont permis une meilleure indexation et un trafic organique accru."
+      }
+    ],
+    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
+    "testimonials": [],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/novitoit-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/novitoit-mobile-3.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/novitoit-mobile-2.jpg"
+      }
+    ]
+  },
+  {
     "id": 1,
     "isVisibleOnProjectsPage": true,
     "slug": "co-mint",
@@ -51,86 +86,7 @@
       }
     ]
   },
-  {
-    "id": 2,
-    "isVisibleOnProjectsPage": true,
-    "slug": "proximum",
-    "company": "Proximum",
-    "industry": "Organisme de formation",
-    "projectType": "Site vitrine, Catalogue, Blog, Formations",
-    "duration": "5 ans",
 
-    "description": [
-      {
-        "title": "Un projet sur le long terme",
-        "text": "J’ai eu l’opportunité de travailler sur ce projet dès sa création, et ce, pendant 5 ans. Dès le début, mon rôle a été de construire les bases du site web et de lui permettre d'évoluer au fil des années en fonction des besoins croissants de l'entreprise. J’ai conçu un design moderne et responsive, en veillant à optimiser le site pour le SEO, afin qu’il soit bien référencé et accessible sur tous les appareils. Cette approche a permis d'améliorer considérablement l'expérience utilisateur et de garantir la visibilité du site sur les moteurs de recherche."
-      },
-      {
-        "title": "Création d’un catalogue de formations en ligne",
-        "text": "J’ai conçu et intégré un catalogue de formations en ligne avec des options de filtrage pour simplifier la recherche et aider les utilisateurs à trouver rapidement la formation adaptée. Ce système automatise l’ajout de contenu et facilite la gestion continue des offres, offrant ainsi une navigation fluide et une gestion autonome des formations. Parallèlement, j’ai développé un blog structuré pour optimiser le référencement et fournir du contenu actualisé, ce qui génère davantage de trafic et renforce l’engagement des utilisateurs. Enfin, j’ai formé les équipes internes à l’utilisation du CMS, garantissant ainsi une gestion autonome du site et de son contenu."
-      }
-    ],
-    "results": "✅ Catalogue de formations facilement accessible et bien structuré, améliorant l’expérience utilisateur. ✅ Processus d’ajout de formations automatisé, facilitant la gestion et la mise à jour des contenus. ✅ Navigation intuitive permettant aux utilisateurs de trouver rapidement les formations. ✅ Optimisation SEO du catalogue de formations ✅ Formation des équipes pour une gestion autonome et efficace du site et du catalogue.",
-    "testimonials": [],
-    "projectImages": [
-      {
-        "id": "3",
-        "photo": "assets/images/proximum-mobile-1.jpg"
-      },
-      {
-        "id": "4",
-        "photo": "assets/images/proximum-desktop.jpg"
-      },
-      {
-        "id": "4",
-        "photo": "assets/images/proximum-mobile-2.jpg"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "slug": "tortue-pizza",
-    "isVisibleOnProjectsPage": true,
-    "company": "Tortue Pizza",
-    "industry": "Restauration",
-    "projectType": "Site vitrine",
-    "duration": "2 semaines",
-    "description": [
-      {
-        "title": "Adaptation de l’identité visuelle au webdesign",
-        "text": "Le projet consistait à adapter l’identité visuelle de Tortue Pizza (logo et illustrations) en un webdesign moderne et fonctionnel. L'objectif était de créer une expérience cohérente tout en respectant l’image de marque existante."
-      },
-      {
-        "title": "Création d'une carte en ligne claire et intuitive",
-        "text": "L'objectif principal était de présenter la carte du restaurant de manière claire et intuitive, en mettant en avant les différentes formules pour faciliter le choix des clients. Le design a été pensé pour offrir une navigation fluide et optimiser l'expérience utilisateur."
-      }
-    ],
-    "results": "✅ Déclinaison cohérente de l’identité visuelle existante (logo, illustration) en webdesign moderne. ✅ Présentation claire et intuitive de la carte, permettant une identification facile des différentes formules.✅ Navigation optimisée pour une expérience utilisateur fluide et agréable. ✅ Mise en avant des produits de manière attrayante, facilitant la prise de commande.",
-    "testimonials": [
-      {
-        "id": "12",
-        "name": "Mounir Rebiai",
-        "company": "Tortue Pizza",
-        "comment": "J’ai sollicité le travail de Marie trouver par hasard sur Google en 2020 pour la création de mon site internet, elle a été très réactive et ma de suite fait des propositions selon mes envies et pour le plus grand plaisir de mes clients qui me disent souvent que le site est super bien optimisé. J’ai recontacter Marie en 2022 pour des modifications tarifaires et elle a été comme à sont habitude très réactive.",
-        "photo": "assets/images/tortue-pizza.png",
-        "borderColor": "#ff5c83"
-      }
-    ],
-    "projectImages": [
-      {
-        "id": "5",
-        "photo": "assets/images/tortue-pizza-mobile-1.jpg"
-      },
-      {
-        "id": "6",
-        "photo": "assets/images/tortue-pizza-mobile-2.jpg"
-      },
-      {
-        "id": "6",
-        "photo": "assets/images/tortue-pizza-desktop.jpg"
-      }
-    ]
-  },
   {
     "id": 4,
     "slug": "lp-conseil",
@@ -510,37 +466,328 @@
     ]
   },
   {
-    "id": 16,
+    "id": 2,
     "isVisibleOnProjectsPage": true,
-    "slug": "novitoit",
-    "company": "Novitoit",
-    "industry": "BTP",
-    "projectType": "Site vitrine",
-    "duration": "4 semaines",
+    "slug": "proximum",
+    "company": "Proximum",
+    "industry": "Organisme de formation",
+    "projectType": "Site vitrine, Catalogue, Blog, Formation",
+    "duration": "5 ans",
+
     "description": [
       {
-        "title": "Création de la charte graphique et du webdesign du site vitrine",
-        "text": "Conception complète de la charte graphique et du webdesign du site vitrine, mettant en avant les services et réalisations de l'entreprise spécialisée dans le bâtiment. L’objectif était de créer une identité visuelle professionnelle, cohérente, et d’optimiser l’ergonomie du site pour offrir une expérience utilisateur fluide.."
+        "title": "Un projet sur le long terme",
+        "text": "J’ai eu l’opportunité de travailler sur ce projet dès sa création, et ce, pendant 5 ans. Dès le début, mon rôle a été de construire les bases du site web et de lui permettre d'évoluer au fil des années en fonction des besoins croissants de l'entreprise. J’ai conçu un design moderne et responsive, en veillant à optimiser le site pour le SEO, afin qu’il soit bien référencé et accessible sur tous les appareils. Cette approche a permis d'améliorer considérablement l'expérience utilisateur et de garantir la visibilité du site sur les moteurs de recherche."
       },
       {
-        "title": "Optimisation SEO et structure de contenu",
-        "text": "Travail approfondi sur le référencement naturel (SEO) afin d’améliorer la visibilité du site sur les moteurs de recherche et attirer davantage de prospects. L’optimisation de la structure du site, la hiérarchisation des titres, et un maillage interne structuré ont permis une meilleure indexation et un trafic organique accru."
+        "title": "Création d’un catalogue de formations en ligne",
+        "text": "J’ai conçu et intégré un catalogue de formations en ligne avec des options de filtrage pour simplifier la recherche et aider les utilisateurs à trouver rapidement la formation adaptée. Ce système automatise l’ajout de contenu et facilite la gestion continue des offres, offrant ainsi une navigation fluide et une gestion autonome des formations. Parallèlement, j’ai développé un blog structuré pour optimiser le référencement et fournir du contenu actualisé, ce qui génère davantage de trafic et renforce l’engagement des utilisateurs. Enfin, j’ai formé les équipes internes à l’utilisation du CMS, garantissant ainsi une gestion autonome du site et de son contenu."
       }
     ],
-    "results": "✅ Structure du site optimisée, avec une arborescence claire facilitant l’accès aux services et réalisations. ✅ Navigation fluide et intuitive, permettant aux visiteurs de trouver rapidement les informations essentielles. ✅ Gestion de contenu simplifiée, grâce à une organisation efficace des pages et sections dans WordPress. ✅ Optimisation SEO technique, avec une hiérarchisation des titres et un maillage interne structuré pour un meilleur référencement.",
+    "results": "✅ Catalogue de formations facilement accessible et bien structuré, améliorant l’expérience utilisateur. ✅ Processus d’ajout de formations automatisé, facilitant la gestion et la mise à jour des contenus. ✅ Navigation intuitive permettant aux utilisateurs de trouver rapidement les formations. ✅ Optimisation SEO du catalogue de formations ✅ Formation des équipes pour une gestion autonome et efficace du site et du catalogue.",
+    "testimonials": [],
+    "projectImages": [
+      {
+        "id": "3",
+        "photo": "assets/images/proximum-mobile-1.jpg"
+      },
+      {
+        "id": "4",
+        "photo": "assets/images/proximum-desktop.jpg"
+      },
+      {
+        "id": "4",
+        "photo": "assets/images/proximum-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "tortue-pizza",
+    "isVisibleOnProjectsPage": true,
+    "company": "Tortue Pizza",
+    "industry": "Restauration",
+    "projectType": "Site vitrine",
+    "duration": "2 semaines",
+    "description": [
+      {
+        "title": "Adaptation de l’identité visuelle au webdesign",
+        "text": "Le projet consistait à adapter l’identité visuelle de Tortue Pizza (logo et illustrations) en un webdesign moderne et fonctionnel. L'objectif était de créer une expérience cohérente tout en respectant l’image de marque existante."
+      },
+      {
+        "title": "Création d'une carte en ligne claire et intuitive",
+        "text": "L'objectif principal était de présenter la carte du restaurant de manière claire et intuitive, en mettant en avant les différentes formules pour faciliter le choix des clients. Le design a été pensé pour offrir une navigation fluide et optimiser l'expérience utilisateur."
+      }
+    ],
+    "results": "✅ Déclinaison cohérente de l’identité visuelle existante (logo, illustration) en webdesign moderne. ✅ Présentation claire et intuitive de la carte, permettant une identification facile des différentes formules.✅ Navigation optimisée pour une expérience utilisateur fluide et agréable. ✅ Mise en avant des produits de manière attrayante, facilitant la prise de commande.",
+    "testimonials": [
+      {
+        "id": "12",
+        "name": "Mounir Rebiai",
+        "company": "Tortue Pizza",
+        "comment": "J’ai sollicité le travail de Marie trouver par hasard sur Google en 2020 pour la création de mon site internet, elle a été très réactive et ma de suite fait des propositions selon mes envies et pour le plus grand plaisir de mes clients qui me disent souvent que le site est super bien optimisé. J’ai recontacter Marie en 2022 pour des modifications tarifaires et elle a été comme à sont habitude très réactive.",
+        "photo": "assets/images/tortue-pizza.png",
+        "borderColor": "#ff5c83"
+      }
+    ],
+    "projectImages": [
+      {
+        "id": "5",
+        "photo": "assets/images/tortue-pizza-mobile-1.jpg"
+      },
+      {
+        "id": "6",
+        "photo": "assets/images/tortue-pizza-mobile-2.jpg"
+      },
+      {
+        "id": "6",
+        "photo": "assets/images/tortue-pizza-desktop.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 17,
+    "isVisibleOnProjectsPage": true,
+    "slug": "formaxis",
+    "company": "Formaxis",
+    "industry": "Organisme de formation",
+    "projectType": "Site vitrine",
+    "duration": "Sur 1 an",
+    "description": [
+      {
+        "title": "Conception de la charte graphique et développement du site web",
+        "text": "Création d’une charte graphique complète et développement du site web, visant à présenter de manière claire et attrayante l’offre de formations. L'interface a été pensée pour être à la fois professionnelle et engageante, avec une navigation fluide et un accès rapide aux informations essentielles. Le site a été développé sous WordPress, intégrant également un blog pour partager des ressources pédagogiques, des actualités et des retours d’expérience."
+      },
+      {
+        "title": "Conception et intégration d’un parcours de formation WordPress",
+        "text": "En parallèle, création d’un parcours de formation WordPress dédié aux apprenants, avec des contenus pédagogiques accessibles, structurés et adaptés aux débutants. Ce parcours a été intégré à leur plateforme e-learning, garantissant une parfaite cohérence visuelle et fonctionnelle avec le site principal, afin de proposer une expérience d’apprentissage fluide et cohérente."
+      }
+    ],
+    "results": "✅ Charte graphique cohérente renforçant la crédibilité de l’organisme auprès des apprenants. ✅ Site web structuré et intuitif, facilitant l’accès à l’offre de formation et aux contenus pédagogiques. ✅ Blog intégré, permettant le partage de ressources et l’optimisation du référencement naturel. ✅ Parcours de formation WordPress conçu sur-mesure, offrant une montée en compétences claire et progressive. ✅ Interface responsive, pensée pour un apprentissage accessible sur tous les supports.",
     "testimonials": [],
     "projectImages": [
       {
         "id": "16",
-        "photo": "assets/images/novitoit-mobile-1.jpg"
+        "photo": "assets/images/formaxis-mobile-1.jpg"
       },
       {
         "id": "9",
-        "photo": "assets/images/novitoit-mobile-3.jpg"
+        "photo": "assets/images/formaxis-desktop.jpg"
       },
       {
         "id": "9",
-        "photo": "assets/images/novitoit-mobile-2.jpg"
+        "photo": "assets/images/formaxis-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "isVisibleOnProjectsPage": true,
+    "slug": "crizalid",
+    "company": "Crizalid",
+    "industry": "Organisme de formation",
+    "projectType": "Site vitrine, Blog, Catalogue",
+    "duration": "4 semaines",
+    "description": [
+      {
+        "title": "Conception du site web et mise en valeur des services",
+        "text": "création d'un site web structuré pour mettre en avant leur expertise dans l'accompagnement des organisations. Le design du site a été pensé pour refléter leur professionnalisme, avec une navigation claire permettant de découvrir facilement les différents services proposés dans les domaines financier, organisationnel, fiscal, social et juridique."
+      },
+      {
+        "title": "Optimisation du contenu et stratégie SEO pour un meilleur référencement",
+        "text": "Développement du site sous WordPress avec une architecture fluide et une hiérarchisation efficace des contenus. En plus des pages de service, un blog a été intégré pour diffuser des ressources et actualités. Un travail de référencement naturel (SEO) a été réalisé pour améliorer la visibilité du site et attirer un public ciblé à la recherche de conseils spécialisés.."
+      }
+    ],
+    "results": "✅ Arborescence optimisée pour accéder rapidement aux informations sur les appels d'offres et subventions. ✅ Navigation fluide pour trouver facilement les services d’accompagnement adaptés. ✅ Blog intégré pour partager des ressources et études de cas, stimulant l’engagement. ✅ SEO optimisé pour améliorer la visibilité sur des requêtes spécifiques liées aux démarches administratives. ✅ Gestion des contenus simplifiée via WordPress pour une mise à jour autonome.",
+    "testimonials": [],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/crizalid-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/crizalid-desktop.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/crizalid-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "isVisibleOnProjectsPage": true,
+    "slug": "pain-pain",
+    "company": "Pain Pain",
+    "industry": "Restauration",
+    "projectType": "Site vitrine",
+    "duration": "4 semaines",
+    "description": [
+      {
+        "title": "Création d'un site vitrine coloré et moderne",
+        "text": "Pour cette boulangerie artisanale, fournisseur de l’Élysée, conception d'un site vitrine au design vivant, coloré et légèrement décalé, aligné avec l'univers de la marque. L’objectif était de valoriser la qualité des produits, l’histoire unique et le savoir-faire de la maison, tout en apportant une touche de modernité. Le site a été développé sous WordPress avec un webdesign sur mesure respectant l’identité graphique de la boulangerie."
+      },
+      {
+        "title": "Optimisation de la navigation et de la commande en ligne",
+        "text": "L'architecture du site a été pensée pour une navigation fluide, permettant aux visiteurs d'explorer facilement les produits, l’histoire de la maison et le service de clic and collect. Ce dernier a été mis en avant sur des points stratégiques pour encourager les commandes en ligne. Un travail sur l'optimisation SEO a également été effectué pour assurer une visibilité locale et mettre en avant le prestige de la maison."
+      }
+    ],
+    "results": "✅ Arborescence claire et intuitive, facilitant l’accès aux produits, à l’histoire et aux infos pratiques. ✅ Mise en avant stratégique du clic and collect, augmentant le volume de commandes en ligne. ✅ Webdesign sur mesure, mêlant authenticité artisanale et ton décalé, reflétant l’identité de la marque. ✅ Navigation fluide, adaptée aux usages mobiles pour les clients en déplacement. ✅ Optimisation SEO locale, améliorant la visibilité de la boulangerie auprès de sa clientèle de proximité.",
+    "testimonials": [],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/painpain-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/painpain-mobile-3.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/painpain-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "isVisibleOnProjectsPage": true,
+    "slug": "delphine-nouviant",
+    "company": "Delphine Nouviant",
+    "industry": "Consulting",
+    "projectType": "Site vitrine",
+    "duration": "2 semaines",
+    "description": [
+      {
+        "title": "Création du site web pour un accompagnement sur-mesure",
+        "text": "Pour ce client, j’ai conçu et développé un site web destiné à mettre en valeur leur offre d’accompagnement. Le site a été structuré pour refléter les deux types d’accompagnement proposés : l’aide aux entreprises traditionnelles (grands groupes, ETI, PME) dans leur démarche d’innovation et de transformation, ainsi que le soutien aux start-ups dans la définition de leur offre et leur structuration."
+      },
+      {
+        "title": "Mise en avant des secteurs d’expertise",
+        "text": "Le site a été conçu pour mettre en avant l’expertise du client dans trois secteurs clés : les paiements innovants, l’assurance et la santé. J’ai travaillé sur un design clair et professionnel, avec une navigation fluide, permettant de mieux comprendre les services offerts dans ces domaines spécifiques, tout en facilitant la prise de contact pour les prospects."
+      }
+    ],
+    "testimonials": [],
+    "results": "✅ Présentation claire et professionnelle des services d’accompagnement. ✅ Mise en avant des secteurs d’expertise, facilitant la compréhension de l’offre. ✅ Navigation fluide et intuitive, permettant un accès rapide aux informations essentielles. ✅ Design moderne et professionnel, renforçant l’image de marque du client. ✅ Optimisation SEO pour améliorer la visibilité sur les moteurs de recherche.",
+
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/delphine-nouviant-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/delphine-nouviant-desktop.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/delphine-nouviant-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "isVisibleOnProjectsPage": true,
+    "slug": "eleonor-simiu",
+    "company": "Eleonor Simiu",
+    "industry": "Consulting",
+    "projectType": "Site vitrine",
+    "duration": "2 semaines",
+    "description": [
+      {
+        "title": "Création de la charte graphique et du webdesign",
+        "text": "Conception complète de la charte graphique et du webdesign du site vitrine, mettant en avant les accompagnements de l'entreprise spécialisée. L’objectif était de créer une identité visuelle professionnelle, cohérente, et d’optimiser l’ergonomie du site pour offrir une expérience utilisateur fluide."
+      },
+      {
+        "title": "Structuration des offres",
+        "text": "Pour ce client, j’ai structuré son offre en ligne afin de la rendre claire et facilement compréhensible pour ses visiteurs. Le site présente de manière distincte ses services en stratégie vente et marketing, en études de marché et en accompagnement dans la prise de décision. J’ai conçu une navigation fluide, permettant de guider les utilisateurs directement vers les sections correspondant à leurs besoins."
+      }
+    ],
+    "testimonials": [],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/eleonor-simiu-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/eleonor-simiu-desktop.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/eleonor-simiu-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "isVisibleOnProjectsPage": true,
+    "slug": "maou-massages",
+    "company": "Maou Massages",
+    "industry": "Santé / Bien-être",
+    "projectType": "Site vitrine",
+    "duration": "2 semaines",
+    "description": [
+      {
+        "title": "Structuration claire de l’offre de soins et services",
+        "text": "Création d’une navigation claire et intuitive pour mettre en avant les différents services de massage proposés par la masseuse. L’offre a été structurée de manière à permettre aux visiteurs de comprendre rapidement les prestations disponibles, avec des descriptions précises de chaque soin. L’objectif était de rendre l’information facilement accessible et de guider les utilisateurs vers le service correspondant à leurs besoins."
+      },
+      {
+        "title": "Formulaire personnalisé pour la carte cadeau",
+        "text": "Création d’un formulaire spécifique pour l’achat de cartes cadeaux, permettant aux utilisateurs de personnaliser leur offre selon leurs préférences (montant, message, etc.). Ce formulaire a été conçu pour être simple et rapide à remplir, facilitant l’expérience d'achat en ligne. Un processus de validation clair a été intégré pour garantir une prise en charge fluide et sans faille des demandes."
+      }
+    ],
+    "results": "✅ Navigation fluide et bien structurée pour une présentation claire des services proposés. ✅ Mise en valeur des prestations grâce à des descriptions détaillées facilitant la compréhension des soins disponibles. ✅ Formulaire personnalisé pour l’achat de cartes cadeaux, optimisé pour une expérience utilisateur simple et rapide. ✅ Processus d'achat simplifié, permettant une prise en charge rapide des demandes de cartes cadeaux.",
+    "testimonials": [],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/maou-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/maou-mobile-3.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/maou-mobile-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "isVisibleOnProjectsPage": true,
+    "slug": "boboyaka",
+    "company": "Association Boboyaka",
+    "industry": "Association",
+    "projectType": "Site vitrine, Blog, Formation",
+    "duration": "2 semaines",
+    "description": [
+      {
+        "title": "Présentation de l'Association et de ses bbjectifs",
+        "text": "L’objectif était de développer une plateforme moderne et fonctionnelle afin de présenter l’association, son histoire, ses objectifs et ses projets. Une attention particulière a été portée à la mise en avant des valeurs de solidarité, de liberté, de laïcité, et de créativité, ainsi que de l'engagement de l'association envers l'accompagnement des seniors. Le site a été conçu pour une navigation claire et intuitive, facilitant l’accès aux informations essentielles."
+      },
+      {
+        "title": "Formation à la gestion du site web",
+        "text": "En plus de la création du site, une formation a été dispensée aux membres de l'association pour les aider à gérer de manière autonome le contenu du site. Cette formation a permis aux équipes internes de comprendre le système de gestion de contenu (CMS) utilisé, afin de pouvoir mettre à jour le site régulièrement, ajouter de nouvelles informations, et assurer une gestion efficace des pages. L’objectif était de rendre l'association complètement autonome pour l'actualisation et la gestion continue de son site."
+      }
+    ],
+    "results": "✅ Conception d'un site moderne et fonctionnel, facile à naviguer. ✅ Présentation claire de l’histoire et des objectifs de l’association Boboyaka, avec une mise en valeur de ses valeurs. ✅ Mise en avant du projet de la coopérative d’habitants seniors en cours à Bègles, avec une interface adaptée. ✅ Formation des équipes internes à l’utilisation du CMS pour une gestion autonome du site.",
+    "testimonials": [],
+    "projectImages": [
+      {
+        "id": "16",
+        "photo": "assets/images/boboyaka-mobile-1.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/boboyaka-desktop.jpg"
+      },
+      {
+        "id": "9",
+        "photo": "assets/images/boboyaka-mobile-2.jpg"
       }
     ]
   }
