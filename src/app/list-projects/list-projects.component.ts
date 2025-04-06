@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectsService } from '../services/projects.service';
-import { Observable } from 'rxjs';
+import { delay, Observable } from 'rxjs';
 import { Project } from '../models/project.interface';
 import { StorageService } from '../services/storage.service';
 import { Router } from '@angular/router';
@@ -24,7 +24,9 @@ export class ListProjectsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.projectsList$ = this.service.getAllProjects();
+    this.projectsList$ = this.service.getAllProjects().pipe(
+      delay(500) // 2 secondes de délai
+    );
     this.industries$ = this.service.getIndustries();
 
     this.route.queryParamMap.subscribe((params) => {
