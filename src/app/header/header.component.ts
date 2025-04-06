@@ -11,7 +11,6 @@ export class HeaderComponent {
 
   menuLinks: MenuLink[] = [
     { label: 'Services', href: '#services' },
-    { label: 'Réalisations', href: '#realisations' },
     { label: "Déroulé d'un projet", href: '#deroule-projet' },
     { label: 'Avis clients', href: '#avis' },
     { label: 'FAQ', href: '#faq' },
