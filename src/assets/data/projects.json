@@ -200,7 +200,7 @@
     "projectImages": [
       {
         "id": "6",
-        "photo": "assets/images/le-crayon-zen-1.jpg"
+        "photo": "assets/images/le-crayon-zen-3.jpg"
       },
       {
         "id": "3",
@@ -208,7 +208,7 @@
       },
       {
         "id": "3",
-        "photo": "assets/images/le-crayon-zen-3.jpg"
+        "photo": "assets/images/le-crayon-zen-1.jpg"
       }
     ]
   },
@@ -489,11 +489,11 @@
     "projectImages": [
       {
         "id": "3",
-        "photo": "assets/images/proximum-mobile-1.jpg"
+        "photo": "assets/images/proximum-desktop.jpg"
       },
       {
         "id": "4",
-        "photo": "assets/images/proximum-desktop.jpg"
+        "photo": "assets/images/proximum-mobile-1.jpg"
       },
       {
         "id": "4",
@@ -569,11 +569,11 @@
     "projectImages": [
       {
         "id": "16",
-        "photo": "assets/images/formaxis-mobile-1.jpg"
+        "photo": "assets/images/formaxis-desktop.jpg"
       },
       {
         "id": "9",
-        "photo": "assets/images/formaxis-desktop.jpg"
+        "photo": "assets/images/formaxis-mobile-1.jpg"
       },
       {
         "id": "9",
@@ -779,11 +779,11 @@
     "projectImages": [
       {
         "id": "16",
-        "photo": "assets/images/boboyaka-mobile-1.jpg"
+        "photo": "assets/images/boboyaka-desktop.jpg"
       },
       {
         "id": "9",
-        "photo": "assets/images/boboyaka-desktop.jpg"
+        "photo": "assets/images/boboyaka-mobile-1.jpg"
       },
       {
         "id": "9",
