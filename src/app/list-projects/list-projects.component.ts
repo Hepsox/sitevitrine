@@ -3,6 +3,8 @@ import { ProjectsService } from '../services/projects.service';
 import { Observable } from 'rxjs';
 import { Project } from '../models/project.interface';
 import { StorageService } from '../services/storage.service';
+import { Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-list-projects',
@@ -16,24 +18,31 @@ export class ListProjectsComponent implements OnInit {
 
   constructor(
     private service: ProjectsService,
-    private storageService: StorageService
+    private route: ActivatedRoute,
+    private router: Router
   ) {}
 
   ngOnInit() {
     this.projectsList$ = this.service.getAllProjects();
     this.industries$ = this.service.getIndustries();
 
-    const storedIndustry = this.storageService.getItem('selectedIndustry');
-    if (storedIndustry) {
-      this.selectedIndustry = storedIndustry === '' ? null : storedIndustry;
-      this.service.setIndustryFilter(this.selectedIndustry);
-    }
+    this.route.queryParamMap.subscribe((params) => {
+      const industry = params.get('industry');
+      this.selectedIndustry = industry;
+      this.service.setIndustryFilter(industry);
+    });
   }
 
   filterProjects(industry: string | null) {
     this.selectedIndustry = industry;
     this.service.setIndustryFilter(industry);
 
-    this.storageService.setItem('selectedIndustry', industry);
+    this.router.navigate([], {
+      relativeTo: this.route,
+      queryParams: {
+        industry: industry ?? null,
+      },
+      queryParamsHandling: 'merge',
+    });
   }
 }
